@@ -1,0 +1,650 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "path": "assets/movie_deltas/BAD.xdelta",
+      "bytes": 2310380,
+      "sha256": "c05ebc72f946fa61d314b2a0f8c5225a881cc95aae01b4555c1618b7f57435ec"
+    },
+    {
+      "path": "assets/movie_deltas/GOOD.xdelta",
+      "bytes": 20251642,
+      "sha256": "a7ec96e0bd9d1f8ce1741bd55057975b55b49edc9d534d73bf4119cb462ffc98"
+    },
+    {
+      "path": "assets/movie_deltas/NE_A.xdelta",
+      "bytes": 9098809,
+      "sha256": "50e3236be381815578a16ed13c71dc5e66d999719d3dcdd375640d3912c249a8"
+    },
+    {
+      "path": "assets/movie_deltas/NE_B.xdelta",
+      "bytes": 8818225,
+      "sha256": "4b642075d4748624ab98d02713b4a801149e76ba721d1939eea4e2f474b0653b"
+    },
+    {
+      "path": "assets/movie_deltas/NE_C.xdelta",
+      "bytes": 8761160,
+      "sha256": "0a1e5b76b7b808dfb178d5608ee5203ef49b9813fdbbad8724236a928981043b"
+    },
+    {
+      "path": "assets/movie_deltas/NE_D.xdelta",
+      "bytes": 8739764,
+      "sha256": "187d1906424e5f6e71344198dcd310a389a53e7a4c3dd9befd5e885d301a3115"
+    },
+    {
+      "path": "assets/movie_deltas/OPEN.xdelta",
+      "bytes": 34914545,
+      "sha256": "2f2bfef99169bb2120b71eb6fe03c72493054d5a395ae3c374a60c21c62af2b6"
+    },
+    {
+      "path": "assets/rebuild/font_coverage_001.json",
+      "bytes": 88144,
+      "sha256": "dc5f500630734afd96254abdc111f8ba4a35b1a3a954c6a72e8465c641bdb668"
+    },
+    {
+      "path": "assets/rebuild/menu_strips_catalog.json",
+      "bytes": 15531,
+      "sha256": "ad7188daf7feb6f2b0effaf5d1a462586a1329a94ee579e634d728c5534c3aa6"
+    },
+    {
+      "path": "assets/rebuild/movie_catalog_001.json",
+      "bytes": 14170,
+      "sha256": "4a8d8c3ac22c9a81a230d48708cb68b964ff6d57d3bf3378f761002065d66e21"
+    },
+    {
+      "path": "assets/rebuild/profile.json",
+      "bytes": 7583,
+      "sha256": "7641d05b26d6341ed0d5304b2b24aca5c210d1157288a920011ea464a9921fa6"
+    },
+    {
+      "path": "assets/rebuild/subtitles/BAD.csv",
+      "bytes": 360,
+      "sha256": "fbb3d1711ddc418dab3964e250e99fd0b69fbf3b0528829d5147a30978b54b13"
+    },
+    {
+      "path": "assets/rebuild/subtitles/GOOD.csv",
+      "bytes": 1970,
+      "sha256": "277bf17cb7f13120b4a60eaf2d23e01464de1502989976bfb879bb047129ef63"
+    },
+    {
+      "path": "assets/rebuild/subtitles/NE_A.csv",
+      "bytes": 1565,
+      "sha256": "6cda1f1a1da78b2aaf8fe21d59713969e9bce82f986ba2fec5eec411c1f82f4e"
+    },
+    {
+      "path": "assets/rebuild/subtitles/NE_B.csv",
+      "bytes": 1469,
+      "sha256": "32630d1435ec8ebc27b2a1f9350d73c96cd6f3d7b430a9d597d5a30a3b3ec1a5"
+    },
+    {
+      "path": "assets/rebuild/subtitles/NE_C.csv",
+      "bytes": 1519,
+      "sha256": "962599dd077e1e3470c009ea2aec436ed94f9912b52c910a6a047877bd8935be"
+    },
+    {
+      "path": "assets/rebuild/subtitles/NE_D.csv",
+      "bytes": 1532,
+      "sha256": "f4f42eb048e0ca25801d4e040371e3a6f4d0a6e8653aa9d77a94157b9e4ddf3d"
+    },
+    {
+      "path": "assets/rebuild/subtitles/OPEN.csv",
+      "bytes": 2603,
+      "sha256": "525aca418e5b82abfbd405b86293688186ede76aaf5762602246ae70dec291fd"
+    },
+    {
+      "path": "requirements-rebuild.txt",
+      "bytes": 54,
+      "sha256": "716782ef681890d4af3fc48c1d2814b906132715cfbed173de92bbfab431b4a7"
+    },
+    {
+      "path": "work/tools/run_bad_dialogue_asr.py",
+      "bytes": 11253,
+      "sha256": "3e669bd2969faa1a86cfc6e20f286bc3c63fa0de81edfc59315dd4437c85e1ed"
+    },
+    {
+      "path": "work/tools/run_good_dialogue_rescan.py",
+      "bytes": 9001,
+      "sha256": "7d73eaa0a2f90465f58d89ac8557b401899b0707258d6247d94524837e11aee2"
+    },
+    {
+      "path": "work/tools/run_movie_dialogue_inventory_asr.py",
+      "bytes": 8303,
+      "sha256": "0b4c1f54a36631f01cefd9792db5613c6461d7eb771341dd12e8b87625c333b3"
+    },
+    {
+      "path": "work/tools/run_ne_a_dialogue_rescan.py",
+      "bytes": 477,
+      "sha256": "ae1b736dcf05e814259020713a736dce7cc79943b7051e9bfea57d6f799ce039"
+    },
+    {
+      "path": "work/tools/run_ne_b_dialogue_rescan.py",
+      "bytes": 477,
+      "sha256": "ea5e13b0b3417cd43ed1811f4a24498fe7442a923e553e8137afb7a3d7421032"
+    },
+    {
+      "path": "work/tools/run_ne_c_dialogue_rescan.py",
+      "bytes": 477,
+      "sha256": "6383b9cb36f239e331f97c9fe19658163dae1d80981a7df2aef1aae81bf6970d"
+    },
+    {
+      "path": "work/tools/run_ne_d_dialogue_rescan.py",
+      "bytes": 477,
+      "sha256": "15e8e8c309b38ae3c9f6b930491a037a904bef4cc1d4e30ab574f0c7b905028e"
+    },
+    {
+      "path": "work/tools/run_open_dialogue_rescan.py",
+      "bytes": 477,
+      "sha256": "6c513e475079cef655c7f4b5d6f24de72c895de24b7aabc1b00ef319446f90f2"
+    },
+    {
+      "path": "workspace/config/asset_targets.json",
+      "bytes": 9029,
+      "sha256": "c11708c8e83da350fc0b69af4a9be4c3c3d2eba32459c7f8d76fae574f2807ba"
+    },
+    {
+      "path": "workspace/config/banner_words.json",
+      "bytes": 988,
+      "sha256": "d852b359548b4b886dc8cee2c084617b9ce18b05e765e221d7b6fb9241b16c68"
+    },
+    {
+      "path": "workspace/config/bigfont_korean.json",
+      "bytes": 8265,
+      "sha256": "63352cad51a928fda4263185af8579e9b3f8c28e60e10a89075476ca9b9f09fd"
+    },
+    {
+      "path": "workspace/config/charselect_labels.json",
+      "bytes": 1382,
+      "sha256": "2b5a4f90b815d85840c6d4d5d99f869fb4bb31be38c29953d3afaa1ff57d6432"
+    },
+    {
+      "path": "workspace/config/cheat_unlock.json",
+      "bytes": 3088,
+      "sha256": "3b031df4402e6704caaf181a9fd01b1d2c923785be1ebb5ffe3fbf5802ed8026"
+    },
+    {
+      "path": "workspace/config/font_encoding.json",
+      "bytes": 55414,
+      "sha256": "72a7b8d5af99e69d75de48df5d38e1f05aaba4540256cd12ee5d31c03d0e0867"
+    },
+    {
+      "path": "workspace/config/font_poc_001.json",
+      "bytes": 924,
+      "sha256": "844b10f499fd764733b85ac99cf8c1705f1de0d879cdd4e3109d29c17c9810a8"
+    },
+    {
+      "path": "workspace/config/font_two_bank_poc_001.json",
+      "bytes": 1822,
+      "sha256": "632a30b4c7a4c5f7a34693c1e8a369bab3d5000a678a33fa131e33eb1404d42b"
+    },
+    {
+      "path": "workspace/config/font_two_bank_poc_002.json",
+      "bytes": 3719,
+      "sha256": "e678ea6094a4e7ebdbe39335d69fc0630475b30ecfc7a7340e88137e344e2f36"
+    },
+    {
+      "path": "workspace/config/hangul_atlas_movie_001.json",
+      "bytes": 1966,
+      "sha256": "276d312d1a2068283e3a3e86a6f4104853e475f1fdde6d7ad700745e5e766ff6"
+    },
+    {
+      "path": "workspace/config/hangul_glyph_policy.json",
+      "bytes": 1595,
+      "sha256": "2b925539e4d9f7e7f7b5cabf51ca13c08306fad23dafd1091e00a17b3252b089"
+    },
+    {
+      "path": "workspace/config/hit_effects.json",
+      "bytes": 1500,
+      "sha256": "0be20989be343e2ff158e996ce76e84b5873a5fc498f5faf6c9de331cc4f80ce"
+    },
+    {
+      "path": "workspace/config/movie_psxavenc.json",
+      "bytes": 1742,
+      "sha256": "1ba601a15fa1775fdf024adc437412aef9ba113dc0ac6edad3280a3f702dcac6"
+    },
+    {
+      "path": "workspace/config/movie_subtitle_style.json",
+      "bytes": 513,
+      "sha256": "a840080fa1d620d9a3eb556434b7346c000ec278399ed552c5d96a1aaafd31d2"
+    },
+    {
+      "path": "workspace/config/runtime_baseline.json",
+      "bytes": 2222,
+      "sha256": "5658f3184271d9a652150d3374271d15d5d55fe8180358786d21db6ce4aeaa4a"
+    },
+    {
+      "path": "workspace/config/source_manifest.json",
+      "bytes": 1102,
+      "sha256": "68f655907397e7f07027a6a8156324ccf43f1e6240dd33d80afd9475b8efabf5"
+    },
+    {
+      "path": "workspace/config/staffroll_strips.json",
+      "bytes": 4205,
+      "sha256": "42ee4e863ad12517115c8c8a921e0a74ace27d7257b8e393501a2f2e780067b5"
+    },
+    {
+      "path": "workspace/config/titlebg_16c_palette.json",
+      "bytes": 1319,
+      "sha256": "a7302b9d298e45fd2ed3daab02b05a4dc058a0c34a77c59ed9cdc81d2f028447"
+    },
+    {
+      "path": "workspace/scripts/analyze_all_cell_primitives.py",
+      "bytes": 5395,
+      "sha256": "48480466fd73d3caaee9caa8e30f813a41d0549d4192b2bf21d69a07cb5bfb4c"
+    },
+    {
+      "path": "workspace/scripts/analyze_callback_dispatch.py",
+      "bytes": 5161,
+      "sha256": "bee080e616a623187f079293d826ab6955e7d06994a35b3378927ab152c98a7e"
+    },
+    {
+      "path": "workspace/scripts/analyze_callback_loadimage.py",
+      "bytes": 3990,
+      "sha256": "8f1517c3ee4af5762e16b2a298fbbac35f9ca2248d374c07285267e6a7b6afb6"
+    },
+    {
+      "path": "workspace/scripts/analyze_font_atlas.py",
+      "bytes": 3957,
+      "sha256": "0b6ee5fb3ca9b158bcd13866ecb356a6db8451f9aa67ba8a93ac5537372aea4e"
+    },
+    {
+      "path": "workspace/scripts/analyze_font_motion_code.py",
+      "bytes": 5927,
+      "sha256": "adf3d3e183132985eecac5627225674ecdadea5b4a72becc29939b8be3225021"
+    },
+    {
+      "path": "workspace/scripts/analyze_font_motion_video.py",
+      "bytes": 3964,
+      "sha256": "f71729d6fd1dbf88fd9580fc02602f49bc526f5c30260cd0273598e87a8defac"
+    },
+    {
+      "path": "workspace/scripts/analyze_font_primitives.py",
+      "bytes": 8570,
+      "sha256": "3a095e5527ae332ff388f717b28df68bda64ef8181256d010da6e57247e810a8"
+    },
+    {
+      "path": "workspace/scripts/analyze_font_writer.py",
+      "bytes": 6678,
+      "sha256": "5191935c5e141a6eb3b372285bb068148a8482e8d4f50506aae52f8a0064e8f4"
+    },
+    {
+      "path": "workspace/scripts/analyze_hangul_strategy.py",
+      "bytes": 9302,
+      "sha256": "2a3d64bf36b0c6df786d4968951ab73d049ca8c357d28815897cce7f7118dc78"
+    },
+    {
+      "path": "workspace/scripts/analyze_menu_strips.py",
+      "bytes": 5372,
+      "sha256": "d455b82f2dac444e1059527a4baad0919a1ed6666f54bf8719d00a2d2857a79d"
+    },
+    {
+      "path": "workspace/scripts/analyze_options_capture.py",
+      "bytes": 6293,
+      "sha256": "69c41aae1b3d407df7c004ee82e42d732d3c628f24cf15f3a58925d9b2f3b5c6"
+    },
+    {
+      "path": "workspace/scripts/analyze_second_bank_vram.py",
+      "bytes": 4158,
+      "sha256": "76f4f99de3b72e65cea7a1563871e253ec3f22742188349b117cf883430efa90"
+    },
+    {
+      "path": "workspace/scripts/analyze_text_array_callers.py",
+      "bytes": 11811,
+      "sha256": "ea5386d6f1d2d3b2238a13b3d79ada7b5edace3d1dc10dda8498a283034aacd1"
+    },
+    {
+      "path": "workspace/scripts/analyze_text_callsites.py",
+      "bytes": 15367,
+      "sha256": "524f74cd2be021068f6856e86bfff353e71c38aba03010e5f908e7273457b888"
+    },
+    {
+      "path": "workspace/scripts/analyze_text_callsites_ara.py",
+      "bytes": 13230,
+      "sha256": "8675e96d176d79b6b4333ce53210f729915a5538e1445d314cf8a621fd77a582"
+    },
+    {
+      "path": "workspace/scripts/analyze_text_callsites_block10.py",
+      "bytes": 5778,
+      "sha256": "85c039c62bece4a3d13ba0ac93c86eab6f9a62c35999d3afd0384e439b378803"
+    },
+    {
+      "path": "workspace/scripts/analyze_text_population.py",
+      "bytes": 15347,
+      "sha256": "bb1a3e0b75d0dbebe254c30d0a421a65ac69765af573b1ef719d479de782fa8d"
+    },
+    {
+      "path": "workspace/scripts/analyze_text_reader_audit.py",
+      "bytes": 12992,
+      "sha256": "53cb73fcc2671ef587c54381f5ecfc50d02958bbbef36cfb8d89334d7c00a7b0"
+    },
+    {
+      "path": "workspace/scripts/analyze_text_wrapper_callers.py",
+      "bytes": 13665,
+      "sha256": "a6f176e2e64e8ff815f06487281ad1db330437db051ade3df4f77f14b518020f"
+    },
+    {
+      "path": "workspace/scripts/analyze_text_wrapper_producers.py",
+      "bytes": 9966,
+      "sha256": "d27df678fedbf41933f9fde40144355dbef89a1097d1341cda38cbd716b3190f"
+    },
+    {
+      "path": "workspace/scripts/analyze_two_bank_poc_runtime.py",
+      "bytes": 3413,
+      "sha256": "c2956d69d6230cd880a7231ce23a1a69209d69b464bf867a82f08b87590c0d99"
+    },
+    {
+      "path": "workspace/scripts/analyze_ui_ram_diff.py",
+      "bytes": 6070,
+      "sha256": "ef4b60fb31aafc03823270594d0af16c68170e9577f76396b91ab3324997cc02"
+    },
+    {
+      "path": "workspace/scripts/analyze_vram_occupancy.py",
+      "bytes": 7069,
+      "sha256": "782c53e7ba9e6cc7781003f984359f8ee7c92b0eeea73772fa74047f631ae6d8"
+    },
+    {
+      "path": "workspace/scripts/audit_font_coverage.py",
+      "bytes": 6739,
+      "sha256": "b8017ff81ea31008f8dcfaf1d3c6c7794f1da4554b24b306ce0d323e33ca84a7"
+    },
+    {
+      "path": "workspace/scripts/audit_korean_translation.py",
+      "bytes": 4469,
+      "sha256": "554c42147eb3592eb3a4e005143d583b33606c8dcd0715a2115211c2f650ad94"
+    },
+    {
+      "path": "workspace/scripts/build_font_poc.py",
+      "bytes": 12780,
+      "sha256": "c3a98ef853efb2c8362d5a4e025e0775808a1f416e1a32114c58e77176da675b"
+    },
+    {
+      "path": "workspace/scripts/build_hangul_atlas.py",
+      "bytes": 30422,
+      "sha256": "931124ff8ba8848317371d1de6239b1f51410fb3187a379aaa1112a9400564ac"
+    },
+    {
+      "path": "workspace/scripts/build_hangul_atlas_all_movies.py",
+      "bytes": 17784,
+      "sha256": "19b9bdba6395855376a265cf4ef3c5574b7532e76e76bc0028db462d108ca07d"
+    },
+    {
+      "path": "workspace/scripts/build_hangul_atlas_movie.py",
+      "bytes": 24680,
+      "sha256": "ec0d51b3d39107d0f6db3121584d8e49db9a2b5fb2e7fb906244b0d132a16cbb"
+    },
+    {
+      "path": "workspace/scripts/build_psx_movie_donor.py",
+      "bytes": 10733,
+      "sha256": "1c1898fb9845db47443d91509fda42fffc67463807059e0705ee4bd8ac252f43"
+    },
+    {
+      "path": "workspace/scripts/build_two_bank_poc.py",
+      "bytes": 17496,
+      "sha256": "fd21645c7bf370fe827a8d8558f7367548cfdf914af9ae11daa8b062747388ae"
+    },
+    {
+      "path": "workspace/scripts/build_two_bank_poc_002.py",
+      "bytes": 18257,
+      "sha256": "271f8d95b0332a8e3468c1f720d5e77a5f7c3d5ff6e01e9ebd6bbb0a95d1861d"
+    },
+    {
+      "path": "workspace/scripts/capture_attract_words.py",
+      "bytes": 6872,
+      "sha256": "7043a0d54d83ec23179b93e8d527d09940ca198fa08fc7b9856841f67fbe4345"
+    },
+    {
+      "path": "workspace/scripts/capture_duckstation_ram.py",
+      "bytes": 8375,
+      "sha256": "eae0239b2487e9643df6bee8438cb9c5fa0bdafb269c06bc4750232d70802788"
+    },
+    {
+      "path": "workspace/scripts/capture_font_poc.py",
+      "bytes": 5878,
+      "sha256": "8863dfaa211a449c0f883afb9def94569644a98235cdae3a8b8fcab017ae5e82"
+    },
+    {
+      "path": "workspace/scripts/capture_gpu_log.py",
+      "bytes": 5074,
+      "sha256": "35f5ccd90bbc19d2b49c61da23f7efedb07a1659a2ab3f9b6971d7603efc0dbc"
+    },
+    {
+      "path": "workspace/scripts/capture_hangul_sweep.py",
+      "bytes": 4028,
+      "sha256": "4f8fd981ed5e841dcac15f6d30f6f543a9ca6e8e517c5b92cec8b4040b94dd81"
+    },
+    {
+      "path": "workspace/scripts/capture_hangul_title.py",
+      "bytes": 3501,
+      "sha256": "a038853cda0f16773a8661048fddd2056f30cf744550e501536e67039dcb218f"
+    },
+    {
+      "path": "workspace/scripts/capture_options_session.py",
+      "bytes": 7542,
+      "sha256": "2e450818a8c8f1c9c9fc4c336c8edc76e47020ca88e3d6fa462d57e341755980"
+    },
+    {
+      "path": "workspace/scripts/capture_options_transition.py",
+      "bytes": 6408,
+      "sha256": "0e37757a8f2b5314e40f33ca1a3e6c0c0d3375b1d5003030b72ab9732ff4064c"
+    },
+    {
+      "path": "workspace/scripts/capture_poc2_title.py",
+      "bytes": 3435,
+      "sha256": "079adeb2250522894ba211ac6d75961d697b067bec2cf1578a7a9a79ad68d2e4"
+    },
+    {
+      "path": "workspace/scripts/capture_texture_dumps.py",
+      "bytes": 5215,
+      "sha256": "6fbdd7434342eae9b4bfc315504b146c414d9dec5391bbb9b9630f878e7e6cc4"
+    },
+    {
+      "path": "workspace/scripts/capture_texture_session.py",
+      "bytes": 6360,
+      "sha256": "972eb99f2352b275b4bf5222f61486a3f5ec65675ad1c335d302ca41e7255197"
+    },
+    {
+      "path": "workspace/scripts/capture_two_bank_poc.py",
+      "bytes": 8907,
+      "sha256": "7486cbeb8ce4e68f732dacd133c86b109f2ec041ff6b71e3746b787cc19edf7c"
+    },
+    {
+      "path": "workspace/scripts/capture_ui_ram_stages.py",
+      "bytes": 6966,
+      "sha256": "303db43ecc57c81d25c1374c98275f3f7bf0e35708f015ad61d97279ed4d80a7"
+    },
+    {
+      "path": "workspace/scripts/capture_vram_occupancy.py",
+      "bytes": 22646,
+      "sha256": "9ec3e60fbf0b346b2f324757d450b0e1e9f70e5c1092fadee5721c4e4a4081ce"
+    },
+    {
+      "path": "workspace/scripts/capture_vram_uploads.py",
+      "bytes": 6127,
+      "sha256": "6aa34981f36db3d29df3119b4d98b99221b7321ca5c306507e460d56c5536287"
+    },
+    {
+      "path": "workspace/scripts/census_hangul_glyphs.py",
+      "bytes": 6519,
+      "sha256": "ba14c774b2825c72487832a5e05f58d47cad68a5bc3c3979c67435397a937824"
+    },
+    {
+      "path": "workspace/scripts/decode_psx_movies.py",
+      "bytes": 9731,
+      "sha256": "dd0b66de32da4c36d6dc2384f8659a35e6d9c5d874695c72d569e479a47ce73c"
+    },
+    {
+      "path": "workspace/scripts/export_text_ssot.py",
+      "bytes": 11485,
+      "sha256": "48169d018fdddb14cf633493af4cb9b64fa9778ce2603cc3ee23ba6785492dd1"
+    },
+    {
+      "path": "workspace/scripts/extract_font_encoding.py",
+      "bytes": 5498,
+      "sha256": "9869d905b5566035a92b4215961e9e47a92efae9543658cc29856b8a9769a1fc"
+    },
+    {
+      "path": "workspace/scripts/extract_psx_movies.py",
+      "bytes": 10671,
+      "sha256": "e3cc9b75e6a79e158c8dc680274d1173cb59374b40c1ca386c8034d4c3434afc"
+    },
+    {
+      "path": "workspace/scripts/map_entity_hp.py",
+      "bytes": 6392,
+      "sha256": "828401b1df0f3d8030c55ce135df50ef4c41685d0e19d1966616f6c5f19089e7"
+    },
+    {
+      "path": "workspace/scripts/match_vram_uploads.py",
+      "bytes": 5338,
+      "sha256": "59450543697d58f556029dc9fd7d25e1dd904e9b2afca2d2c13357ea618985ec"
+    },
+    {
+      "path": "workspace/scripts/merge_psx_movie_video.py",
+      "bytes": 12647,
+      "sha256": "09374f86c436a250821f46ffebd279a39a663ba78e31caa46eab4914d535a728"
+    },
+    {
+      "path": "workspace/scripts/probe_wobble_counter.py",
+      "bytes": 3585,
+      "sha256": "dc41941680173425e304157e00374bd4e7b126c0463fb7a7ccd803d49925ee4d"
+    },
+    {
+      "path": "workspace/scripts/psx_disc.py",
+      "bytes": 6436,
+      "sha256": "8c27893cfbd3f8e3126b969b508fde79bd85a955e5bd8defa2dfa7de3d991089"
+    },
+    {
+      "path": "workspace/scripts/psx_edc_ecc.py",
+      "bytes": 2922,
+      "sha256": "f5b6bbc0e6ccf3f077007b4d00c6c415229a6a5ae543e87629c2079f91ae08a9"
+    },
+    {
+      "path": "workspace/scripts/psx_tim.py",
+      "bytes": 5005,
+      "sha256": "95b1fc732fb31c0e486c454d2a1695c3495239f07031bb020fe815036487e113"
+    },
+    {
+      "path": "workspace/scripts/rebuild_release.py",
+      "bytes": 8476,
+      "sha256": "9a9a9f6a637a26260be1fc724b3f50d1da31dfc4e491cfee4f99ad725eea1cf1"
+    },
+    {
+      "path": "workspace/scripts/render_charselect_labels.py",
+      "bytes": 2136,
+      "sha256": "493452b9a077ef32e2d6552fb6fbfcccfba56925254ce2602ea94416eefc0458"
+    },
+    {
+      "path": "workspace/scripts/render_hit_effects.py",
+      "bytes": 7950,
+      "sha256": "e9046bc41f6c9179761cbe33bd95f32fb4b1cede3cb94311e7b7be1c9b8834b6"
+    },
+    {
+      "path": "workspace/scripts/render_menu_strips.py",
+      "bytes": 10381,
+      "sha256": "18cad6d0c3b3505ff5c7ad87f423b4be10ce5554ed0bef2506a7103f3b055d41"
+    },
+    {
+      "path": "workspace/scripts/render_movie_subtitle_preview.py",
+      "bytes": 15765,
+      "sha256": "67fe5e96246f116545531c46b0c40dc79845184377d082f61af502925e6081c5"
+    },
+    {
+      "path": "workspace/scripts/render_tim_catalog.py",
+      "bytes": 3774,
+      "sha256": "836281e40d44743e1c6973acf3856c3cf18290d6045fb734e6168d612250eb8d"
+    },
+    {
+      "path": "workspace/scripts/render_traced_uploads.py",
+      "bytes": 4737,
+      "sha256": "f74d9b3b758d79ac60e03c4565c4f56d252f6cab59b01223bf1c2d41f1bbf81a"
+    },
+    {
+      "path": "workspace/scripts/repair_ssot_immutable_fields.py",
+      "bytes": 4444,
+      "sha256": "6ea018a01079873acaf15f9ec87bec616dc9f96b143d3407e5eab9aa013efbdc"
+    },
+    {
+      "path": "workspace/scripts/review_psx_movie_candidate.py",
+      "bytes": 5416,
+      "sha256": "ac13e9ce9719fb6a8cd197f57bc1bd957a55dba338673c1f158f28c4cd65cabf"
+    },
+    {
+      "path": "workspace/scripts/scan_font_strings.py",
+      "bytes": 3960,
+      "sha256": "6bcd617a0f5591b91be73e0da25920421e70c9e971d4c29a7a9c5dae90604963"
+    },
+    {
+      "path": "workspace/scripts/scan_strip_region.py",
+      "bytes": 4858,
+      "sha256": "83d4a3fbbd8c08d8c42b10d51dcb2c5608c550a68948136423f1a608e354e407"
+    },
+    {
+      "path": "workspace/scripts/survey_assets.py",
+      "bytes": 7107,
+      "sha256": "0996e40ef3f7683fa2977291b08e91b8347fecbf9776d797df3a7d2da7875083"
+    },
+    {
+      "path": "workspace/scripts/sweep_untranslated_strings.py",
+      "bytes": 3445,
+      "sha256": "be02f51d067b35415a730bec9cf0485ed40c1584a1f4e343dd38834295325adf"
+    },
+    {
+      "path": "workspace/scripts/trace_callback_dispatch.py",
+      "bytes": 13050,
+      "sha256": "950c7acb814b0ca61136cf2cf94289c459088a62a98f521ea6cd0fce77cce655"
+    },
+    {
+      "path": "workspace/scripts/trace_font_primitive_writes.py",
+      "bytes": 7659,
+      "sha256": "d5d1a913d3a55273a84bfb2afc683db9c65f4082ab9e74c5af0aceb68b46024f"
+    },
+    {
+      "path": "workspace/scripts/trace_loadimage.py",
+      "bytes": 10378,
+      "sha256": "47e0890fadfadf2b889e170be84af02f25e8be3d35efea65bd6b0ae4b7c4316e"
+    },
+    {
+      "path": "workspace/scripts/trace_two_bank_poc.py",
+      "bytes": 6821,
+      "sha256": "504cea4070fc79a85c596bfa1f0d405f5e0e860f845ab899462dbc262a09f82a"
+    },
+    {
+      "path": "workspace/scripts/verify_container_roundtrip.py",
+      "bytes": 2504,
+      "sha256": "a749f330bba3bb3b763be81fb89435dcad48e64514a39586ca852adb9f67c414"
+    },
+    {
+      "path": "workspace/scripts/verify_psx_movie_alignment.py",
+      "bytes": 4546,
+      "sha256": "e5cd98c13c536969b0f04bbcd1fe8737d8f30bc7a918832ce37de893d280847d"
+    },
+    {
+      "path": "workspace/scripts/verify_vram_readback_control.py",
+      "bytes": 3300,
+      "sha256": "e8fbc8920587cdae8c70c8e8307735a1fd100cad014f46054603dff3ce5d2ef7"
+    },
+    {
+      "path": "workspace/scripts/walk_strip_bank.py",
+      "bytes": 6415,
+      "sha256": "97866f63bfa27fa6c59754a91b1bb4a004452ba9c3d55db52ba34fe1fdcadffc"
+    },
+    {
+      "path": "workspace/tests/test_asset_tools.py",
+      "bytes": 18656,
+      "sha256": "ad3c3551d27038cdf876b243525bbd92b0648797a4bda0147ad731006aec11cb"
+    },
+    {
+      "path": "workspace/text/rakugaki_movie_subtitles_ja_ko.csv",
+      "bytes": 360,
+      "sha256": "fbb3d1711ddc418dab3964e250e99fd0b69fbf3b0528829d5147a30978b54b13"
+    },
+    {
+      "path": "workspace/text/rakugaki_text_ja_ko.csv",
+      "bytes": 56346,
+      "sha256": "4a0870ade62d5bc07cf488aece0446e5b1019f56c52c968df6e77b77b90acdae"
+    },
+    {
+      "path": "workspace/text/rakugaki_text_manifest.json",
+      "bytes": 197446,
+      "sha256": "2cb07b21f8a3adbbf99d95c48eb2c69e711811a9f2dce81afa59d89c5c4e7f45"
+    }
+  ]
+}

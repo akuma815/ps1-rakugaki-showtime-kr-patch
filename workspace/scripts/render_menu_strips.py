@@ -20,11 +20,11 @@ from PIL import Image, ImageDraw, ImageFont
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-FONT_PATH = Path(r"g:/Downloads/Korean Traslate Project/Font/RiaSans-Bold.ttf")
+FONT_PATH = Path(__file__).resolve().parents[2] / "assets/fonts/RiaSans-Bold.ttf"
 STRIP_HEIGHT = 16
 
 
-SMALL_FONT_PATH = Path(r"g:/Downloads/Korean Traslate Project/Font/Galmuri9.ttf")
+SMALL_FONT_PATH = Path(__file__).resolve().parents[2] / "assets/fonts/Galmuri9.ttf"
 SMALL_FONT_SIZE = 8
 
 

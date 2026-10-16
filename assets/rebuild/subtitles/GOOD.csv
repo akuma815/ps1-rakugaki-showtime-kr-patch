@@ -1,0 +1,12 @@
+subtitle_id,movie,start_frame,end_frame,speaker,japanese,korean,status,notes
+MOV-GOOD-R002-001,GOOD,306,360,,くたばりやがれ！,뒈져 버려라!!,review_needed,사용자 제보 21초; 두 모델이 어휘를 다르게 인식하여 외침의 의미는 미확정
+MOV-GOOD-R002-002,GOOD,874,928,,ま、まさか自分のキャラがここまで強いとは,"서, 설마 내 캐릭터가 이렇게 강해질 줄이야…",translated,large-v3/large-v3-turbo 공통; small은 自分 부분 오인식
+MOV-GOOD-R002-003,GOOD,994,1057,,いや、キャラをここまで強くしてくれたのは君のおかげだね,"아니, 캐릭터를 이렇게 강하게\N키워 준 건 네 덕분이네.",translated,세 모델 공통 문맥; 기존 초벌의 앞부분 복구
+MOV-GOOD-R002-004,GOOD,1061,1074,,ありがとう,고마워.,translated,기존 초벌의 뒷부분 누락 복구; 가독성 패딩 적용
+MOV-GOOD-R002-005,GOOD,1083,1104,,また遊びに来てよ,또 놀러 와.,translated,large-v3/large-v3-turbo/small 공통
+MOV-GOOD-R002-006,GOOD,1116,1128,,それじゃ,그럼 안녕!,translated,large-v3/large-v3-turbo/small 공통; 가독성 패딩 적용
+MOV-GOOD-R002-007,GOOD,1242,1262,,やったー！,해냈다!,review_needed,사용자 제보 83초; large-v3-turbo 후보이며 small은 비어휘성 발성으로 인식
+MOV-GOOD-R002-008,GOOD,1277,1320,,うわああああ！,으아아아아!,review_needed,85~88초 긴 외침; 모델 간 모음 표기 차이
+MOV-GOOD-R002-009,GOOD,1320,1379,,［音声要確認］,이겨도 보람이 없는 녀석이네!,review_needed,사용자 제보 88초; 두 모델의 어휘가 불일치하여 임의 번역 금지
+MOV-GOOD-R002-010,GOOD,1384,1434,,はははは！,하하하하! 축하다!,review_needed,92초 이후 웃음/외침 후보; 정확한 발성 검토 필요
+MOV-GOOD-R002-011,GOOD,1440,1500,,［音声要確認］,또 놀아줘도 좋고,review_needed,96초 이후 추가 발화 후보; 모델 간 불일치

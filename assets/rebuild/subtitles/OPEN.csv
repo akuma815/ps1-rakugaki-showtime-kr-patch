@@ -1,0 +1,16 @@
+subtitle_id,movie,start_frame,end_frame,speaker,japanese,korean,status,notes
+MOV-OPEN-R001-001,OPEN,699,744,,プレイヤーアクセス、終了します。,플레이어 액세스를 종료합니다.,review_needed,turbo/small 44~52초 후보를 문장 형태로 정규화; 사람 청취 필요
+MOV-OPEN-R001-002,OPEN,795,843,,ふっふっ、いよいよだな。,"후후, 드디어 때가 왔군.",review_needed,두 모델의 53~56초 음가 일부 일치; 어미 확인 필요
+MOV-OPEN-R001-003,OPEN,1121,1137,,一丁やるか？,한판 해볼까?,review_needed,turbo 74.74초 후보; small은 함성으로 인식
+MOV-OPEN-R001-004,OPEN,1140,1218,,はいはい、ごめんなさいよ。,"그래그래, 미안하게 됐어.",review_needed,두 모델이 76~81초에 반복 검출; 정확한 반복 횟수 확인 필요
+MOV-OPEN-R001-005,OPEN,1440,1463,,よっしゃー！,좋았어!,review_needed,small 96초 후보; turbo는 다른 음가
+MOV-OPEN-R001-006,OPEN,1768,1784,,よーし！,좋아!,review_needed,두 모델의 118초 짧은 구호 후보
+MOV-OPEN-R001-007,OPEN,2028,2099,,デモで主人公がやられるかよ！,데모에서 주인공이 당할 것 같으냐!,review_needed,두 모델 135~140초 문장 본체 일치
+MOV-OPEN-R001-008,OPEN,2114,2157,,ポンちゃん、行くでー！,"퐁 짱, 간다!",review_needed,두 모델 141~144초 후보 일치; 고유명 확인 필요
+MOV-OPEN-R001-009,OPEN,2161,2187,,くらいやー！,받아라!,review_needed,두 모델 공통 음가이나 어미가 だ/じゃ/や로 불일치
+MOV-OPEN-R001-010,OPEN,2690,2725,,主役の拳、受けてみろ！,주역의 주먹을 받아 봐라!,review_needed,두 모델은 主役/応援/役로 첫 단어 불일치; 후반은 일치
+MOV-OPEN-R001-011,OPEN,2865,2890,,顔見せはここまでだ。,인사는 여기까지다.,review_needed,small 191초 후보와 turbo 음가를 문맥상 정규화
+MOV-OPEN-R001-012,OPEN,3052,3100,,あとはプレイヤーの腕次第といったところだな。,나머지는 플레이어의 실력에 달렸다고 할 수 있겠군.,review_needed,두 모델 203~207초 문장 일치
+MOV-OPEN-R001-013,OPEN,3190,3222,,ゴールで待ってるぞ！,결승점에서 기다리겠다!,review_needed,두 모델은 ゴール/ボール로 첫 음절 불일치; 화면 문맥상 ゴール 후보
+MOV-OPEN-R001-014,OPEN,3300,3329,,デモはここまで！,데모는 여기까지!,review_needed,두 모델 220~222초 일치
+MOV-OPEN-R001-015,OPEN,3335,3368,,あとは思いっきり暴れてくれ！,이제 마음껏 날뛰어라!,review_needed,두 모델 222~225초 일치

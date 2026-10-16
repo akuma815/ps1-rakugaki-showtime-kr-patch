@@ -21,7 +21,7 @@ from PIL import Image, ImageDraw, ImageFont
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-FONT_PATH = Path(r"g:/Downloads/Korean Traslate Project/Font/RiaSans-Bold.ttf")
+FONT_PATH = Path(__file__).resolve().parents[2] / "assets/fonts/RiaSans-Bold.ttf"
 BODY_INDEX = 1
 OUTLINE_INDEX = 15
 OUTLINE_RADIUS = 2

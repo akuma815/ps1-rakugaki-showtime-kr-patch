@@ -1,0 +1,9 @@
+subtitle_id,movie,start_frame,end_frame,speaker,japanese,korean,status,notes
+MOV-NEB-R001-001,NE_B,77,94,,時間だよ,시간이야.,translated,large-v3-turbo/small의 VAD 및 VAD-off 결과 공통
+MOV-NEB-R001-002,NE_B,102,114,,消えな,사라져.,translated,large-v3-turbo/small의 중첩 창 결과 공통
+MOV-NEB-R001-003,NE_B,168,197,,これで終わりなんて,이걸로 끝이라니…,review_needed,large-v3-turbo는 なんて; small은 だね로 어미 불일치
+MOV-NEB-R001-004,NE_B,276,296,,あきらめろ！,포기해!,review_needed,large-v3-turbo 반복 검출; small은 음악에 묻혀 누락
+MOV-NEB-R001-005,NE_B,556,611,보라색 거대 캐릭터,今回の勝負はひとまずお預けだ！,이번 승부는 일단 다음으로 미룬다!,translated,NE_A 사용자 청취 원문과 일치하며 NE_B 두 모델도 같은 문장 본체 검출
+MOV-NEB-R001-006,NE_B,630,663,보라색 거대 캐릭터,また次のプレイで会おう！,다음 플레이에서 다시 만나자!,translated,사용자 청취로 NE_A~D 공통 대사 확정 2026-08-11
+MOV-NEB-R001-007,NE_B,688,707,보라색 거대 캐릭터,さらばなり！,잘 있거라!,translated,사용자 청취로 NE_A~D 공통 대사 확정 2026-08-11
+MOV-NEB-R001-008,NE_B,911,963,,みんな落書きのくせに、かっこよすぎだぜ,"다들 낙서 주제에, 너무 멋있잖아!",review_needed,두 모델의 음가 후보를 문법상 くせに로 정규화; 사람 청취 필요

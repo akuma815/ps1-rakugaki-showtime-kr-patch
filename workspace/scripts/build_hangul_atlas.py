@@ -219,7 +219,7 @@ def main() -> None:
 
     # --- render the packed atlas ---
     fonts: dict[tuple[str, int], ImageFont.FreeTypeFont] = {}
-    font_dir = Path(r"g:/Downloads/Korean Traslate Project/Font")
+    font_dir = Path(__file__).resolve().parents[2] / "assets/fonts"
     cells: dict[int, list[list[int]]] = {}
     for ch in glyphs:
         spec = plan[ch]

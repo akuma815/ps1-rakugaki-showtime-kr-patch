@@ -1,0 +1,487 @@
+{
+  "schema_version": 1,
+  "observation_id": "MENU-GRAPHICS-001",
+  "role": "confirmed strip catalog (checkpoint)",
+  "status": "PARTIAL_17_CONFIRMED_REGION_WALK_PENDING",
+  "region": [
+    "0x4C800",
+    "0x5AC7C"
+  ],
+  "strip_count": 52,
+  "entries": [
+    {
+      "disc_offset": "0x4DC8C",
+      "stride_bytes": 68,
+      "width_px": 136,
+      "height_rows": 16,
+      "label": "キーコンフィグ",
+      "evidence": "vram-verified",
+      "sha256": "c0d8a2b5c0489be8dd4c098765375f4e9154eb8309b6ddbe71d2d92277e9a49b"
+    },
+    {
+      "disc_offset": "0x4E5B8",
+      "stride_bytes": 56,
+      "width_px": 112,
+      "height_rows": 16,
+      "label": "ミュージック",
+      "evidence": "vram-verified",
+      "sha256": "47b55b7b4133c96cd24b78990e5738706bf46001b794c87f5507d0f5a87f9675"
+    },
+    {
+      "disc_offset": "0x51B58",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "スタッフ",
+      "evidence": "vram-verified",
+      "sha256": "d0c205d64869b4fa2b283c749508723317c5f9f30487843417b20007d745e904"
+    },
+    {
+      "disc_offset": "0x51DD8",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "height_rows": 16,
+      "label": "テスト",
+      "evidence": "gap-visual",
+      "sha256": "ccf701e541aea5624a577c5f1a3cd1b55fb38eb50651d5e5f4dac5a50441462f"
+    },
+    {
+      "disc_offset": "0x53A18",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "フィールド",
+      "evidence": "vram-verified",
+      "sha256": "45a0c30bd2d35ade79c7d0d0becc949aeea844d60247d9274d7f0ccde7049020"
+    },
+    {
+      "disc_offset": "0x53C98",
+      "stride_bytes": 64,
+      "width_px": 128,
+      "height_rows": 16,
+      "label": "ユーザーフレンドリー",
+      "evidence": "gap-visual",
+      "sha256": "3edd7b6a0c8e27b17423aab6bdce6e851d9c7b9e0376ef367dd7e3456cc2e268"
+    },
+    {
+      "disc_offset": "0x54178",
+      "stride_bytes": 56,
+      "width_px": 112,
+      "height_rows": 16,
+      "label": "プレイヤーアップ",
+      "evidence": "vram-verified",
+      "sha256": "d4863f84adbd7db58ebe028c63cfee8bc7da62cace522932e195f8731645624f"
+    },
+    {
+      "disc_offset": "0x544F8",
+      "stride_bytes": 28,
+      "width_px": 56,
+      "height_rows": 16,
+      "label": "カメラ",
+      "evidence": "gap-visual",
+      "sha256": "0ed461c50c2c3a44e96fee066e2365df0046da9f80fdfedab234f80ade58992b"
+    },
+    {
+      "disc_offset": "0x54DF8",
+      "stride_bytes": 24,
+      "width_px": 48,
+      "height_rows": 16,
+      "label": "90°",
+      "evidence": "vram-verified",
+      "sha256": "b93b784c93878db5197b8beccf77ca8b93935d5fb7fbeb4a6778a7b6185215ec"
+    },
+    {
+      "disc_offset": "0x54F78",
+      "stride_bytes": 24,
+      "width_px": 48,
+      "height_rows": 16,
+      "label": "45°",
+      "evidence": "gap-visual",
+      "sha256": "076e285f971ede51c77d15d85b0df5a99b3fd9f4a21657cb24bfd62f177ee1db"
+    },
+    {
+      "disc_offset": "0x55798",
+      "stride_bytes": 68,
+      "width_px": 136,
+      "height_rows": 16,
+      "label": "ソウサセツメイ",
+      "evidence": "vram-verified",
+      "sha256": "b8fd433aa11a6f324110c6fda0526dcad246858eace8d689e5d0da94df53b53a"
+    },
+    {
+      "disc_offset": "0x55BD8",
+      "stride_bytes": 88,
+      "width_px": 176,
+      "height_rows": 16,
+      "label": "デモンストレーション",
+      "evidence": "vram-verified",
+      "sha256": "4af340943221860bf83636f53a35c240f04e303644614ec25042513420baef42"
+    },
+    {
+      "disc_offset": "0x56158",
+      "stride_bytes": 72,
+      "width_px": 144,
+      "height_rows": 16,
+      "label": "バイブレーション",
+      "evidence": "gap-visual",
+      "sha256": "c0863799608a1fcf93943f093f3bd91713d53b96042c55be97b65b5913c7a8c0"
+    },
+    {
+      "disc_offset": "0x565F8",
+      "stride_bytes": 36,
+      "width_px": 72,
+      "height_rows": 16,
+      "label": "ノーマル",
+      "evidence": "vram-verified",
+      "sha256": "93f4af762e5515b8eacd915619fd957f36eb179c0bd4bc07a82f9e7ad56c80d8"
+    },
+    {
+      "disc_offset": "0x56838",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "height_rows": 16,
+      "label": "キッズ",
+      "evidence": "gap-visual",
+      "sha256": "ea5dbbe53225bb74071203f0028a3e59a5063b5af087409d402482d8cbb63cf7"
+    },
+    {
+      "disc_offset": "0x57258",
+      "stride_bytes": 60,
+      "width_px": 120,
+      "height_rows": 16,
+      "label": "ゲームセッテイ",
+      "evidence": "vram-verified",
+      "sha256": "fbe78030c677b1124e349d66d445ae12b53b2385284ed551bbd2e9f004f8b158"
+    },
+    {
+      "disc_offset": "0x57618",
+      "stride_bytes": 36,
+      "width_px": 72,
+      "height_rows": 16,
+      "label": "セレクト",
+      "evidence": "gap-visual",
+      "sha256": "56abb67cd89eea4a6250b7b67abe4e06238b5e1e3c54b32494f83f70e8ae8d32"
+    },
+    {
+      "disc_offset": "0x4D358",
+      "stride_bytes": 56,
+      "width_px": 112,
+      "height_rows": 16,
+      "label": "キャラクター",
+      "evidence": "texture-dump-matched",
+      "sha256": "bf89e82b0289588df63e1d0ac9710bbc3a83dd80c7ac5273f7470397ee4952de"
+    },
+    {
+      "disc_offset": "0x4E3D8",
+      "stride_bytes": 30,
+      "width_px": 60,
+      "height_rows": 16,
+      "label": "モード",
+      "evidence": "texture-dump-matched",
+      "sha256": "3870c187e255e6264bb13076b8652a6a7342392d736b4fd90a75c329195a3c01"
+    },
+    {
+      "disc_offset": "0x4E938",
+      "stride_bytes": 38,
+      "width_px": 76,
+      "height_rows": 16,
+      "label": "ノーマル",
+      "evidence": "texture-dump-matched",
+      "sha256": "a914c7c468eb384c0511ca8db0c9ced269c409d8d53432052d8e50fdce328f50"
+    },
+    {
+      "disc_offset": "0x4EC58",
+      "stride_bytes": 48,
+      "width_px": 96,
+      "height_rows": 16,
+      "label": "オーケー？",
+      "evidence": "texture-dump-matched",
+      "sha256": "7afefd906e2d33c04c63e3b3cdd9db5ef2505f6f7c15bd0c5eb137ad0301b38f"
+    },
+    {
+      "disc_offset": "0x4EF58",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "オプション",
+      "evidence": "texture-dump-matched",
+      "sha256": "e938220e9f5737a0d941a72474935431bc011ac5f0e17dfcd1385556050ffcc7"
+    },
+    {
+      "disc_offset": "0x4F1D8",
+      "stride_bytes": 52,
+      "width_px": 104,
+      "height_rows": 16,
+      "label": "オプション",
+      "evidence": "texture-dump-matched",
+      "sha256": "c5e98650d16e7943b666b4a902700615beef64da178d10f3be8cb4e5f1a763ad"
+    },
+    {
+      "disc_offset": "0x4F578",
+      "stride_bytes": 42,
+      "width_px": 84,
+      "height_rows": 16,
+      "label": "セレクト",
+      "evidence": "texture-dump-matched",
+      "sha256": "3dba25bbb6561194e9cc5f55c921e25e6e627c48c7bd8978d137ad4c0897494c"
+    },
+    {
+      "disc_offset": "0x4FB18",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "バーサス",
+      "evidence": "texture-dump-matched",
+      "sha256": "a7d8cece6fe615c8e0488b57ac563e15ba951c15d637fba2c907ae0824e5cc00"
+    },
+    {
+      "disc_offset": "0x50158",
+      "stride_bytes": 28,
+      "width_px": 56,
+      "height_rows": 16,
+      "label": "オート",
+      "evidence": "texture-dump-matched",
+      "sha256": "2f8f486f0049a73496315f4c453104bf74c112fdf93baaa6eaaa870495b2daca"
+    },
+    {
+      "disc_offset": "0x50F18",
+      "stride_bytes": 36,
+      "width_px": 72,
+      "height_rows": 16,
+      "label": "ムービー",
+      "evidence": "texture-dump-matched",
+      "sha256": "87a3ce278e878073ec5eb775f0fdae9f4095c9ed8c9536c003397197f53b48c5"
+    },
+    {
+      "disc_offset": "0x51298",
+      "stride_bytes": 20,
+      "width_px": 40,
+      "height_rows": 16,
+      "label": "オン",
+      "evidence": "texture-dump-matched",
+      "sha256": "8a0deaf87d770724bd64865bd68b2d9cdbe6fb83ce032a08d1d049b65b55df14"
+    },
+    {
+      "disc_offset": "0x53598",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "height_rows": 16,
+      "label": "マーカー",
+      "evidence": "texture-dump-matched",
+      "sha256": "8e250180dccf166f175831624041b486ed06bf8fe53f6ca52cd3c3667b14fa4f"
+    },
+    {
+      "disc_offset": "0x54B38",
+      "stride_bytes": 44,
+      "width_px": 88,
+      "height_rows": 16,
+      "label": "ゲームスピード",
+      "evidence": "texture-dump-matched",
+      "sha256": "ff83600cf3954f5547dc8067766dc3c781eb5030d581a398b53afd8d09c52f91"
+    },
+    {
+      "disc_offset": "0x551D8",
+      "stride_bytes": 44,
+      "width_px": 88,
+      "height_rows": 16,
+      "label": "トレジャー",
+      "evidence": "texture-dump-matched",
+      "sha256": "740ff3da29a24a89ef8b9e7df3fbc5e991eedf173794c7ad90884c067a82ce8b"
+    },
+    {
+      "disc_offset": "0x4F818",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "サウンド",
+      "evidence": "texture-dump-matched",
+      "sha256": "f033d6cb56022597060ad165d7c1c6edce828640ebb9b5f00a323ea4a7fe6e8c"
+    },
+    {
+      "disc_offset": "0x513D8",
+      "stride_bytes": 28,
+      "width_px": 56,
+      "height_rows": 16,
+      "label": "ロール",
+      "evidence": "texture-dump-matched",
+      "sha256": "647a66d05457bf894a9308dce2819a5c94b2562c51304db71ebe7771d7044c43"
+    },
+    {
+      "disc_offset": "0x518D8",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "ステレオ",
+      "evidence": "texture-dump-matched",
+      "sha256": "b2170bb0d18fbf0f858081b4442b73e823f0cbe24557e5c4cae0c759884c55a3"
+    },
+    {
+      "disc_offset": "0x52218",
+      "stride_bytes": 48,
+      "width_px": 96,
+      "height_rows": 16,
+      "label": "ボリューム",
+      "evidence": "texture-dump-matched",
+      "sha256": "c27889159209f6c9098b82802bcf97c259579bc11e14e39b7e144e555053b9c9"
+    },
+    {
+      "disc_offset": "0x4D988",
+      "stride_bytes": 44,
+      "width_px": 88,
+      "height_rows": 16,
+      "label": "エフェクト",
+      "evidence": "texture-dump-matched",
+      "sha256": "66a655b87ec794d820bb828f1e2d4ad69619611b7281ff94d7deeec2d3f34585"
+    },
+    {
+      "disc_offset": "0x50718",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "トレーニング",
+      "evidence": "texture-dump-matched",
+      "sha256": "67339da7cc38f46d25662c7c3d1ffb8abdf7f2321b8b426e1919429d960b71b9"
+    },
+    {
+      "disc_offset": "0x51158",
+      "stride_bytes": 20,
+      "width_px": 40,
+      "height_rows": 16,
+      "label": "オフ",
+      "evidence": "texture-dump-matched",
+      "sha256": "9fe6e7cd220a6ea287dde5f89352d472bc34b5fb8ea887a9b36379d03ea78c16"
+    },
+    {
+      "disc_offset": "0x4D788",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "height_rows": 16,
+      "label": "データ",
+      "evidence": "texture-dump-matched",
+      "sha256": "902120bd558e0616eae094303a837dc0fd5a82867fa120a03bdf8cdef0947c01"
+    },
+    {
+      "disc_offset": "0x50318",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "height_rows": 16,
+      "label": "セーブ",
+      "evidence": "texture-dump-matched",
+      "sha256": "3bd559aa74d8923c80c9f1e4ab7b0d70c430cf3b0ee90509011c905e513306d7"
+    },
+    {
+      "disc_offset": "0x50C98",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "モノラル",
+      "evidence": "texture-dump-matched",
+      "sha256": "b8f20c8c89fe6ef8206740797d9d0581549c55456b375a171cdb5b66af195102"
+    },
+    {
+      "disc_offset": "0x549F8",
+      "stride_bytes": 20,
+      "width_px": 40,
+      "height_rows": 16,
+      "label": "ミドル",
+      "evidence": "texture-dump-matched",
+      "sha256": "915284c42fbe53123007e9b023bbed9102e2e93a6cbf274cf1e7dfc2e5f8b277"
+    },
+    {
+      "disc_offset": "0x50518",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "height_rows": 16,
+      "label": "ロード",
+      "evidence": "texture-dump-matched",
+      "sha256": "63c24ca2780adb40bf3bf2c0f245d29755e0f9f4797db01b5a5206d0bac873a2"
+    },
+    {
+      "disc_offset": "0x52A58",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "height_rows": 16,
+      "label": "ポーズ",
+      "evidence": "texture-dump-matched",
+      "sha256": "f5bf2f414e9e72be6407fab23fc7bc3ce5adbff1f19865dc89d53f53b9889a06"
+    },
+    {
+      "disc_offset": "0x52C58",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "ステージ",
+      "evidence": "texture-dump-matched",
+      "sha256": "53da1a010af570281c608a096d429e6abcecec78b1bc6b0f6e6d77d918dc36e7"
+    },
+    {
+      "disc_offset": "0x56A38",
+      "stride_bytes": 80,
+      "width_px": 160,
+      "height_rows": 16,
+      "label": "バーサスリスタート",
+      "evidence": "texture-dump-matched",
+      "sha256": "c68a735abfdbd2dc401e9b58f0b7486947d54eb80eef25bdfd75bc6210b173ee"
+    },
+    {
+      "disc_offset": "0x56F58",
+      "stride_bytes": 48,
+      "width_px": 96,
+      "height_rows": 16,
+      "label": "オタノシミ",
+      "evidence": "texture-dump-matched",
+      "sha256": "82687594c2366233b955655fa875c04ca69f65d233c3b21295698155e2b22adf"
+    },
+    {
+      "disc_offset": "0x50998",
+      "stride_bytes": 48,
+      "width_px": 96,
+      "height_rows": 16,
+      "label": "クレジット",
+      "evidence": "loadimage-traced",
+      "sha256": "c8c3687bcd46e7e8657c5a560d76e9e83aac0ac1a370dd476b4137960d61de0d"
+    },
+    {
+      "disc_offset": "0x51618",
+      "stride_bytes": 44,
+      "width_px": 88,
+      "height_rows": 16,
+      "label": "スペシャル",
+      "evidence": "loadimage-traced",
+      "sha256": "74a4a28722cdb3da87b4f6001907c823b2a4adf377c6dda63cdbcd38ae759c59"
+    },
+    {
+      "disc_offset": "0x52518",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "height_rows": 16,
+      "label": "ヒョウジ",
+      "evidence": "loadimage-traced",
+      "sha256": "1465d2497b46cb53d09dd70f89a7207662de5791406392564cf6b5021ae35e8c"
+    },
+    {
+      "disc_offset": "0x21E1EC",
+      "stride_bytes": 44,
+      "width_px": 88,
+      "height_rows": 16,
+      "label": "トレジャー(스태프롤)",
+      "evidence": "loadimage-traced-signature",
+      "sha256": "740ff3da29a24a89ef8b9e7df3fbc5e991eedf173794c7ad90884c067a82ce8b"
+    },
+    {
+      "disc_offset": "0x21BD6C",
+      "stride_bytes": 104,
+      "width_px": 208,
+      "height_rows": 16,
+      "label": "ラクガキショータイム",
+      "evidence": "loadimage-traced-signature",
+      "sha256": "8213840a126574d2f845451333864d6df4ada90239afbdb3f909578b1ceb5d9d"
+    }
+  ],
+  "notes": [
+    "vram-verified = matched byte-for-byte against a (704,256) capture for all 16 rows",
+    "gap-visual = discovered by stride autocorrelation in inter-strip gaps and identified visually; needs a VRAM or in-place verification pass before patching",
+    "the region very likely holds every menu label; a systematic 4-aligned walk from anchor to anchor remains to finish the inventory",
+    "greedy recursive scan drifted to unaligned offsets and was discarded (menu_strips_region.json superseded by this file)"
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "observation_id": "PSX-MOVIE-CATALOG-001",
+  "source": {
+    "bin": "original/Rakugaki Showtime (Japan).bin",
+    "bin_sha256": "99dc6c7f748c4882d6f197a0a0a2eb943affc25bb4271deff9bb9bf55859aa54",
+    "sector_size": 2352,
+    "iso_logical_block_size": 2048
+  },
+  "extraction_rule": "raw sector count = ceil(ISO directory size / 2048); copy complete 2352-byte sectors",
+  "movies": [
+    {
+      "asset_id": "MOVIE-BAD",
+      "disc_path": "MOVIE/BAD.STR",
+      "iso_lba": 155636,
+      "iso_size": 6144000,
+      "sector_count": 3000,
+      "last_lba": 158635,
+      "raw_size": 7056000,
+      "raw_sha256": "de69fb2d36dbdc7e7995360c672802b4a7f4044d0031b3af4144ef8228d4a578",
+      "output": "extracted/MOVIE/BAD.STR",
+      "duration_seconds": 20.0,
+      "physical_sector_rate": 150.0,
+      "subheaders": [
+        {
+          "bytes_hex": "01014800",
+          "count": 2625
+        },
+        {
+          "bytes_hex": "01016401",
+          "count": 374
+        },
+        {
+          "bytes_hex": "0101e401",
+          "count": 1
+        }
+      ],
+      "sector_forms": {
+        "form1": 2625,
+        "form2": 375
+      },
+      "video": {
+        "sector_count": 2625,
+        "frame_count": 300,
+        "frame_number_min": 1,
+        "frame_number_max": 300,
+        "estimated_fps": 15.0,
+        "chunks_per_frame": [
+          {
+            "chunks": 8,
+            "sector_count": 600
+          },
+          {
+            "chunks": 9,
+            "sector_count": 2025
+          }
+        ],
+        "dimensions": [
+          {
+            "width": 320,
+            "height": 240,
+            "sector_count": 2625
+          }
+        ],
+        "demuxed_size_min": 1064,
+        "demuxed_size_max": 18088
+      },
+      "audio": {
+        "sector_count": 375,
+        "profiles": [
+          {
+            "coding_hex": "01",
+            "channels": 2,
+            "sample_rate": 37800,
+            "bits_per_sample": 4,
+            "samples_per_sector_per_channel": 2016,
+            "seconds_per_sector": 0.05333333333333334,
+            "sector_count": 375,
+            "duration_seconds": 20.0
+          }
+        ]
+      },
+      "other_sector_count": 0
+    },
+    {
+      "asset_id": "MOVIE-GOOD",
+      "disc_path": "MOVIE/GOOD.STR",
+      "iso_lba": 158636,
+      "iso_size": 38158336,
+      "sector_count": 18632,
+      "last_lba": 177267,
+      "raw_size": 43822464,
+      "raw_sha256": "e9f857abe9c8622ca2e78db249ae93bed2f12a04cd1184d8c829e74726a54ce0",
+      "output": "extracted/MOVIE/GOOD.STR",
+      "duration_seconds": 124.213333,
+      "physical_sector_rate": 150.0,
+      "subheaders": [
+        {
+          "bytes_hex": "01014800",
+          "count": 16302
+        },
+        {
+          "bytes_hex": "01016401",
+          "count": 2328
+        },
+        {
+          "bytes_hex": "01000000",
+          "count": 1
+        },
+        {
+          "bytes_hex": "0101e401",
+          "count": 1
+        }
+      ],
+      "sector_forms": {
+        "form1": 16303,
+        "form2": 2329
+      },
+      "video": {
+        "sector_count": 16302,
+        "frame_count": 1863,
+        "frame_number_min": 1,
+        "frame_number_max": 1863,
+        "estimated_fps": 14.99839,
+        "chunks_per_frame": [
+          {
+            "chunks": 8,
+            "sector_count": 3720
+          },
+          {
+            "chunks": 9,
+            "sector_count": 12582
+          }
+        ],
+        "dimensions": [
+          {
+            "width": 320,
+            "height": 240,
+            "sector_count": 16302
+          }
+        ],
+        "demuxed_size_min": 1064,
+        "demuxed_size_max": 18140
+      },
+      "audio": {
+        "sector_count": 2329,
+        "profiles": [
+          {
+            "coding_hex": "01",
+            "channels": 2,
+            "sample_rate": 37800,
+            "bits_per_sample": 4,
+            "samples_per_sector_per_channel": 2016,
+            "seconds_per_sector": 0.05333333333333334,
+            "sector_count": 2329,
+            "duration_seconds": 124.213333
+          }
+        ]
+      },
+      "other_sector_count": 1
+    },
+    {
+      "asset_id": "MOVIE-NE_A",
+      "disc_path": "MOVIE/NE_A.STR",
+      "iso_lba": 177268,
+      "iso_size": 20447232,
+      "sector_count": 9984,
+      "last_lba": 187251,
+      "raw_size": 23482368,
+      "raw_sha256": "82d5e18aef795dffc129849d64b324dba5d4ecab92281e01485a0a80f53aaa74",
+      "output": "extracted/MOVIE/NE_A.STR",
+      "duration_seconds": 66.56,
+      "physical_sector_rate": 150.0,
+      "subheaders": [
+        {
+          "bytes_hex": "01014800",
+          "count": 8733
+        },
+        {
+          "bytes_hex": "01016401",
+          "count": 1247
+        },
+        {
+          "bytes_hex": "01000000",
+          "count": 3
+        },
+        {
+          "bytes_hex": "0101e401",
+          "count": 1
+        }
+      ],
+      "sector_forms": {
+        "form1": 8736,
+        "form2": 1248
+      },
+      "video": {
+        "sector_count": 8733,
+        "frame_count": 998,
+        "frame_number_min": 1,
+        "frame_number_max": 998,
+        "estimated_fps": 14.99399,
+        "chunks_per_frame": [
+          {
+            "chunks": 8,
+            "sector_count": 1992
+          },
+          {
+            "chunks": 9,
+            "sector_count": 6741
+          }
+        ],
+        "dimensions": [
+          {
+            "width": 320,
+            "height": 240,
+            "sector_count": 8733
+          }
+        ],
+        "demuxed_size_min": 2712,
+        "demuxed_size_max": 18144
+      },
+      "audio": {
+        "sector_count": 1248,
+        "profiles": [
+          {
+            "coding_hex": "01",
+            "channels": 2,
+            "sample_rate": 37800,
+            "bits_per_sample": 4,
+            "samples_per_sector_per_channel": 2016,
+            "seconds_per_sector": 0.05333333333333334,
+            "sector_count": 1248,
+            "duration_seconds": 66.56
+          }
+        ]
+      },
+      "other_sector_count": 3
+    },
+    {
+      "asset_id": "MOVIE-NE_B",
+      "disc_path": "MOVIE/NE_B.STR",
+      "iso_lba": 187252,
+      "iso_size": 20447232,
+      "sector_count": 9984,
+      "last_lba": 197235,
+      "raw_size": 23482368,
+      "raw_sha256": "841618713bf0a7cb16bc0b30bdd76683011ad0273cec52e4aa77e5d83a6013ba",
+      "output": "extracted/MOVIE/NE_B.STR",
+      "duration_seconds": 66.56,
+      "physical_sector_rate": 150.0,
+      "subheaders": [
+        {
+          "bytes_hex": "01014800",
+          "count": 8733
+        },
+        {
+          "bytes_hex": "01016401",
+          "count": 1247
+        },
+        {
+          "bytes_hex": "01000000",
+          "count": 3
+        },
+        {
+          "bytes_hex": "0101e401",
+          "count": 1
+        }
+      ],
+      "sector_forms": {
+        "form1": 8736,
+        "form2": 1248
+      },
+      "video": {
+        "sector_count": 8733,
+        "frame_count": 998,
+        "frame_number_min": 1,
+        "frame_number_max": 998,
+        "estimated_fps": 14.99399,
+        "chunks_per_frame": [
+          {
+            "chunks": 8,
+            "sector_count": 1992
+          },
+          {
+            "chunks": 9,
+            "sector_count": 6741
+          }
+        ],
+        "dimensions": [
+          {
+            "width": 320,
+            "height": 240,
+            "sector_count": 8733
+          }
+        ],
+        "demuxed_size_min": 1064,
+        "demuxed_size_max": 18140
+      },
+      "audio": {
+        "sector_count": 1248,
+        "profiles": [
+          {
+            "coding_hex": "01",
+            "channels": 2,
+            "sample_rate": 37800,
+            "bits_per_sample": 4,
+            "samples_per_sector_per_channel": 2016,
+            "seconds_per_sector": 0.05333333333333334,
+            "sector_count": 1248,
+            "duration_seconds": 66.56
+          }
+        ]
+      },
+      "other_sector_count": 3
+    },
+    {
+      "asset_id": "MOVIE-NE_C",
+      "disc_path": "MOVIE/NE_C.STR",
+      "iso_lba": 197236,
+      "iso_size": 20447232,
+      "sector_count": 9984,
+      "last_lba": 207219,
+      "raw_size": 23482368,
+      "raw_sha256": "d7c4f5e203121262450ddaf56295aac6b27bff659d0f457c7769730bd05a6a8b",
+      "output": "extracted/MOVIE/NE_C.STR",
+      "duration_seconds": 66.56,
+      "physical_sector_rate": 150.0,
+      "subheaders": [
+        {
+          "bytes_hex": "01014800",
+          "count": 8733
+        },
+        {
+          "bytes_hex": "01016401",
+          "count": 1247
+        },
+        {
+          "bytes_hex": "01000000",
+          "count": 3
+        },
+        {
+          "bytes_hex": "0101e401",
+          "count": 1
+        }
+      ],
+      "sector_forms": {
+        "form1": 8736,
+        "form2": 1248
+      },
+      "video": {
+        "sector_count": 8733,
+        "frame_count": 998,
+        "frame_number_min": 1,
+        "frame_number_max": 998,
+        "estimated_fps": 14.99399,
+        "chunks_per_frame": [
+          {
+            "chunks": 8,
+            "sector_count": 1992
+          },
+          {
+            "chunks": 9,
+            "sector_count": 6741
+          }
+        ],
+        "dimensions": [
+          {
+            "width": 320,
+            "height": 240,
+            "sector_count": 8733
+          }
+        ],
+        "demuxed_size_min": 1064,
+        "demuxed_size_max": 18140
+      },
+      "audio": {
+        "sector_count": 1248,
+        "profiles": [
+          {
+            "coding_hex": "01",
+            "channels": 2,
+            "sample_rate": 37800,
+            "bits_per_sample": 4,
+            "samples_per_sector_per_channel": 2016,
+            "seconds_per_sector": 0.05333333333333334,
+            "sector_count": 1248,
+            "duration_seconds": 66.56
+          }
+        ]
+      },
+      "other_sector_count": 3
+    },
+    {
+      "asset_id": "MOVIE-NE_D",
+      "disc_path": "MOVIE/NE_D.STR",
+      "iso_lba": 207220,
+      "iso_size": 20447232,
+      "sector_count": 9984,
+      "last_lba": 217203,
+      "raw_size": 23482368,
+      "raw_sha256": "417a6b8ecc89b2e1c7f068a6416fc59bc30646c1705178c3576885809ba33da7",
+      "output": "extracted/MOVIE/NE_D.STR",
+      "duration_seconds": 66.56,
+      "physical_sector_rate": 150.0,
+      "subheaders": [
+        {
+          "bytes_hex": "01014800",
+          "count": 8733
+        },
+        {
+          "bytes_hex": "01016401",
+          "count": 1247
+        },
+        {
+          "bytes_hex": "01000000",
+          "count": 3
+        },
+        {
+          "bytes_hex": "0101e401",
+          "count": 1
+        }
+      ],
+      "sector_forms": {
+        "form1": 8736,
+        "form2": 1248
+      },
+      "video": {
+        "sector_count": 8733,
+        "frame_count": 998,
+        "frame_number_min": 1,
+        "frame_number_max": 998,
+        "estimated_fps": 14.99399,
+        "chunks_per_frame": [
+          {
+            "chunks": 8,
+            "sector_count": 1992
+          },
+          {
+            "chunks": 9,
+            "sector_count": 6741
+          }
+        ],
+        "dimensions": [
+          {
+            "width": 320,
+            "height": 240,
+            "sector_count": 8733
+          }
+        ],
+        "demuxed_size_min": 1064,
+        "demuxed_size_max": 18140
+      },
+      "audio": {
+        "sector_count": 1248,
+        "profiles": [
+          {
+            "coding_hex": "01",
+            "channels": 2,
+            "sample_rate": 37800,
+            "bits_per_sample": 4,
+            "samples_per_sector_per_channel": 2016,
+            "seconds_per_sector": 0.05333333333333334,
+            "sector_count": 1248,
+            "duration_seconds": 66.56
+          }
+        ]
+      },
+      "other_sector_count": 3
+    },
+    {
+      "asset_id": "MOVIE-OPEN",
+      "disc_path": "MOVIE/OPEN.STR",
+      "iso_lba": 217204,
+      "iso_size": 70238208,
+      "sector_count": 34296,
+      "last_lba": 251499,
+      "raw_size": 80664192,
+      "raw_sha256": "b14c9e0820af9fbd52a1762532902057d6483bb63b715086e1c5ad53ae64d4f8",
+      "output": "extracted/MOVIE/OPEN.STR",
+      "duration_seconds": 228.64,
+      "physical_sector_rate": 150.0,
+      "subheaders": [
+        {
+          "bytes_hex": "01014800",
+          "count": 30004
+        },
+        {
+          "bytes_hex": "01016401",
+          "count": 4286
+        },
+        {
+          "bytes_hex": "01000000",
+          "count": 5
+        },
+        {
+          "bytes_hex": "0101e401",
+          "count": 1
+        }
+      ],
+      "sector_forms": {
+        "form1": 30009,
+        "form2": 4287
+      },
+      "video": {
+        "sector_count": 30004,
+        "frame_count": 3429,
+        "frame_number_min": 1,
+        "frame_number_max": 3429,
+        "estimated_fps": 14.997376,
+        "chunks_per_frame": [
+          {
+            "chunks": 8,
+            "sector_count": 6856
+          },
+          {
+            "chunks": 9,
+            "sector_count": 23148
+          }
+        ],
+        "dimensions": [
+          {
+            "width": 320,
+            "height": 240,
+            "sector_count": 30004
+          }
+        ],
+        "demuxed_size_min": 2712,
+        "demuxed_size_max": 18144
+      },
+      "audio": {
+        "sector_count": 4287,
+        "profiles": [
+          {
+            "coding_hex": "01",
+            "channels": 2,
+            "sample_rate": 37800,
+            "bits_per_sample": 4,
+            "samples_per_sector_per_channel": 2016,
+            "seconds_per_sector": 0.05333333333333334,
+            "sector_count": 4287,
+            "duration_seconds": 228.64
+          }
+        ]
+      },
+      "other_sector_count": 5
+    }
+  ],
+  "status": "RAW_STR_EXTRACTED"
+}

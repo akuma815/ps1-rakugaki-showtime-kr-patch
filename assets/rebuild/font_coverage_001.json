@@ -1,0 +1,4347 @@
+{
+  "schema_version": 1,
+  "observation_id": "FONT-COVERAGE-001",
+  "status": "FULL_COVERAGE_WITH_ASSIGNMENTS",
+  "font": {
+    "path": "g:\\Downloads\\Korean Traslate Project\\Font\\RiaSans-Bold.ttf",
+    "sha256": "9e6be4d25ad5e210cf7779a8b489976373e2b3c3361af832626e04095e2b7ee2",
+    "size_px": 16,
+    "threshold": 128
+  },
+  "census": {
+    "path": "work/analysis/glyph_census_001.json",
+    "required_glyphs": 460
+  },
+  "fallbacks": [
+    "g:/Downloads/Korean Traslate Project/Font/neodgm.ttf",
+    "g:/Downloads/Korean Traslate Project/Font/HancomMalangMalang-Regular.ttf",
+    "g:/Downloads/Korean Traslate Project/Font/Galmuri11-Condensed.ttf"
+  ],
+  "status_counts": {
+    "OK": 456,
+    "OK_VIA_FALLBACK": 4
+  },
+  "failure_count": 0,
+  "failures": [],
+  "non_default_assignments": [
+    {
+      "glyph": "♯",
+      "codepoint": "U+266F",
+      "font": "Galmuri11-Condensed.ttf",
+      "size_px": 16
+    },
+    {
+      "glyph": "〒",
+      "codepoint": "U+3012",
+      "font": "Galmuri11-Condensed.ttf",
+      "size_px": 16
+    },
+    {
+      "glyph": "ー",
+      "codepoint": "U+30FC",
+      "font": "Galmuri11-Condensed.ttf",
+      "size_px": 16
+    },
+    {
+      "glyph": "가",
+      "codepoint": "U+AC00",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "간",
+      "codepoint": "U+AC04",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "감",
+      "codepoint": "U+AC10",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "갓",
+      "codepoint": "U+AC13",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "강",
+      "codepoint": "U+AC15",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "거",
+      "codepoint": "U+AC70",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "건",
+      "codepoint": "U+AC74",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "걸",
+      "codepoint": "U+AC78",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "검",
+      "codepoint": "U+AC80",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "것",
+      "codepoint": "U+AC83",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "게",
+      "codepoint": "U+AC8C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "겠",
+      "codepoint": "U+ACA0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "겨",
+      "codepoint": "U+ACA8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "결",
+      "codepoint": "U+ACB0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "겹",
+      "codepoint": "U+ACB9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "경",
+      "codepoint": "U+ACBD",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "계",
+      "codepoint": "U+ACC4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "고",
+      "codepoint": "U+ACE0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "공",
+      "codepoint": "U+ACF5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "과",
+      "codepoint": "U+ACFC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "관",
+      "codepoint": "U+AD00",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "광",
+      "codepoint": "U+AD11",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "괜",
+      "codepoint": "U+AD1C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "교",
+      "codepoint": "U+AD50",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "구",
+      "codepoint": "U+AD6C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "군",
+      "codepoint": "U+AD70",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "굿",
+      "codepoint": "U+AD7F",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "궁",
+      "codepoint": "U+AD81",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "귀",
+      "codepoint": "U+ADC0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "그",
+      "codepoint": "U+ADF8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "극",
+      "codepoint": "U+ADF9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "금",
+      "codepoint": "U+AE08",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "기",
+      "codepoint": "U+AE30",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "긴",
+      "codepoint": "U+AE34",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "까",
+      "codepoint": "U+AE4C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "꼬",
+      "codepoint": "U+AF2C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "꼴",
+      "codepoint": "U+AF34",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "꽂",
+      "codepoint": "U+AF42",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "꾼",
+      "codepoint": "U+AFBC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "끌",
+      "codepoint": "U+B04C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "끝",
+      "codepoint": "U+B05D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "끼",
+      "codepoint": "U+B07C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "낌",
+      "codepoint": "U+B08C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "나",
+      "codepoint": "U+B098",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "낙",
+      "codepoint": "U+B099",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "난",
+      "codepoint": "U+B09C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "납",
+      "codepoint": "U+B0A9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "낫",
+      "codepoint": "U+B0AB",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "났",
+      "codepoint": "U+B0AC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "내",
+      "codepoint": "U+B0B4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "냈",
+      "codepoint": "U+B0C8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "냐",
+      "codepoint": "U+B0D0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "냥",
+      "codepoint": "U+B0E5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "너",
+      "codepoint": "U+B108",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "널",
+      "codepoint": "U+B110",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "네",
+      "codepoint": "U+B124",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "노",
+      "codepoint": "U+B178",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "논",
+      "codepoint": "U+B17C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "놈",
+      "codepoint": "U+B188",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "누",
+      "codepoint": "U+B204",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "눈",
+      "codepoint": "U+B208",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "느",
+      "codepoint": "U+B290",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "는",
+      "codepoint": "U+B294",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "능",
+      "codepoint": "U+B2A5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "늦",
+      "codepoint": "U+B2A6",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "니",
+      "codepoint": "U+B2C8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "닉",
+      "codepoint": "U+B2C9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "닌",
+      "codepoint": "U+B2CC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "님",
+      "codepoint": "U+B2D8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "다",
+      "codepoint": "U+B2E4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "단",
+      "codepoint": "U+B2E8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "달",
+      "codepoint": "U+B2EC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "담",
+      "codepoint": "U+B2F4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "답",
+      "codepoint": "U+B2F5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "당",
+      "codepoint": "U+B2F9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "대",
+      "codepoint": "U+B300",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "더",
+      "codepoint": "U+B354",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "던",
+      "codepoint": "U+B358",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "덤",
+      "codepoint": "U+B364",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "덮",
+      "codepoint": "U+B36E",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "데",
+      "codepoint": "U+B370",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "델",
+      "codepoint": "U+B378",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "도",
+      "codepoint": "U+B3C4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "독",
+      "codepoint": "U+B3C5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "동",
+      "codepoint": "U+B3D9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "돼",
+      "codepoint": "U+B3FC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "됐",
+      "codepoint": "U+B410",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "되",
+      "codepoint": "U+B418",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "둘",
+      "codepoint": "U+B458",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "둥",
+      "codepoint": "U+B465",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "둬",
+      "codepoint": "U+B46C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "뒤",
+      "codepoint": "U+B4A4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "듀",
+      "codepoint": "U+B4C0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "드",
+      "codepoint": "U+B4DC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "득",
+      "codepoint": "U+B4DD",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "든",
+      "codepoint": "U+B4E0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "들",
+      "codepoint": "U+B4E4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "디",
+      "codepoint": "U+B514",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "딱",
+      "codepoint": "U+B531",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "때",
+      "codepoint": "U+B54C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "또",
+      "codepoint": "U+B610",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "라",
+      "codepoint": "U+B77C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "랑",
+      "codepoint": "U+B791",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "래",
+      "codepoint": "U+B798",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "랙",
+      "codepoint": "U+B799",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "랜",
+      "codepoint": "U+B79C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "램",
+      "codepoint": "U+B7A8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "량",
+      "codepoint": "U+B7C9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "러",
+      "codepoint": "U+B7EC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "렁",
+      "codepoint": "U+B801",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "레",
+      "codepoint": "U+B808",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "렉",
+      "codepoint": "U+B809",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "렌",
+      "codepoint": "U+B80C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "려",
+      "codepoint": "U+B824",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "례",
+      "codepoint": "U+B840",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "로",
+      "codepoint": "U+B85C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "록",
+      "codepoint": "U+B85D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "롤",
+      "codepoint": "U+B864",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "뢰",
+      "codepoint": "U+B8B0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "료",
+      "codepoint": "U+B8CC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "루",
+      "codepoint": "U+B8E8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "류",
+      "codepoint": "U+B958",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "륭",
+      "codepoint": "U+B96D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "르",
+      "codepoint": "U+B974",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "른",
+      "codepoint": "U+B978",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "를",
+      "codepoint": "U+B97C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "름",
+      "codepoint": "U+B984",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "리",
+      "codepoint": "U+B9AC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "릭",
+      "codepoint": "U+B9AD",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "릴",
+      "codepoint": "U+B9B4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "링",
+      "codepoint": "U+B9C1",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "마",
+      "codepoint": "U+B9C8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "만",
+      "codepoint": "U+B9CC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "많",
+      "codepoint": "U+B9CE",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "말",
+      "codepoint": "U+B9D0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "맘",
+      "codepoint": "U+B9D8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "맞",
+      "codepoint": "U+B9DE",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "매",
+      "codepoint": "U+B9E4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "맨",
+      "codepoint": "U+B9E8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "맹",
+      "codepoint": "U+B9F9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "머",
+      "codepoint": "U+BA38",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "멀",
+      "codepoint": "U+BA40",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "멋",
+      "codepoint": "U+BA4B",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "메",
+      "codepoint": "U+BA54",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "면",
+      "codepoint": "U+BA74",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "명",
+      "codepoint": "U+BA85",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "모",
+      "codepoint": "U+BAA8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "목",
+      "codepoint": "U+BAA9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "못",
+      "codepoint": "U+BABB",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "무",
+      "codepoint": "U+BB34",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "물",
+      "codepoint": "U+BB3C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "뭐",
+      "codepoint": "U+BB50",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "미",
+      "codepoint": "U+BBF8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "밍",
+      "codepoint": "U+BC0D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "바",
+      "codepoint": "U+BC14",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "반",
+      "codepoint": "U+BC18",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "받",
+      "codepoint": "U+BC1B",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "발",
+      "codepoint": "U+BC1C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "방",
+      "codepoint": "U+BC29",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "배",
+      "codepoint": "U+BC30",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "버",
+      "codepoint": "U+BC84",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "번",
+      "codepoint": "U+BC88",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "법",
+      "codepoint": "U+BC95",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "베",
+      "codepoint": "U+BCA0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "벨",
+      "codepoint": "U+BCA8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "변",
+      "codepoint": "U+BCC0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "별",
+      "codepoint": "U+BCC4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "보",
+      "codepoint": "U+BCF4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "복",
+      "codepoint": "U+BCF5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "볼",
+      "codepoint": "U+BCFC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "봇",
+      "codepoint": "U+BD07",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "봐",
+      "codepoint": "U+BD10",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "봤",
+      "codepoint": "U+BD24",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "부",
+      "codepoint": "U+BD80",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "분",
+      "codepoint": "U+BD84",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "브",
+      "codepoint": "U+BE0C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "븐",
+      "codepoint": "U+BE10",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "블",
+      "codepoint": "U+BE14",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "비",
+      "codepoint": "U+BE44",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "빛",
+      "codepoint": "U+BE5B",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "빠",
+      "codepoint": "U+BE60",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "뽑",
+      "codepoint": "U+BF51",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "사",
+      "codepoint": "U+C0AC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "산",
+      "codepoint": "U+C0B0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "삽",
+      "codepoint": "U+C0BD",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "상",
+      "codepoint": "U+C0C1",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "새",
+      "codepoint": "U+C0C8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "색",
+      "codepoint": "U+C0C9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "생",
+      "codepoint": "U+C0DD",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "서",
+      "codepoint": "U+C11C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "선",
+      "codepoint": "U+C120",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "설",
+      "codepoint": "U+C124",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "성",
+      "codepoint": "U+C131",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "세",
+      "codepoint": "U+C138",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "셀",
+      "codepoint": "U+C140",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "션",
+      "codepoint": "U+C158",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "셨",
+      "codepoint": "U+C168",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "소",
+      "codepoint": "U+C18C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "속",
+      "codepoint": "U+C18D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "손",
+      "codepoint": "U+C190",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쇼",
+      "codepoint": "U+C1FC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "수",
+      "codepoint": "U+C218",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "숙",
+      "codepoint": "U+C219",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "술",
+      "codepoint": "U+C220",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "숭",
+      "codepoint": "U+C22D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "슈",
+      "codepoint": "U+C288",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "슌",
+      "codepoint": "U+C28C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "스",
+      "codepoint": "U+C2A4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "슬",
+      "codepoint": "U+C2AC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "습",
+      "codepoint": "U+C2B5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "시",
+      "codepoint": "U+C2DC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "신",
+      "codepoint": "U+C2E0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "실",
+      "codepoint": "U+C2E4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "심",
+      "codepoint": "U+C2EC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "십",
+      "codepoint": "U+C2ED",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "싸",
+      "codepoint": "U+C2F8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "써",
+      "codepoint": "U+C368",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "썰",
+      "codepoint": "U+C370",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쓰",
+      "codepoint": "U+C4F0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쓴",
+      "codepoint": "U+C4F4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "아",
+      "codepoint": "U+C544",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "악",
+      "codepoint": "U+C545",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "안",
+      "codepoint": "U+C548",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "않",
+      "codepoint": "U+C54A",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "았",
+      "codepoint": "U+C558",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "앙",
+      "codepoint": "U+C559",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "앞",
+      "codepoint": "U+C55E",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "애",
+      "codepoint": "U+C560",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "액",
+      "codepoint": "U+C561",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "야",
+      "codepoint": "U+C57C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "약",
+      "codepoint": "U+C57D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "양",
+      "codepoint": "U+C591",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "어",
+      "codepoint": "U+C5B4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "업",
+      "codepoint": "U+C5C5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "없",
+      "codepoint": "U+C5C6",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "엇",
+      "codepoint": "U+C5C7",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "었",
+      "codepoint": "U+C5C8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "에",
+      "codepoint": "U+C5D0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "엑",
+      "codepoint": "U+C5D1",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "엥",
+      "codepoint": "U+C5E5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "여",
+      "codepoint": "U+C5EC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "역",
+      "codepoint": "U+C5ED",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "연",
+      "codepoint": "U+C5F0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "열",
+      "codepoint": "U+C5F4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "였",
+      "codepoint": "U+C600",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "영",
+      "codepoint": "U+C601",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "예",
+      "codepoint": "U+C608",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "오",
+      "codepoint": "U+C624",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "올",
+      "codepoint": "U+C62C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "와",
+      "codepoint": "U+C640",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "완",
+      "codepoint": "U+C644",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "왕",
+      "codepoint": "U+C655",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "왜",
+      "codepoint": "U+C65C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "요",
+      "codepoint": "U+C694",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "용",
+      "codepoint": "U+C6A9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "우",
+      "codepoint": "U+C6B0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "운",
+      "codepoint": "U+C6B4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "울",
+      "codepoint": "U+C6B8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "움",
+      "codepoint": "U+C6C0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "웃",
+      "codepoint": "U+C6C3",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "웅",
+      "codepoint": "U+C6C5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "워",
+      "codepoint": "U+C6CC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "원",
+      "codepoint": "U+C6D0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "웨",
+      "codepoint": "U+C6E8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "웩",
+      "codepoint": "U+C6E9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "위",
+      "codepoint": "U+C704",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "유",
+      "codepoint": "U+C720",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "으",
+      "codepoint": "U+C73C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "은",
+      "codepoint": "U+C740",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "을",
+      "codepoint": "U+C744",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "음",
+      "codepoint": "U+C74C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "응",
+      "codepoint": "U+C751",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "의",
+      "codepoint": "U+C758",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "이",
+      "codepoint": "U+C774",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "인",
+      "codepoint": "U+C778",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "일",
+      "codepoint": "U+C77C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "임",
+      "codepoint": "U+C784",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "입",
+      "codepoint": "U+C785",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "있",
+      "codepoint": "U+C788",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "잊",
+      "codepoint": "U+C78A",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "자",
+      "codepoint": "U+C790",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "작",
+      "codepoint": "U+C791",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "잖",
+      "codepoint": "U+C796",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "잘",
+      "codepoint": "U+C798",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "잠",
+      "codepoint": "U+C7A0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "잡",
+      "codepoint": "U+C7A1",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "장",
+      "codepoint": "U+C7A5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "재",
+      "codepoint": "U+C7AC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "저",
+      "codepoint": "U+C800",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "적",
+      "codepoint": "U+C801",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "전",
+      "codepoint": "U+C804",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "점",
+      "codepoint": "U+C810",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "정",
+      "codepoint": "U+C815",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "제",
+      "codepoint": "U+C81C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "젝",
+      "codepoint": "U+C81D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "조",
+      "codepoint": "U+C870",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "족",
+      "codepoint": "U+C871",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "존",
+      "codepoint": "U+C874",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "좋",
+      "codepoint": "U+C88B",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "좌",
+      "codepoint": "U+C88C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "주",
+      "codepoint": "U+C8FC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "죽",
+      "codepoint": "U+C8FD",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "준",
+      "codepoint": "U+C900",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "줄",
+      "codepoint": "U+C904",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "중",
+      "codepoint": "U+C911",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "즈",
+      "codepoint": "U+C988",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "지",
+      "codepoint": "U+C9C0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "직",
+      "codepoint": "U+C9C1",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "진",
+      "codepoint": "U+C9C4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "짜",
+      "codepoint": "U+C9DC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "째",
+      "codepoint": "U+C9F8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "착",
+      "codepoint": "U+CC29",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "찮",
+      "codepoint": "U+CC2E",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "채",
+      "codepoint": "U+CC44",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "처",
+      "codepoint": "U+CC98",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "체",
+      "codepoint": "U+CCB4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쳇",
+      "codepoint": "U+CCC7",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쳐",
+      "codepoint": "U+CCD0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쳤",
+      "codepoint": "U+CCE4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "초",
+      "codepoint": "U+CD08",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "최",
+      "codepoint": "U+CD5C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "축",
+      "codepoint": "U+CD95",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "출",
+      "codepoint": "U+CD9C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "츠",
+      "codepoint": "U+CE20",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "치",
+      "codepoint": "U+CE58",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "칙",
+      "codepoint": "U+CE59",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "친",
+      "codepoint": "U+CE5C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "카",
+      "codepoint": "U+CE74",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "칼",
+      "codepoint": "U+CE7C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "캐",
+      "codepoint": "U+CE90",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "캔",
+      "codepoint": "U+CE94",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "컨",
+      "codepoint": "U+CEE8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "컬",
+      "codepoint": "U+CEEC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "컴",
+      "codepoint": "U+CEF4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "케",
+      "codepoint": "U+CF00",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "켄",
+      "codepoint": "U+CF04",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "코",
+      "codepoint": "U+CF54",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "콘",
+      "codepoint": "U+CF58",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쾌",
+      "codepoint": "U+CF8C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쿄",
+      "codepoint": "U+CFC4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쿠",
+      "codepoint": "U+CFE0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쿨",
+      "codepoint": "U+CFE8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "쿼",
+      "codepoint": "U+CFFC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "큐",
+      "codepoint": "U+D050",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "크",
+      "codepoint": "U+D06C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "클",
+      "codepoint": "U+D074",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "키",
+      "codepoint": "U+D0A4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "타",
+      "codepoint": "U+D0C0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "탁",
+      "codepoint": "U+D0C1",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "탄",
+      "codepoint": "U+D0C4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "탈",
+      "codepoint": "U+D0C8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "탓",
+      "codepoint": "U+D0D3",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "태",
+      "codepoint": "U+D0DC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "택",
+      "codepoint": "U+D0DD",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "터",
+      "codepoint": "U+D130",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "털",
+      "codepoint": "U+D138",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "테",
+      "codepoint": "U+D14C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "텍",
+      "codepoint": "U+D14D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "텐",
+      "codepoint": "U+D150",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "템",
+      "codepoint": "U+D15C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "토",
+      "codepoint": "U+D1A0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "통",
+      "codepoint": "U+D1B5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "투",
+      "codepoint": "U+D22C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "튜",
+      "codepoint": "U+D29C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "트",
+      "codepoint": "U+D2B8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "특",
+      "codepoint": "U+D2B9",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "튼",
+      "codepoint": "U+D2BC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "티",
+      "codepoint": "U+D2F0",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "팀",
+      "codepoint": "U+D300",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "파",
+      "codepoint": "U+D30C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "패",
+      "codepoint": "U+D328",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "퍼",
+      "codepoint": "U+D37C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "페",
+      "codepoint": "U+D398",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "편",
+      "codepoint": "U+D3B8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "포",
+      "codepoint": "U+D3EC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "표",
+      "codepoint": "U+D45C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "푸",
+      "codepoint": "U+D478",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "품",
+      "codepoint": "U+D488",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "프",
+      "codepoint": "U+D504",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "플",
+      "codepoint": "U+D50C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "피",
+      "codepoint": "U+D53C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "필",
+      "codepoint": "U+D544",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "하",
+      "codepoint": "U+D558",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "한",
+      "codepoint": "U+D55C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "할",
+      "codepoint": "U+D560",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "합",
+      "codepoint": "U+D569",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "해",
+      "codepoint": "U+D574",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "핸",
+      "codepoint": "U+D578",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "했",
+      "codepoint": "U+D588",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "행",
+      "codepoint": "U+D589",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "향",
+      "codepoint": "U+D5A5",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "헤",
+      "codepoint": "U+D5E4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "혀",
+      "codepoint": "U+D600",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "혔",
+      "codepoint": "U+D614",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "호",
+      "codepoint": "U+D638",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "혼",
+      "codepoint": "U+D63C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "홀",
+      "codepoint": "U+D640",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "홍",
+      "codepoint": "U+D64D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "화",
+      "codepoint": "U+D654",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "확",
+      "codepoint": "U+D655",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "회",
+      "codepoint": "U+D68C",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "획",
+      "codepoint": "U+D68D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "효",
+      "codepoint": "U+D6A8",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "후",
+      "codepoint": "U+D6C4",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "훌",
+      "codepoint": "U+D6CC",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "히",
+      "codepoint": "U+D788",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "힘",
+      "codepoint": "U+D798",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    {
+      "glyph": "Ｍ",
+      "codepoint": "U+FF2D",
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 14
+    },
+    {
+      "glyph": "Ｗ",
+      "codepoint": "U+FF37",
+      "font": "neodgm.ttf",
+      "size_px": 16
+    }
+  ],
+  "size_stats": {
+    "max_width": 16,
+    "max_height": 16
+  },
+  "glyph_plan": {
+    ",": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    ".": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "0": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "1": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "2": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "3": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "4": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "5": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "6": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "7": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "8": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "9": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "~": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "×": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "※": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "☆": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "♪": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "♯": {
+      "font": "Galmuri11-Condensed.ttf",
+      "size_px": 16
+    },
+    "。": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "〒": {
+      "font": "Galmuri11-Condensed.ttf",
+      "size_px": 16
+    },
+    "・": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "ー": {
+      "font": "Galmuri11-Condensed.ttf",
+      "size_px": 16
+    },
+    "가": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "간": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "감": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "갓": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "강": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "거": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "건": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "걸": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "검": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "것": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "게": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "겠": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "겨": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "결": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "겹": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "경": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "계": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "고": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "공": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "과": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "관": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "광": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "괜": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "교": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "구": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "군": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "굿": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "궁": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "귀": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "그": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "극": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "금": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "기": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "긴": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "까": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "꼬": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "꼴": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "꽂": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "꾼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "끌": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "끝": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "끼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "낌": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "나": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "낙": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "난": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "납": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "낫": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "났": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "내": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "냈": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "냐": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "냥": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "너": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "널": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "네": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "노": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "논": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "놈": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "누": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "눈": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "느": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "는": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "능": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "늦": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "니": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "닉": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "닌": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "님": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "다": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "단": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "달": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "담": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "답": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "당": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "대": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "더": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "던": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "덤": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "덮": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "데": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "델": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "도": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "독": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "동": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "돼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "됐": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "되": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "둘": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "둥": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "둬": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "뒤": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "듀": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "드": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "득": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "든": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "들": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "디": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "딱": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "때": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "또": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "라": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "랑": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "래": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "랙": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "랜": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "램": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "량": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "러": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "렁": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "레": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "렉": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "렌": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "려": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "례": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "로": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "록": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "롤": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "뢰": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "료": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "루": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "류": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "륭": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "르": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "른": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "를": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "름": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "리": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "릭": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "릴": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "링": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "마": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "만": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "많": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "말": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "맘": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "맞": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "매": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "맨": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "맹": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "머": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "멀": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "멋": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "메": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "면": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "명": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "모": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "목": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "못": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "무": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "물": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "뭐": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "미": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "밍": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "바": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "반": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "받": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "발": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "방": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "배": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "버": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "번": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "법": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "베": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "벨": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "변": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "별": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "보": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "복": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "볼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "봇": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "봐": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "봤": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "부": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "분": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "브": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "븐": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "블": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "비": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "빛": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "빠": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "뽑": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "사": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "산": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "삽": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "상": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "새": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "색": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "생": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "서": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "선": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "설": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "성": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "세": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "셀": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "션": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "셨": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "소": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "속": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "손": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쇼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "수": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "숙": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "술": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "숭": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "슈": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "슌": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "스": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "슬": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "습": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "시": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "신": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "실": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "심": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "십": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "싸": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "써": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "썰": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쓰": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쓴": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "아": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "악": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "안": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "않": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "았": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "앙": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "앞": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "애": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "액": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "야": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "약": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "양": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "어": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "업": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "없": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "엇": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "었": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "에": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "엑": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "엥": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "여": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "역": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "연": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "열": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "였": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "영": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "예": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "오": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "올": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "와": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "완": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "왕": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "왜": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "요": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "용": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "우": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "운": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "울": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "움": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "웃": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "웅": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "워": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "원": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "웨": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "웩": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "위": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "유": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "으": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "은": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "을": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "음": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "응": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "의": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "이": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "인": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "일": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "임": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "입": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "있": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "잊": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "자": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "작": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "잖": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "잘": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "잠": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "잡": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "장": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "재": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "저": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "적": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "전": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "점": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "정": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "제": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "젝": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "조": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "족": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "존": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "좋": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "좌": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "주": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "죽": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "준": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "줄": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "중": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "즈": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "지": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "직": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "진": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "짜": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "째": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "착": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "찮": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "채": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "처": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "체": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쳇": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쳐": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쳤": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "초": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "최": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "축": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "출": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "츠": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "치": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "칙": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "친": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "카": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "칼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "캐": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "캔": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "컨": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "컬": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "컴": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "케": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "켄": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "코": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "콘": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쾌": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쿄": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쿠": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쿨": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "쿼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "큐": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "크": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "클": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "키": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "타": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "탁": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "탄": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "탈": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "탓": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "태": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "택": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "터": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "털": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "테": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "텍": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "텐": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "템": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "토": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "통": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "투": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "튜": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "트": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "특": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "튼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "티": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "팀": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "파": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "패": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "퍼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "페": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "편": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "포": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "표": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "푸": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "품": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "프": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "플": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "피": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "필": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "하": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "한": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "할": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "합": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "해": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "핸": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "했": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "행": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "향": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "헤": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "혀": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "혔": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "호": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "혼": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "홀": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "홍": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "화": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "확": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "회": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "획": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "효": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "후": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "훌": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "히": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "힘": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 15
+    },
+    "！": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "％": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "＆": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "／": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "１": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "２": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "３": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "４": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "９": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "：": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "＝": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "？": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ａ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｂ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｃ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｄ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｅ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｆ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｉ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｋ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｌ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｍ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 14
+    },
+    "Ｎ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｏ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｐ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｒ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｓ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "Ｗ": {
+      "font": "neodgm.ttf",
+      "size_px": 16
+    },
+    "Ｙ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "ｋ": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    },
+    "～": {
+      "font": "RiaSans-Bold.ttf",
+      "size_px": 16
+    }
+  },
+  "interpretation": "Coverage means every corpus glyph renders ink within a 16x16 cell using the primary font at the default size, a reduced size, or a fallback font. Aesthetic consistency of the non-default assignments stays a human review item."
+}

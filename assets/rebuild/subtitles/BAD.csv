@@ -1,0 +1,2 @@
+﻿subtitle_id,movie,start_frame,end_frame,speaker,japanese,korean,status,notes
+MOV-BAD-001,BAD,175,231,유키오,あいつ、またプレイしてくれるかな？,"그 녀석, 다시 플레이해 주려나?",approved,faster-whisper 3회와 whisper.cpp large-v3-turbo 일치; 사용자가 PS1 MDEC 검토본의 원문·번역·타이밍을 2026-08-10 승인

@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "source": {
+    "bin": "original/Rakugaki Showtime (Japan).bin",
+    "cue": "original/Rakugaki Showtime (Japan).cue",
+    "bin_size": 591880800,
+    "bin_sha256": "99dc6c7f748c4882d6f197a0a0a2eb943affc25bb4271deff9bb9bf55859aa54",
+    "cue_sha256": "4c6d97218e38fb592e9c426bf2fa086a2110005a82ab062352387594e0af3f97",
+    "sector_size": 2352,
+    "sector_count": 251650,
+    "track": "MODE2/2352"
+  },
+  "fonts": [
+    {
+      "name": "Galmuri11-Condensed.ttf",
+      "bytes": 2668536,
+      "sha256": "7b433b4a007c36dfb535fdea11de3e4f4c8b641ab591ed05d3bc0a4bbd75eb5f"
+    },
+    {
+      "name": "Galmuri9.ttf",
+      "bytes": 4649144,
+      "sha256": "5cb68052ee0a15571747e91c20f145e24b51bb459c6cd58226fafee78d9c0b16"
+    },
+    {
+      "name": "RiaSans-Bold.ttf",
+      "bytes": 899008,
+      "sha256": "9e6be4d25ad5e210cf7779a8b489976373e2b3c3361af832626e04095e2b7ee2"
+    },
+    {
+      "name": "neodgm.ttf",
+      "bytes": 651044,
+      "sha256": "77305267996073aae07bad9313dad2e306a4128e55bfafbed4c41558fee57b4d"
+    }
+  ],
+  "base_expected": {
+    "cheat": "84fd6c87398d4fa8586c8fba8cda6332192c1d6d9ce3f811b53517dbdb2abcdc",
+    "no_cheat": "88bbca64be36aa9cc2b812f648e5d5b03f4de51a65c8e720d10e11bcd6d73f35"
+  },
+  "final_expected": {
+    "cheat": {
+      "target": "build/hangul_atlas_all_movies_cheat_001/Rakugaki Showtime (Japan) [HANGUL-ATLAS-ALL-MOVIES-CHEAT-001].bin",
+      "target_sha256": "95566062E4E3045F5C428FF9108E1B6F51338FE4DAAAA7CFC2583FFC99EAB7FA",
+      "build_report": "work/analysis/hangul_atlas_all_movies_cheat_001_build.json",
+      "build_report_sha256": "56F80247B3E8132CE6F03C9A22281B03C0487AE82745DB0EFD52FAF6E37C3FA4",
+      "changed_sector_count": 81371,
+      "patch": "Rakugaki_Showtime_KR_MOVIES_CHEAT_001.xdelta",
+      "patch_size": 92748690,
+      "patch_sha256": "EA571EB357E38058246ABD5A70005A6C160A43ADDE3FC7AD4F6B3BCF951C3468",
+      "cue_sha256": "1e42208a1e9a93edcfc4877ac61b8b201b520eb042a126f66f41bfee4368c627"
+    },
+    "no_cheat": {
+      "target": "build/hangul_atlas_all_movies_no_cheat_001/Rakugaki Showtime (Japan) [HANGUL-ATLAS-ALL-MOVIES-NO-CHEAT-001].bin",
+      "target_sha256": "7F9FA82274ED4985963B84FF9E5137E91FAE354C7CACAF6FFFA13101E0511FD7",
+      "build_report": "work/analysis/hangul_atlas_all_movies_no_cheat_001_build.json",
+      "build_report_sha256": "98F2F630590EDA7F266DC5238B486CC64E0EFEFA100BA598BAC2811829D37335",
+      "changed_sector_count": 81370,
+      "patch": "Rakugaki_Showtime_KR_MOVIES_NO_CHEAT_001.xdelta",
+      "patch_size": 92748427,
+      "patch_sha256": "DB3FDF143FC89711FF56EAEAA079E75DCFE73774E2F5D7E5763509C5D915E4DF",
+      "cue_sha256": "94c48afbab59182da9a817ec691930a55a218c66ee6d3acf99b42bbaff259dfe"
+    }
+  },
+  "movies": [
+    {
+      "name": "BAD",
+      "lba": 155636,
+      "sector_count": 3000,
+      "original_sha256": "de69fb2d36dbdc7e7995360c672802b4a7f4044d0031b3af4144ef8228d4a578",
+      "patch": "assets/movie_deltas/BAD.xdelta",
+      "patch_sha256": "c05ebc72f946fa61d314b2a0f8c5225a881cc95aae01b4555c1618b7f57435ec",
+      "patch_bytes": 2310380,
+      "target_sha256": "f7d10952afca981d1692f773a17d5ba184e1ff23e6b39f3265608716e320a7ea",
+      "subtitle": "assets/rebuild/subtitles/BAD.csv",
+      "subtitle_sha256": "fbb3d1711ddc418dab3964e250e99fd0b69fbf3b0528829d5147a30978b54b13",
+      "included_statuses": [
+        "approved"
+      ]
+    },
+    {
+      "name": "GOOD",
+      "lba": 158636,
+      "sector_count": 18632,
+      "original_sha256": "e9f857abe9c8622ca2e78db249ae93bed2f12a04cd1184d8c829e74726a54ce0",
+      "patch": "assets/movie_deltas/GOOD.xdelta",
+      "patch_sha256": "a7ec96e0bd9d1f8ce1741bd55057975b55b49edc9d534d73bf4119cb462ffc98",
+      "patch_bytes": 20251642,
+      "target_sha256": "91a145170d2c9f7bfe1771d55f1630a838351226a0b340f0266ec9e3892faf75",
+      "subtitle": "assets/rebuild/subtitles/GOOD.csv",
+      "subtitle_sha256": "277bf17cb7f13120b4a60eaf2d23e01464de1502989976bfb879bb047129ef63",
+      "included_statuses": [
+        "review_needed",
+        "translated"
+      ]
+    },
+    {
+      "name": "NE_A",
+      "lba": 177268,
+      "sector_count": 9984,
+      "original_sha256": "82d5e18aef795dffc129849d64b324dba5d4ecab92281e01485a0a80f53aaa74",
+      "patch": "assets/movie_deltas/NE_A.xdelta",
+      "patch_sha256": "50e3236be381815578a16ed13c71dc5e66d999719d3dcdd375640d3912c249a8",
+      "patch_bytes": 9098809,
+      "target_sha256": "364cdd60e14d9d2022cf47ad7062f83900bca3e03803e1a245f82bfd0eb7ea3b",
+      "subtitle": "assets/rebuild/subtitles/NE_A.csv",
+      "subtitle_sha256": "6cda1f1a1da78b2aaf8fe21d59713969e9bce82f986ba2fec5eec411c1f82f4e",
+      "included_statuses": [
+        "review_needed",
+        "translated"
+      ]
+    },
+    {
+      "name": "NE_B",
+      "lba": 187252,
+      "sector_count": 9984,
+      "original_sha256": "841618713bf0a7cb16bc0b30bdd76683011ad0273cec52e4aa77e5d83a6013ba",
+      "patch": "assets/movie_deltas/NE_B.xdelta",
+      "patch_sha256": "4b642075d4748624ab98d02713b4a801149e76ba721d1939eea4e2f474b0653b",
+      "patch_bytes": 8818225,
+      "target_sha256": "d3f3eaf7622565a918329c97a9fe5c99951bf99b174e732e638321344f9fae25",
+      "subtitle": "assets/rebuild/subtitles/NE_B.csv",
+      "subtitle_sha256": "32630d1435ec8ebc27b2a1f9350d73c96cd6f3d7b430a9d597d5a30a3b3ec1a5",
+      "included_statuses": [
+        "review_needed",
+        "translated"
+      ]
+    },
+    {
+      "name": "NE_C",
+      "lba": 197236,
+      "sector_count": 9984,
+      "original_sha256": "d7c4f5e203121262450ddaf56295aac6b27bff659d0f457c7769730bd05a6a8b",
+      "patch": "assets/movie_deltas/NE_C.xdelta",
+      "patch_sha256": "0a1e5b76b7b808dfb178d5608ee5203ef49b9813fdbbad8724236a928981043b",
+      "patch_bytes": 8761160,
+      "target_sha256": "1e89ff4f79c94ba6f37ceca96f6203af3c83f07e8b34cae3f683f8379f544f71",
+      "subtitle": "assets/rebuild/subtitles/NE_C.csv",
+      "subtitle_sha256": "962599dd077e1e3470c009ea2aec436ed94f9912b52c910a6a047877bd8935be",
+      "included_statuses": [
+        "review_needed",
+        "translated"
+      ]
+    },
+    {
+      "name": "NE_D",
+      "lba": 207220,
+      "sector_count": 9984,
+      "original_sha256": "417a6b8ecc89b2e1c7f068a6416fc59bc30646c1705178c3576885809ba33da7",
+      "patch": "assets/movie_deltas/NE_D.xdelta",
+      "patch_sha256": "187d1906424e5f6e71344198dcd310a389a53e7a4c3dd9befd5e885d301a3115",
+      "patch_bytes": 8739764,
+      "target_sha256": "5bb2fcf3f645d82c7428b41e46a9304905d2938c6ba1f7990b1020e0dddf0d5d",
+      "subtitle": "assets/rebuild/subtitles/NE_D.csv",
+      "subtitle_sha256": "f4f42eb048e0ca25801d4e040371e3a6f4d0a6e8653aa9d77a94157b9e4ddf3d",
+      "included_statuses": [
+        "review_needed",
+        "translated"
+      ]
+    },
+    {
+      "name": "OPEN",
+      "lba": 217204,
+      "sector_count": 34296,
+      "original_sha256": "b14c9e0820af9fbd52a1762532902057d6483bb63b715086e1c5ad53ae64d4f8",
+      "patch": "assets/movie_deltas/OPEN.xdelta",
+      "patch_sha256": "2f2bfef99169bb2120b71eb6fe03c72493054d5a395ae3c374a60c21c62af2b6",
+      "patch_bytes": 34914545,
+      "target_sha256": "877e2a2ddb221ef5de32f493fe67480f2969b0577c7e2792ade693d636823ad6",
+      "subtitle": "assets/rebuild/subtitles/OPEN.csv",
+      "subtitle_sha256": "525aca418e5b82abfbd405b86293688186ede76aaf5762602246ae70dec291fd",
+      "included_statuses": [
+        "review_needed",
+        "translated"
+      ]
+    }
+  ]
+}
