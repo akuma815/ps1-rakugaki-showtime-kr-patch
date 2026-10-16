@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "observation_id": "FONT-VISIBILITY-001",
+  "source_font": {
+    "name": "Malgun Gothic",
+    "expected_sha256": "0086c19e81d293a542e7d75564c645fb58070cc850aefebf8fa1c397858e510c",
+    "size_px": 15,
+    "threshold": 96,
+    "distribution": "local PoC input only; the font file and patched disc image are not distribution artifacts"
+  },
+  "font_tim": {
+    "hagecho_offset": 215704,
+    "expected_sha256": "c4249f66cddc5ef8e7306953e07a3bad36d1d62af1fa859b19be2257494a51a8",
+    "width": 256,
+    "height": 256,
+    "bpp": 4
+  },
+  "target_string": {
+    "hagecho_offset": 106596,
+    "expected_hex": "83768362835683858358835e815b8367837b835e83930000",
+    "decoded": "プッシュスタートボタン"
+  },
+  "glyphs": [
+    {"character": "한", "cell": 217, "replaces": "プ", "source_code_hex": "8376"},
+    {"character": "글", "cell": 197, "replaces": "ッ", "source_code_hex": "8362"}
+  ]
+}

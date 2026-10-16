@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "observation_id": "CHARSELECT-LABELS-002",
+  "evidence": "CALLBACK-DISPATCH-LOADIMAGE-001 plus user visual review of the enlarged chronological extraction sheet; PRESS, START, COM and EXIT explicitly excluded",
+  "labels": [
+    {
+      "disc_offset": "0x4FA98",
+      "stride_bytes": 16,
+      "width_px": 32,
+      "height_rows": 8,
+      "role": "player_row_label",
+      "japanese": "チーム",
+      "korean": "Team",
+      "sha256": "10f830a815c35cbc87d7d396a02cfdaa8c933a161c8237c8b6242334f71e6662"
+    },
+    {
+      "disc_offset": "0x4D6D8",
+      "stride_bytes": 14,
+      "width_px": 28,
+      "height_rows": 8,
+      "role": "player_row_label",
+      "japanese": "カラー",
+      "korean": "Color",
+      "sha256": "ad56a0e679d595d3366fd74af0641296dd6d7deecd1e05611e04c51ad932b8b1"
+    }
+  ],
+  "excluded": [
+    {
+      "disc_offset": "0x52F98",
+      "text": "PRESS",
+      "reason": "English prompt; translation not required"
+    },
+    {
+      "disc_offset": "0x52ED8",
+      "text": "START",
+      "reason": "English prompt; translation not required"
+    },
+    {
+      "disc_offset": "0x4CB9C",
+      "text": "COM",
+      "reason": "English player type label; translation not required"
+    },
+    {
+      "disc_offset": "0x53058",
+      "text": "EXIT",
+      "reason": "English navigation label; translation not required"
+    }
+  ]
+}

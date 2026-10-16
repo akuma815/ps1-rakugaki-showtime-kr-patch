@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "observation_id": "HITFX-001",
+  "note": "Whole-word outlined onomatopoeia in the sprite bank. Raw 4bpp, only palette indices 0 (transparent), 1 (black body) and 15 (white outline). Same in-place patch shape as the menu labels.",
+  "skipped": [
+    {
+      "disc_offset": "0xB454AC",
+      "w": 48,
+      "h": 32,
+      "reason": "same 3-index outlined style and almost certainly onomatopoeia, but the strokes are too distorted to read; not patched rather than risk destroying artwork"
+    }
+  ],
+  "effects": [
+    {
+      "name": "baki",
+      "disc_offset": "0xB3DBE8",
+      "w": 48,
+      "h": 31,
+      "japanese": "バキ",
+      "korean": "빡",
+      "sha256": "185caad134cab1b2a936839095169eae56eea56129773de460144c0a2a1a4eec"
+    },
+    {
+      "name": "bokaan",
+      "disc_offset": "0xB3DED0",
+      "w": 80,
+      "h": 32,
+      "japanese": "ボカ〜ン",
+      "korean": "콰앙",
+      "sha256": "21ce8b73ce946f6ad3f98d0b53cb7d3b8c0458f61fc56510e2620e4088e4fc38"
+    },
+    {
+      "name": "doka",
+      "disc_offset": "0xB457AC",
+      "w": 48,
+      "h": 32,
+      "japanese": "ドカ",
+      "korean": "퍽",
+      "sha256": "a0f5b1125010936b672e399158e7067f5caead99a062abd6426aa8b96c75ef6b"
+    }
+  ],
+  "sizing_note": "One syllable per 48px cell: Korean syllables with a final consonant carry far more strokes than katakana, so two of them in a 48px box collapse into noise. Only the 80px cell takes two."
+}

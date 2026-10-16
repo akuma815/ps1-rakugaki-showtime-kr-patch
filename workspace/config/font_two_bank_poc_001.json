@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "observation_id": "FONT-TWO-BANK-POC-001",
+  "source_font": {
+    "path": "C:/Windows/Fonts/malgun.ttf",
+    "expected_sha256": "0086c19e81d293a542e7d75564c645fb58070cc850aefebf8fa1c397858e510c",
+    "size_px": 15,
+    "threshold": 96
+  },
+  "bank_0": {
+    "tpage": 31,
+    "vram_rect_words": [960, 256, 64, 256]
+  },
+  "bank_1_poc": {
+    "source": "HAGECHO.BIN block 0 TIM #001 splash page",
+    "hagecho_offset": 168792,
+    "expected_tim_sha256": "ed78672eb3e895f08f408a17191920378f2883b5357c4fceaac801cf0c4e2ef1",
+    "tpage": 30,
+    "vram_rect_words": [896, 256, 64, 224],
+    "background_index": 8,
+    "ink_index": 10,
+    "limitation": "PoC-only shared splash texture; later HAGECHO scene pages may overwrite this VRAM region"
+  },
+  "glyphs": [
+    {
+      "character": "한",
+      "token_hex": "8147",
+      "decoder_handler_runtime": "0x80043250",
+      "decoder_handler_ara_offset": 447056,
+      "expected_original_return": 247,
+      "bank": 1,
+      "cell": 222,
+      "return_value": 478
+    },
+    {
+      "character": "글",
+      "token_hex": "8168",
+      "decoder_handler_runtime": "0x800431C0",
+      "decoder_handler_ara_offset": 446912,
+      "expected_original_return": 10,
+      "bank": 1,
+      "cell": 223,
+      "return_value": 479
+    }
+  ],
+  "builder_patch": {
+    "runtime_start": "0x80042F84",
+    "ara_offset": 446340,
+    "expected_hex": "1F000224160002A50F002232001102000C0002A1",
+    "instructions": [
+      "srl $v0, $s1, 8",
+      "xori $v0, $v0, 0x1f",
+      "sh $v0, 0x16($t0)",
+      "sll $v0, $s1, 4",
+      "sb $v0, 0xc($t0)"
+    ]
+  },
+  "title_string": {
+    "hagecho_offset": 106596,
+    "expected_prefix_hex": "83768362",
+    "replacement_prefix_hex": "81478168",
+    "full_original_hex": "83768362835683858358835E815B8367837B835E8393"
+  }
+}

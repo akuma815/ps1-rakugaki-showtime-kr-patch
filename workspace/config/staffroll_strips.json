@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "observation_id": "STAFFROLL-STRIPS-001",
+  "note": "Separate copies of UI/staff-roll word graphics in the 0x21xxxx bank, drawn magnified. Same raw 16-row 4bpp format as the menu labels, so they patch the same way. Distinct from the 25-cell sprite font: コンティニュー exists in both, once composed from cells and once as this whole-word bitmap.",
+  "strips": [
+    {
+      "disc_offset": "0x21C3EC",
+      "stride_bytes": 52,
+      "width_px": 104,
+      "japanese": "デザイナー",
+      "korean": "디자이너",
+      "sha256": "84845d7ce1784a239772a9049ed197378e8698ef2772f34a3d6ed2a2e15feac2"
+    },
+    {
+      "disc_offset": "0x21C72C",
+      "stride_bytes": 48,
+      "width_px": 96,
+      "japanese": "エニックス",
+      "korean": "에닉스",
+      "sha256": "5568dc954a375737c8449eead5b47d25b203f137a7383b341d75f783ea8acbff"
+    },
+    {
+      "disc_offset": "0x21CA2C",
+      "stride_bytes": 44,
+      "width_px": 88,
+      "japanese": "ファンタジア",
+      "korean": "판타지아",
+      "sha256": "ea12e0001824231187b1bac1f006b66b05bffbc1b4171ee859395920009e581f"
+    },
+    {
+      "disc_offset": "0x21CCEC",
+      "stride_bytes": 60,
+      "width_px": 120,
+      "japanese": "プログラマー",
+      "korean": "프로그래머",
+      "sha256": "8ce7cb25eb274ef33a5678e508d965a02fc4ba6e4dad3e8b402cdbc86f953077"
+    },
+    {
+      "disc_offset": "0x21D0AC",
+      "stride_bytes": 60,
+      "width_px": 120,
+      "japanese": "コンティニュー",
+      "korean": "컨티뉴",
+      "sha256": "19443122bc7372ae0ec7c07c2fb4ef96be5a4cb335c833063d60b1403b653cdf"
+    },
+    {
+      "disc_offset": "0x21D46C",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "japanese": "ランク",
+      "korean": "랭크",
+      "sha256": "58614f2de24db1a15f647b31ca8ba34fcb53830260d8b00123f14da2fc3b8acb"
+    },
+    {
+      "disc_offset": "0x21D66C",
+      "stride_bytes": 44,
+      "width_px": 88,
+      "japanese": "スペシャル",
+      "korean": "스페셜",
+      "sha256": "e6acec4eb942dbe6275f0efe605fd5dd80d4e2d511cd68444e4e74c02ddfa54c"
+    },
+    {
+      "disc_offset": "0x21D92C",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "japanese": "スタッフ",
+      "korean": "스태프",
+      "sha256": "d0c205d64869b4fa2b283c749508723317c5f9f30487843417b20007d745e904"
+    },
+    {
+      "disc_offset": "0x21DBAC",
+      "stride_bytes": 40,
+      "width_px": 80,
+      "japanese": "サンクス",
+      "korean": "땡스",
+      "sha256": "16e72ecea23fef59fdc338a14450f0c81a41290a82df37a3a8542d03ae2b9fff"
+    },
+    {
+      "disc_offset": "0x21DE2C",
+      "stride_bytes": 28,
+      "width_px": 56,
+      "japanese": "タイム",
+      "korean": "타임",
+      "sha256": "eb18c32ca9893907fce70b224c7b6e274cad7cef589c2bd800ef8f0c915eb1c5"
+    },
+    {
+      "disc_offset": "0x21DFEC",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "japanese": "トータル",
+      "korean": "토탈",
+      "sha256": "9200df1a1a9163e9ae8b852a016dd356324c8d002e53a3210674af372f9cc538"
+    },
+    {
+      "disc_offset": "0x21ECCC",
+      "stride_bytes": 32,
+      "width_px": 64,
+      "japanese": "アオニ",
+      "korean": "아오니",
+      "note": "chain-verified: its end lands exactly on プロダクション",
+      "sha256": "1551595fb705f6cd303cb7e4bfe3151cfc704bf57a15a7431b56c9a52d1399f5"
+    },
+    {
+      "disc_offset": "0x21EECC",
+      "stride_bytes": 44,
+      "width_px": 88,
+      "japanese": "プロダクション",
+      "korean": "프로덕션",
+      "note": "chain-verified from アオニ",
+      "sha256": "108a5c7a7ed09f0bbb97e56362a06eedd05951f4aefd52f7218a023e82ed59ef"
+    },
+    {
+      "disc_offset": "0x21F424",
+      "stride_bytes": 44,
+      "width_px": 88,
+      "japanese": "ラクガキ",
+      "korean": "라쿠가키",
+      "note": "offset chosen because the glyphs read in order here; at 0x21F40C the row is shifted 48px and wraps. NOT chain-anchored -- confirm on screen.",
+      "sha256": "8f5b745f74e0894fb91bc2778712f45a24bbd72e32ce2a9e9adc6a0b5868fdd9"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "observation_id": "BIGFONT-KOREAN-001",
+  "method": "Cell-to-syllable map derived from the marker build (BIGFONT-WORDS-002): each word's cell sequence was read straight off screen, so the mapping is solved as a constraint problem over shared cells rather than guessed.",
+  "shared_cell_notes": [
+    "02 (ー) appears in 5 of the 6 words, so it can only be blank -- every Korean reading drops the long-vowel mark.",
+    "11 (ス) is the first syllable of スタート and the last of イエス; 스 satisfies both.",
+    "01 (！) is shared by スタート！ and クリアー！.",
+    "24 (ン) is left blank rather than reused for 티, because ン is the most common katakana and very likely appears in words not yet observed; a blank degrades gracefully, a reused syllable does not."
+  ],
+  "unmapped": {
+    "cells": [
+      6,
+      10,
+      13,
+      15,
+      22
+    ],
+    "reason": "never seen in any observed word; left as the original katakana so an unobserved word stays readable Japanese instead of silently losing characters"
+  },
+  "words_observed": {
+    "スタート！": [
+      11,
+      14,
+      2,
+      17,
+      1
+    ],
+    "ポーズ": [
+      20,
+      2,
+      12
+    ],
+    "クリアー！": [
+      8,
+      23,
+      3,
+      2,
+      1
+    ],
+    "コンティニュー": [
+      9,
+      24,
+      16,
+      4,
+      18,
+      21,
+      2
+    ],
+    "イエス": [
+      5,
+      7,
+      11
+    ],
+    "ノー": [
+      19,
+      2
+    ]
+  },
+  "cells": [
+    {
+      "index": 0,
+      "glyph": "？",
+      "disc_offset": "0xB48C24",
+      "w": 48,
+      "h": 48,
+      "korean": "?",
+      "action": "render",
+      "sha256": "08d208b1e0e74060d4a9b4c5a1fd892d3222ca70504c0a8e039f67f059eefe75"
+    },
+    {
+      "index": 1,
+      "glyph": "！",
+      "disc_offset": "0xB490A4",
+      "w": 48,
+      "h": 48,
+      "korean": "!",
+      "action": "render",
+      "sha256": "15662fc6e916f8b4e813ed9fbb7c2028758b65d203ee357a210b0da0ab2a625c"
+    },
+    {
+      "index": 2,
+      "glyph": "ー",
+      "disc_offset": "0xB49524",
+      "w": 48,
+      "h": 48,
+      "korean": "",
+      "action": "blank",
+      "sha256": "4bc3d8f63d679f636dc26b46738839a7bb50bf8ab88ecd13af83df73489f8846"
+    },
+    {
+      "index": 3,
+      "glyph": "ア",
+      "disc_offset": "0xB499A4",
+      "w": 48,
+      "h": 48,
+      "korean": "어",
+      "action": "render",
+      "sha256": "39f26bc7048e71454b7044a92055b38e962456d157fd01830682eaf2433d445d"
+    },
+    {
+      "index": 4,
+      "glyph": "ィ",
+      "disc_offset": "0xB49E24",
+      "w": 48,
+      "h": 48,
+      "korean": "",
+      "action": "blank",
+      "sha256": "ce514c4356d953bebd3cbca5ae80493155348ff3a16d70dc45742270875f6758"
+    },
+    {
+      "index": 5,
+      "glyph": "イ",
+      "disc_offset": "0xB4A2A4",
+      "w": 48,
+      "h": 48,
+      "korean": "",
+      "action": "blank",
+      "sha256": "6ee486e81a05ec2b4a716b0ea0bf79a3924d374247a49eb9226efa064d697096"
+    },
+    {
+      "index": 6,
+      "glyph": "ウ",
+      "disc_offset": "0xB4A724",
+      "w": 48,
+      "h": 48,
+      "korean": null,
+      "action": "keep",
+      "sha256": "b013bedb91c5ba24d17eed13b1fd2e82da6695532234eb1630d8f0568ff7afff"
+    },
+    {
+      "index": 7,
+      "glyph": "エ",
+      "disc_offset": "0xB4ABA4",
+      "w": 48,
+      "h": 48,
+      "korean": "예",
+      "action": "render",
+      "sha256": "a0966bf7a12c07f643977b65e180c457775ee5b25894f7e1392b0278fd5baa89"
+    },
+    {
+      "index": 8,
+      "glyph": "ク",
+      "disc_offset": "0xB4B024",
+      "w": 48,
+      "h": 48,
+      "korean": "클",
+      "action": "render",
+      "sha256": "a5303d2da102b82212a41de33f48838aa58859668fe64eab6f06b6fcb97d3ca3"
+    },
+    {
+      "index": 9,
+      "glyph": "コ",
+      "disc_offset": "0xB4B4A4",
+      "w": 48,
+      "h": 48,
+      "korean": "컨",
+      "action": "render",
+      "sha256": "236011ae7fce00f82e284adc101a4a5d0b78505ad289584987a9d911bd1cae25"
+    },
+    {
+      "index": 10,
+      "glyph": "ジ",
+      "disc_offset": "0xB4B924",
+      "w": 48,
+      "h": 48,
+      "korean": null,
+      "action": "keep",
+      "sha256": "43ba19d4d1b6af0f7090502e7269d438ff26d0b4ebf257b6d9ae57fb635eb1d6"
+    },
+    {
+      "index": 11,
+      "glyph": "ス",
+      "disc_offset": "0xB4BDA4",
+      "w": 48,
+      "h": 48,
+      "korean": "스",
+      "action": "render",
+      "sha256": "afb567a957d2ee9363020773c4ece861bb086d006f089183ec0161980662be54"
+    },
+    {
+      "index": 12,
+      "glyph": "ズ",
+      "disc_offset": "0xB4C224",
+      "w": 56,
+      "h": 56,
+      "korean": "지",
+      "action": "render",
+      "sha256": "fce332640d4db5d99ad573039e58019c7a6d65e81b41d1ea99cc8c4d56b0e1cd"
+    },
+    {
+      "index": 13,
+      "glyph": "ダ",
+      "disc_offset": "0xB4C844",
+      "w": 56,
+      "h": 56,
+      "korean": null,
+      "action": "keep",
+      "sha256": "8b48b96261874367c1972c910361c0037bf2e49dd22f09d10663e41f0efd1422"
+    },
+    {
+      "index": 14,
+      "glyph": "タ",
+      "disc_offset": "0xB4CE64",
+      "w": 48,
+      "h": 48,
+      "korean": "타",
+      "action": "render",
+      "sha256": "f5a65ce5c42d77191914be9a29aa499bd72dfe911dd2ca1ae6ebbae29e568134"
+    },
+    {
+      "index": 15,
+      "glyph": "ッ",
+      "disc_offset": "0xB4D2E4",
+      "w": 48,
+      "h": 48,
+      "korean": null,
+      "action": "keep",
+      "sha256": "e457a04263e9d49ed996a8fcd60286be024779dd253f7db28d4794d4d4e653c0"
+    },
+    {
+      "index": 16,
+      "glyph": "テ",
+      "disc_offset": "0xB4D764",
+      "w": 48,
+      "h": 48,
+      "korean": "티",
+      "action": "render",
+      "sha256": "7ef52564d89235e802c19e03d4b5b5c9881bb75009353fb114b45f0fcf918ad6"
+    },
+    {
+      "index": 17,
+      "glyph": "ト",
+      "disc_offset": "0xB4DBE4",
+      "w": 48,
+      "h": 48,
+      "korean": "트",
+      "action": "render",
+      "sha256": "5ce69b239d8ab02af8bbe2d0be0ffff10dc2afa3925aa8d8d04ac7180ff9d7c5"
+    },
+    {
+      "index": 18,
+      "glyph": "ニ",
+      "disc_offset": "0xB4E064",
+      "w": 48,
+      "h": 48,
+      "korean": "뉴",
+      "action": "render",
+      "sha256": "bff08d38d4597c4a0cb9193275eafeb265ae8e170d02b7478efde8c5722fdb0b"
+    },
+    {
+      "index": 19,
+      "glyph": "ノ",
+      "disc_offset": "0xB4E4E4",
+      "w": 48,
+      "h": 48,
+      "korean": "노",
+      "action": "render",
+      "sha256": "a7e7217a3b944d02981fac2a74a7c3b489778a06de418d0469c94e966c2a52eb"
+    },
+    {
+      "index": 20,
+      "glyph": "ポ",
+      "disc_offset": "0xB4E964",
+      "w": 56,
+      "h": 56,
+      "korean": "정",
+      "action": "render",
+      "sha256": "5cd3693996a28409d54996161d67ce07bcfd34d65147cc952e1d73e3b5f3ac94"
+    },
+    {
+      "index": 21,
+      "glyph": "ユ",
+      "disc_offset": "0xB4EF84",
+      "w": 48,
+      "h": 48,
+      "korean": "",
+      "action": "blank",
+      "sha256": "6c400a69daf3a8395500f54abfb091e1830089e50c0e6a1611ae17676005a725"
+    },
+    {
+      "index": 22,
+      "glyph": "ヨ",
+      "disc_offset": "0xB4F404",
+      "w": 48,
+      "h": 48,
+      "korean": null,
+      "action": "keep",
+      "sha256": "7cdc0f95d786c8f0fcd758a5ab0ae9fa26a206d5d9262a6884d27cf411171228"
+    },
+    {
+      "index": 23,
+      "glyph": "リ",
+      "disc_offset": "0xB4F884",
+      "w": 48,
+      "h": 48,
+      "korean": "리",
+      "action": "render",
+      "sha256": "f3d4d149351acee99cc1de4e8dc578ad42c02b08eba702f55d179ad022cd503e"
+    },
+    {
+      "index": 24,
+      "glyph": "ン",
+      "disc_offset": "0xB4FD04",
+      "w": 48,
+      "h": 48,
+      "korean": "",
+      "action": "blank",
+      "sha256": "85c55d84e571a671112e4edcf1ce3438c794519a288c0574f30574673d6f2ba2"
+    }
+  ],
+  "revisions": [
+    "ポーズ rendered as 정지, not 포즈 (user's wording).",
+    "Separator dropped from ノー: rendered inside the 노 cell it sat hard against the syllable and hurt legibility more than the gap it was meant to create."
+  ]
+}

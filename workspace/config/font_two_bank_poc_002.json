@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "observation_id": "FONT-TWO-BANK-POC-002",
+  "scope": "title-only bank-1 E2E PoC on the audited (448,0) page with a deployable asset-directory upload path",
+  "source_font": {
+    "path": "g:/Downloads/Korean Traslate Project/Font/Room No.703.ttf",
+    "expected_sha256": "31255d1e566a1eab6550dfad9d2eb6488603e0a672716e55c56eafb5e063d927",
+    "size_px": 16,
+    "threshold": 128,
+    "plane_offsets": [[0, 0], [1, 0], [1, 1], [0, 1]],
+    "plane_rationale": "the stock atlas stores four jittered 1-bit wobble frames per cell selected by palettes 0-3; small cyclic shifts reproduce the doodle wobble"
+  },
+  "bank_0": {
+    "tpage": 31,
+    "vram_rect_words": [960, 256, 64, 256]
+  },
+  "bank_1": {
+    "tpage": 7,
+    "vram_page_words": [448, 0, 64, 256],
+    "audit_basis": "FONT-TWO-BANK-VRAM-002 sessions 004/005: only fully unoccupied, never-written page",
+    "mini_tim": {
+      "image_dest_words": [504, 208],
+      "image_size_words": [8, 16],
+      "clut_dest_words": [288, 496, 16, 8],
+      "clut_source_hagecho_offset": 215724,
+      "clut_payload_sha256": "a0a8db5e40d0e773cd3458595eb7ea5d57f69a95230a534e461d67b793bb4bad"
+    }
+  },
+  "glyphs": [
+    {
+      "character": "한",
+      "token_hex": "8147",
+      "decoder_handler_runtime": "0x80043250",
+      "decoder_handler_ara_offset": 447056,
+      "expected_original_return": 247,
+      "bank": 1,
+      "cell": 222,
+      "return_value": 478
+    },
+    {
+      "character": "글",
+      "token_hex": "8168",
+      "decoder_handler_runtime": "0x800431C0",
+      "decoder_handler_ara_offset": 446912,
+      "expected_original_return": 10,
+      "bank": 1,
+      "cell": 223,
+      "return_value": 479
+    }
+  ],
+  "builder_patch": {
+    "runtime_start": "0x80042F84",
+    "ara_offset": 446340,
+    "expected_hex": "1F000224160002A50F002232001102000C0002A1F00022320D0002A10C000291000000000F004224140002A10D00029100000000150002A10C000291000000001C0002A10D000291000000000F0042241D0002A11400029100000000240002A11D00029100000000250002A1",
+    "instructions": [
+      "srl $v0, $s1, 8",
+      "negu $v0, $v0",
+      "andi $v0, $v0, 0x18",
+      "xori $v0, $v0, 0x1f",
+      "sh $v0, 0x16($t0)",
+      "sll $v0, $s1, 4",
+      "andi $v0, $v0, 0xf0",
+      "sb $v0, 0xc($t0)",
+      "sb $v0, 0x1c($t0)",
+      "addiu $v1, $v0, 0xf",
+      "sb $v1, 0x14($t0)",
+      "sb $v1, 0x24($t0)",
+      "andi $v0, $s1, 0xf0",
+      "sb $v0, 0xd($t0)",
+      "sb $v0, 0x15($t0)",
+      "addiu $v1, $v0, 0xf",
+      "sb $v1, 0x1d($t0)",
+      "sb $v1, 0x25($t0)",
+      "nop",
+      "nop",
+      "nop",
+      "nop",
+      "nop",
+      "nop",
+      "nop",
+      "nop",
+      "nop"
+    ],
+    "register_safety": "v1 is dead in this window; the first later access is a write (lw $v1, 0x38($sp) at 0x80043064)"
+  },
+  "title_string": {
+    "hagecho_offset": 106596,
+    "expected_prefix_hex": "83768362",
+    "replacement_prefix_hex": "81478168",
+    "full_original_hex": "83768362835683858358835E815B8367837B835E8393"
+  },
+  "block0_directory": {
+    "module_runtime_base": "0x8012BCE0",
+    "header_pointer_offset": 8,
+    "expected_header_pointer": "0x80145DB8",
+    "table_source_offset": 106712,
+    "table_source_hex": "0100FFFF185E14800100FFFF385015800100FFFF78C015800100FFFF38DA15800100FFFF58F215800100FFFF780716800100FFFF988816800100FFFFB87A17800100FFFF747C17800105100004BD12800305100024CB12800000FFFF00000000",
+    "tim_entry_tag": "0xFFFF0001",
+    "terminator_tag": "0xFFFF0000",
+    "slack_start": 311792,
+    "slack_end": 313344,
+    "new_table_offset": 311800,
+    "mini_tim_offset": 311904,
+    "insertion_policy": "append the new TIM entry after all original entries, before the terminator, preserving original entry order"
+  }
+}

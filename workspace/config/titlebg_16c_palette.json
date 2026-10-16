@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "asset": "HAGECHO block 0 TIM idx0 title background, container offset 106808, dest (384,256) 256x240 8bpp",
+  "purpose": "approved 16-color palette for the 8bpp->4bpp conversion that frees 30,992 bytes in block 0 for the bank-1 hangul atlas TIM",
+  "approval": {
+    "status": "APPROVED_BY_USER",
+    "date": "2026-08-06",
+    "evidence": "work/graphics/font_two_bank_poc_002/titlebg_approval.png (A original vs B hand palette)",
+    "known_deltas": "rabbit body pale-yellow maps near-white; all accent colors (smiley yellow, cone orange, shrimp pink, hair teal-green, cloud tan) preserved"
+  },
+  "method": "hand-picked 16 of the 36 used colors; remaining colors map to nearest palette entry (RGB euclidean)",
+  "rmse_vs_original": 6.92,
+  "palette_rgb888": [
+    [172, 205, 238],
+    [164, 213, 180],
+    [115, 148, 123],
+    [238, 238, 238],
+    [164, 164, 213],
+    [8, 8, 8],
+    [164, 164, 164],
+    [230, 213, 197],
+    [238, 205, 148],
+    [246, 139, 24],
+    [238, 131, 131],
+    [0, 115, 172],
+    [255, 82, 90],
+    [255, 180, 180],
+    [0, 148, 123],
+    [238, 213, 16]
+  ],
+  "note": "colors originate from the stock CLUT (RGB555-derived 8-bit values); the 4bpp TIM build must re-encode them to RGB555 and preserve each source color's STP bit semantics from the original CLUT"
+}

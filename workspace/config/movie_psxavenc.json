@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "tool": {
+    "name": "psxavenc",
+    "version": "0.3.1",
+    "commit": "bdc24e897ed09d2fd3d64cdbadc625b0673c76db",
+    "official_repository": "https://github.com/WonderfulToolchain/psxavenc",
+    "official_release": "https://github.com/WonderfulToolchain/psxavenc/releases/tag/v0.3.1",
+    "windows_archive_url": "https://github.com/WonderfulToolchain/psxavenc/releases/download/v0.3.1/psxavenc-windows.zip",
+    "windows_archive_size": 4650713,
+    "windows_archive_sha256": "b44a4cf5a8c293a27182cddcca513428b26f0e143189ad53e29e6729b3d9a7a5",
+    "local_executable": "work/tools/psxavenc-v0.3.1/windows/bin/psxavenc.exe",
+    "local_executable_size": 9337344,
+    "local_executable_sha256": "81fdfb812032bda7963779c703c5ccc3d18c82834ca24af5bff3176993694af6"
+  },
+  "common": {
+    "format": "strcd",
+    "sample_rate": 37800,
+    "bits_per_sample": 4,
+    "channels": 2,
+    "file_number": 1,
+    "channel_number": 1,
+    "width": 320,
+    "height": 240,
+    "frame_rate": 15,
+    "cd_speed": 2,
+    "video_type_id": "0x8001",
+    "audio_after_video": true
+  },
+  "alignment": {
+    "original_chunk_phase": [9, 9, 9, 8],
+    "psxavenc_chunk_phase": [8, 9, 9, 9],
+    "tail_padding_frames": 2,
+    "drop_leading_donor_frames": 1,
+    "contract": "tail-pad the lossless input by two frames; discard donor frame 1; donor frames 2..N+1 then match the original 9,9,9,8 chunk phase"
+  },
+  "movie_codecs": {
+    "BAD": "v3",
+    "GOOD": "v3",
+    "NE_A": "v2",
+    "NE_B": "v3",
+    "NE_C": "v3",
+    "NE_D": "v3",
+    "OPEN": "v2"
+  },
+  "policy": "psxavenc output is a video donor only; preserve every original XA sector as a complete 2352-byte sector",
+  "status": "OFFICIAL_TOOL_PINNED_BAD_ALIGNMENT_STATIC_PASS"
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "observation_id": "RAKUGAKI-ALL-MOVIES-DUAL-XDELTA-RELEASE-001",
+  "status": "DUAL_XDELTA_AND_CMD_ROUNDTRIP_PASS_RUNTIME_PENDING",
+  "scope": {
+    "movie_subtitles_included": true,
+    "movies": ["BAD", "GOOD", "NE_A", "NE_B", "NE_C", "NE_D", "OPEN"],
+    "movie_changed_sector_count": 81280,
+    "movie_audio_policy": "All original XA Form 2 sectors preserved byte-identical"
+  },
+  "source": {
+    "path": "original/Rakugaki Showtime (Japan).bin",
+    "size_bytes": 591880800,
+    "sha256": "99DC6C7F748C4882D6F197A0A0A2EB943AFFC25BB4271DEFF9BB9BF55859AA54"
+  },
+  "variants": {
+    "cheat": {
+      "target": "build/hangul_atlas_all_movies_cheat_001/Rakugaki Showtime (Japan) [HANGUL-ATLAS-ALL-MOVIES-CHEAT-001].bin",
+      "target_sha256": "95566062E4E3045F5C428FF9108E1B6F51338FE4DAAAA7CFC2583FFC99EAB7FA",
+      "build_report": "work/analysis/hangul_atlas_all_movies_cheat_001_build.json",
+      "build_report_sha256": "56F80247B3E8132CE6F03C9A22281B03C0487AE82745DB0EFD52FAF6E37C3FA4",
+      "changed_sector_count": 81371,
+      "patch": "Rakugaki_Showtime_KR_MOVIES_CHEAT_001.xdelta",
+      "patch_size": 92748690,
+      "patch_sha256": "EA571EB357E38058246ABD5A70005A6C160A43ADDE3FC7AD4F6B3BCF951C3468"
+    },
+    "no_cheat": {
+      "target": "build/hangul_atlas_all_movies_no_cheat_001/Rakugaki Showtime (Japan) [HANGUL-ATLAS-ALL-MOVIES-NO-CHEAT-001].bin",
+      "target_sha256": "7F9FA82274ED4985963B84FF9E5137E91FAE354C7CACAF6FFFA13101E0511FD7",
+      "build_report": "work/analysis/hangul_atlas_all_movies_no_cheat_001_build.json",
+      "build_report_sha256": "98F2F630590EDA7F266DC5238B486CC64E0EFEFA100BA598BAC2811829D37335",
+      "changed_sector_count": 81370,
+      "patch": "Rakugaki_Showtime_KR_MOVIES_NO_CHEAT_001.xdelta",
+      "patch_size": 92748427,
+      "patch_sha256": "DB3FDF143FC89711FF56EAEAA079E75DCFE73774E2F5D7E5763509C5D915E4DF"
+    }
+  },
+  "static_validation": {
+    "all_seven_candidate_extents_match_final_bins": true,
+    "all_movie_xa_sectors_byte_identical": true,
+    "all_alignment_best_shifts_zero": true,
+    "full_diff_matches_expected_writes": true,
+    "unit_tests": "35/35 PASS",
+    "cheat_cmd_path_with_spaces": "PASS",
+    "no_cheat_cmd_path_with_spaces": "PASS",
+    "both_output_hashes_match_targets": true,
+    "both_mode2_2352_cues_created": true
+  },
+  "runtime": "DuckStation seven-movie playback review pending"
+}

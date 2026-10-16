@@ -1,0 +1,5842 @@
+{
+  "schema_version": 1,
+  "status": "CONSUMER_CONFIRMED_DYNAMIC_TEXT_SSOT",
+  "immutable_csv_fields": [
+    "id",
+    "source",
+    "file_offset_hex",
+    "block_index",
+    "original_hex",
+    "original_text"
+  ],
+  "editable_csv_fields": [
+    "translation",
+    "status",
+    "notes"
+  ],
+  "scope_limit": "confirmed decoder/atlas-builder dynamic-text paths; baked graphic text excluded",
+  "entries": [
+    {
+      "source": "ARA.BIN",
+      "file_offset": 237580,
+      "original_hex": "82C882F182A282C78146",
+      "original_text": "なんいど：",
+      "cp932_text": "なんいど：",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": null,
+      "id": "TXT-ARA-03A00C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 237592,
+      "original_hex": "83568358838C83788146",
+      "original_text": "シスレベ：",
+      "cp932_text": "シスレベ：",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": null,
+      "id": "TXT-ARA-03A018"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 237604,
+      "original_hex": "8351815B838C83788146",
+      "original_text": "ゲーレベ：",
+      "cp932_text": "ゲーレベ：",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": null,
+      "id": "TXT-ARA-03A024"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 237616,
+      "original_hex": "83528393836583428146",
+      "original_text": "コンティ：",
+      "cp932_text": "コンティ：",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": null,
+      "id": "TXT-ARA-03A030"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 237628,
+      "original_hex": "838983438374814081468140814081408193",
+      "original_text": "ライフ　：　　　％",
+      "cp932_text": "ライフ　：　　　％",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-03A03C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 237648,
+      "original_hex": "8367815B835E838B81468140814081408193",
+      "original_text": "トータル：　　　％",
+      "cp932_text": "トータル：　　　％",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-03A050"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380220,
+      "original_hex": "82638360815B8380",
+      "original_text": "Ｄチーム",
+      "cp932_text": "Ｄチーム",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-05CD3C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380232,
+      "original_hex": "82628360815B8380",
+      "original_text": "Ｃチーム",
+      "cp932_text": "Ｃチーム",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-05CD48"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380244,
+      "original_hex": "82618360815B8380",
+      "original_text": "Ｂチーム",
+      "cp932_text": "Ｂチーム",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-05CD54"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380256,
+      "original_hex": "82608360815B8380",
+      "original_text": "Ａチーム",
+      "cp932_text": "Ａチーム",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-05CD60"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380268,
+      "original_hex": "82D982A482BE82A283558352",
+      "original_text": "ほうだいザコ",
+      "cp932_text": "ほうだいザコ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": null,
+      "id": "TXT-ARA-05CD6C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380284,
+      "original_hex": "8347834E8358834A838A836F",
+      "original_text": "エクスカリバ",
+      "cp932_text": "エクスカリバ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": null,
+      "id": "TXT-ARA-05CD7C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380300,
+      "original_hex": "836E83848365",
+      "original_text": "ハヤテ",
+      "cp932_text": "ハヤテ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": null,
+      "id": "TXT-ARA-05CD8C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380308,
+      "original_hex": "835383628368836E83938368",
+      "original_text": "ゴッドハンド",
+      "cp932_text": "ゴッドハンド",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": null,
+      "id": "TXT-ARA-05CD94"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380324,
+      "original_hex": "835F83668342",
+      "original_text": "ダディ",
+      "cp932_text": "ダディ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": null,
+      "id": "TXT-ARA-05CDA4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380332,
+      "original_hex": "837D8380",
+      "original_text": "マム",
+      "cp932_text": "マム",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": null,
+      "id": "TXT-ARA-05CDAC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380340,
+      "original_hex": "838A838D",
+      "original_text": "リロ",
+      "cp932_text": "リロ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": null,
+      "id": "TXT-ARA-05CDB4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380348,
+      "original_hex": "82DC82E882C8",
+      "original_text": "まりな",
+      "cp932_text": "まりな",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": null,
+      "id": "TXT-ARA-05CDBC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380356,
+      "original_hex": "83608387815B83588350",
+      "original_text": "チョースケ",
+      "cp932_text": "チョースケ",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": null,
+      "id": "TXT-ARA-05CDC4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380368,
+      "original_hex": "834783588370815B82AF82F1",
+      "original_text": "エスパーけん",
+      "cp932_text": "エスパーけん",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": null,
+      "id": "TXT-ARA-05CDD0"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380384,
+      "original_hex": "835783878393826C828B817C8251",
+      "original_text": "ジョンＭｋ－２",
+      "cp932_text": "ジョンＭｋ－２",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": null,
+      "id": "TXT-ARA-05CDE0"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380400,
+      "original_hex": "8345838B8367838983578387836A815B",
+      "original_text": "ウルトラジョニー",
+      "cp932_text": "ウルトラジョニー",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": null,
+      "id": "TXT-ARA-05CDF0"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380420,
+      "original_hex": "835783878393834A838A836F",
+      "original_text": "ジョンカリバ",
+      "cp932_text": "ジョンカリバ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": null,
+      "id": "TXT-ARA-05CE04"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380436,
+      "original_hex": "83558352",
+      "original_text": "ザコ",
+      "cp932_text": "ザコ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": null,
+      "id": "TXT-ARA-05CE14"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380444,
+      "original_hex": "82C282DA82CD82BF",
+      "original_text": "つぼはち",
+      "cp932_text": "つぼはち",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-05CE1C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380456,
+      "original_hex": "8373815B835E8393",
+      "original_text": "ピータン",
+      "cp932_text": "ピータン",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-05CE28"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380468,
+      "original_hex": "83548354837E",
+      "original_text": "ササミ",
+      "cp932_text": "ササミ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": null,
+      "id": "TXT-ARA-05CE34"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380476,
+      "original_hex": "8386834C8392",
+      "original_text": "ユキヲ",
+      "cp932_text": "ユキヲ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": null,
+      "id": "TXT-ARA-05CE3C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380484,
+      "original_hex": "8263827182608276",
+      "original_text": "ＤＲＡＷ",
+      "cp932_text": "ＤＲＡＷ",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-05CE44"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380496,
+      "original_hex": "826B826E82728264",
+      "original_text": "ＬＯＳＥ",
+      "cp932_text": "ＬＯＳＥ",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-05CE50"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 380508,
+      "original_hex": "82768268826D81F4",
+      "original_text": "ＷＩＮ♪",
+      "cp932_text": "ＷＩＮ♪",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-05CE5C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842736,
+      "original_hex": "824F",
+      "original_text": "０",
+      "cp932_text": "０",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDBF0"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842738,
+      "original_hex": "8250",
+      "original_text": "１",
+      "cp932_text": "１",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDBF2"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842740,
+      "original_hex": "8251",
+      "original_text": "２",
+      "cp932_text": "２",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDBF4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842742,
+      "original_hex": "8252",
+      "original_text": "３",
+      "cp932_text": "３",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDBF6"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842744,
+      "original_hex": "8253",
+      "original_text": "４",
+      "cp932_text": "４",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDBF8"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842746,
+      "original_hex": "8254",
+      "original_text": "５",
+      "cp932_text": "５",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDBFA"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842748,
+      "original_hex": "8255",
+      "original_text": "６",
+      "cp932_text": "６",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDBFC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842750,
+      "original_hex": "8256",
+      "original_text": "７",
+      "cp932_text": "７",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDBFE"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842752,
+      "original_hex": "8257",
+      "original_text": "８",
+      "cp932_text": "８",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDC00"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 842754,
+      "original_hex": "8258",
+      "original_text": "９",
+      "cp932_text": "９",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": null,
+      "id": "TXT-ARA-0CDC02"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 845932,
+      "original_hex": "8250826F",
+      "original_text": "１Ｐ",
+      "cp932_text": "１Ｐ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": null,
+      "id": "TXT-ARA-0CE86C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 845937,
+      "original_hex": "8251826F",
+      "original_text": "２Ｐ",
+      "cp932_text": "２Ｐ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": null,
+      "id": "TXT-ARA-0CE871"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 845942,
+      "original_hex": "8252826F",
+      "original_text": "３Ｐ",
+      "cp932_text": "３Ｐ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": null,
+      "id": "TXT-ARA-0CE876"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 845947,
+      "original_hex": "8253826F",
+      "original_text": "４Ｐ",
+      "cp932_text": "４Ｐ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": null,
+      "id": "TXT-ARA-0CE87B"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 845956,
+      "original_hex": "82C282C382AF82E9",
+      "original_text": "つづける",
+      "cp932_text": "つづける",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": null,
+      "id": "TXT-ARA-0CE884"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 845966,
+      "original_hex": "82E282DF82E9",
+      "original_text": "やめる",
+      "cp932_text": "やめる",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": null,
+      "id": "TXT-ARA-0CE88E"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 845976,
+      "original_hex": "83818382838A815B834A815B836882AA82B382B582B182DD838D825082C9",
+      "original_text": "メモリーカードがさしこみロ１に",
+      "cp932_text": "メモリーカードがさしこみロ１に",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": null,
+      "id": "TXT-ARA-0CE898"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846008,
+      "original_hex": "82B382B382C182C482A282DC82B982F18142",
+      "original_text": "ささっていません。",
+      "cp932_text": "ささっていません。",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-0CE8B8"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846028,
+      "original_hex": "82A482ED82AA82AB835A815B837582B582DC82B78142",
+      "original_text": "うわがきセーブします。",
+      "cp932_text": "うわがきセーブします。",
+      "byte_length": 22,
+      "character_count": 11,
+      "block_index": null,
+      "id": "TXT-ARA-0CE8CC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846052,
+      "original_hex": "82A482ED82AA82AB835A815B837582BF82E382A482C582B78142",
+      "original_text": "うわがきセーブちゅうです。",
+      "cp932_text": "うわがきセーブちゅうです。",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": null,
+      "id": "TXT-ARA-0CE8E4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846080,
+      "original_hex": "835A815B837582B582E382A482E882E582A482B582DC82B582BD8142",
+      "original_text": "セーブしゅうりょうしました。",
+      "cp932_text": "セーブしゅうりょうしました。",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": null,
+      "id": "TXT-ARA-0CE900"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846112,
+      "original_hex": "835A815B837582C982B582C182CF82A282B582DC82B582BD8142",
+      "original_text": "セーブにしっぱいしました。",
+      "cp932_text": "セーブにしっぱいしました。",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": null,
+      "id": "TXT-ARA-0CE920"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846140,
+      "original_hex": "8366815B835E82AA82B182ED82EA82C482A282DC82B78142",
+      "original_text": "データがこわれています。",
+      "cp932_text": "データがこわれています。",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0CE93C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846168,
+      "original_hex": "82A482ED82AA82AB82B582DC82B782A98148",
+      "original_text": "うわがきしますか？",
+      "cp932_text": "うわがきしますか？",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-0CE958"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846188,
+      "original_hex": "8278826482728181826E8146826D826E8181817E",
+      "original_text": "ＹＥＳ＝Ｏ：ＮＯ＝×",
+      "cp932_text": "ＹＥＳ＝Ｏ：ＮＯ＝×",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0CE96C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846212,
+      "original_hex": "83818382838A815B834A815B836882AA82B582E582AB82A9",
+      "original_text": "メモリーカードがしょきか",
+      "cp932_text": "メモリーカードがしょきか",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0CE984"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846240,
+      "original_hex": "82B382EA82C482A282DC82B982F1814282B582E582AB82A982B582DC82B782A98148",
+      "original_text": "されていません。しょきかしますか？",
+      "cp932_text": "されていません。しょきかしますか？",
+      "byte_length": 34,
+      "character_count": 17,
+      "block_index": null,
+      "id": "TXT-ARA-0CE9A0"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846276,
+      "original_hex": "82B582E582AB82A982BF82E382A482C582B78142",
+      "original_text": "しょきかちゅうです。",
+      "cp932_text": "しょきかちゅうです。",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0CE9C4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846300,
+      "original_hex": "82B582E582AB82A982AA82A882ED82E882DC82B582BD8142",
+      "original_text": "しょきかがおわりました。",
+      "cp932_text": "しょきかがおわりました。",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0CE9DC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846328,
+      "original_hex": "837483408343838B82AA82A082E882DC82B982F18142",
+      "original_text": "ファイルがありません。",
+      "cp932_text": "ファイルがありません。",
+      "byte_length": 22,
+      "character_count": 11,
+      "block_index": null,
+      "id": "TXT-ARA-0CE9F8"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846352,
+      "original_hex": "82E682DD82B182DD82AA82A882ED82E882DC82B582BD8142",
+      "original_text": "よみこみがおわりました。",
+      "cp932_text": "よみこみがおわりました。",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0CEA10"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846380,
+      "original_hex": "8349815B8367838D815B836882B582DC82B78142",
+      "original_text": "オートロードします。",
+      "cp932_text": "オートロードします。",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0CEA2C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846404,
+      "original_hex": "8349815B8367835A815B837582B582DC82B78142",
+      "original_text": "オートセーブします。",
+      "cp932_text": "オートセーブします。",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0CEA44"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846428,
+      "original_hex": "83818382838A815B834A815B836882C982A082AB8375838D8362834E82AA",
+      "original_text": "メモリーカードにあきブロックが",
+      "cp932_text": "メモリーカードにあきブロックが",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": null,
+      "id": "TXT-ARA-0CEA5C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846460,
+      "original_hex": "82BD82E882DC82B982F18142",
+      "original_text": "たりません。",
+      "cp932_text": "たりません。",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": null,
+      "id": "TXT-ARA-0CEA7C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846476,
+      "original_hex": "835A815B837582B582DC82B78142",
+      "original_text": "セーブします。",
+      "cp932_text": "セーブします。",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": null,
+      "id": "TXT-ARA-0CEA8C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846508,
+      "original_hex": "83818382838A815B834A815B836882AA82B582E582AB82A9",
+      "original_text": "メモリーカードがしょきか",
+      "cp932_text": "メモリーカードがしょきか",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0CEAAC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846536,
+      "original_hex": "82B382EA82C482A282DC82B982F18142",
+      "original_text": "されていません。",
+      "cp932_text": "されていません。",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": null,
+      "id": "TXT-ARA-0CEAC8"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846556,
+      "original_hex": "8349815B8367838D815B836882B582DC82B78142",
+      "original_text": "オートロードします。",
+      "cp932_text": "オートロードします。",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0CEADC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846580,
+      "original_hex": "835A815B837582AA82B582E382A482E882E582A482B582DC82B582BD8142",
+      "original_text": "セーブがしゅうりょうしました。",
+      "cp932_text": "セーブがしゅうりょうしました。",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": null,
+      "id": "TXT-ARA-0CEAF4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846612,
+      "original_hex": "835A815B837582C982B582C182CF82A282B582DC82B582BD8142",
+      "original_text": "セーブにしっぱいしました。",
+      "cp932_text": "セーブにしっぱいしました。",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": null,
+      "id": "TXT-ARA-0CEB14"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846640,
+      "original_hex": "82A482ED82AA82AB835A815B837582B582DC82B78142",
+      "original_text": "うわがきセーブします。",
+      "cp932_text": "うわがきセーブします。",
+      "byte_length": 22,
+      "character_count": 11,
+      "block_index": null,
+      "id": "TXT-ARA-0CEB30"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846664,
+      "original_hex": "83818382838A815B834A815B83688141835283938367838D815B838982CC",
+      "original_text": "メモリーカード、コントローラの",
+      "cp932_text": "メモリーカード、コントローラの",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": null,
+      "id": "TXT-ARA-0CEB48"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846696,
+      "original_hex": "82CA82AB82B382B582CD82B582C882A282C582AD82BE82B382A28142",
+      "original_text": "ぬきさしはしないでください。",
+      "cp932_text": "ぬきさしはしないでください。",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": null,
+      "id": "TXT-ARA-0CEB68"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846728,
+      "original_hex": "836083468362834E82BF82E382A482C582B78142",
+      "original_text": "チェックちゅうです。",
+      "cp932_text": "チェックちゅうです。",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0CEB88"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846752,
+      "original_hex": "8366815B835E82AA82B182ED82EA82C482A282DC82B78142",
+      "original_text": "データがこわれています。",
+      "cp932_text": "データがこわれています。",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0CEBA0"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846780,
+      "original_hex": "83818382838A815B834A815B836882AA82CA82A982EA82DC82B582BD8142",
+      "original_text": "メモリーカードがぬかれました。",
+      "cp932_text": "メモリーカードがぬかれました。",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": null,
+      "id": "TXT-ARA-0CEBBC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846812,
+      "original_hex": "838D815B836882B582DC82B78142",
+      "original_text": "ロードします。",
+      "cp932_text": "ロードします。",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": null,
+      "id": "TXT-ARA-0CEBDC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846828,
+      "original_hex": "83818382838A815B834A815B836882AA82B382B582A982A682E782EA82DC",
+      "original_text": "メモリーカードがさしかえられま",
+      "cp932_text": "メモリーカードがさしかえられま",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": null,
+      "id": "TXT-ARA-0CEBEC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846860,
+      "original_hex": "82B582BD8142835A815B837582B582DC82B782A98148",
+      "original_text": "した。セーブしますか？",
+      "cp932_text": "した。セーブしますか？",
+      "byte_length": 22,
+      "character_count": 11,
+      "block_index": null,
+      "id": "TXT-ARA-0CEC0C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846884,
+      "original_hex": "83818382838A815B834A815B836882AA",
+      "original_text": "メモリーカードが",
+      "cp932_text": "メモリーカードが",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": null,
+      "id": "TXT-ARA-0CEC24"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846904,
+      "original_hex": "82B382B382C182C482A282DC82B982F18142",
+      "original_text": "ささっていません。",
+      "cp932_text": "ささっていません。",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-0CEC38"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846924,
+      "original_hex": "82B582E582AB82A982C982B582C182CF82A282B582DC82B582BD8142",
+      "original_text": "しょきかにしっぱいしました。",
+      "cp932_text": "しょきかにしっぱいしました。",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": null,
+      "id": "TXT-ARA-0CEC4C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846956,
+      "original_hex": "838D815B836882C982B582C182CF82A282B582DC82B582BD8142",
+      "original_text": "ロードにしっぱいしました。",
+      "cp932_text": "ロードにしっぱいしました。",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": null,
+      "id": "TXT-ARA-0CEC6C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 846984,
+      "original_hex": "82B182B182C582CD835A815B837582AA82C582AB82DC82B982F182AA",
+      "original_text": "ここではセーブができませんが",
+      "cp932_text": "ここではセーブができませんが",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": null,
+      "id": "TXT-ARA-0CEC88"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 847016,
+      "original_hex": "82E682EB82B582A282C582B782A98148",
+      "original_text": "よろしいですか？",
+      "cp932_text": "よろしいですか？",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": null,
+      "id": "TXT-ARA-0CECA8"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 847036,
+      "original_hex": "8349815B8367838D815B836882C582AB82DC82B982F182C582B582BD8142",
+      "original_text": "オートロードできませんでした。",
+      "cp932_text": "オートロードできませんでした。",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": null,
+      "id": "TXT-ARA-0CECBC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852388,
+      "original_hex": "838A8358835E815B83678148",
+      "original_text": "リスタート？",
+      "cp932_text": "リスタート？",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": null,
+      "id": "TXT-ARA-0D01A4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852404,
+      "original_hex": "827882648272",
+      "original_text": "ＹＥＳ",
+      "cp932_text": "ＹＥＳ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": null,
+      "id": "TXT-ARA-0D01B4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852412,
+      "original_hex": "826D826E",
+      "original_text": "ＮＯ",
+      "cp932_text": "ＮＯ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": null,
+      "id": "TXT-ARA-0D01BC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852836,
+      "original_hex": "82DC82BE82DC82BE82A082DC82A282C8",
+      "original_text": "まだまだあまいな",
+      "cp932_text": "まだまだあまいな",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": null,
+      "id": "TXT-ARA-0D0364"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852856,
+      "original_hex": "82BF82E582C182C682C482A982B082F182B582C482E282EB82A4",
+      "original_text": "ちょっとてかげんしてやろう",
+      "cp932_text": "ちょっとてかげんしてやろう",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": null,
+      "id": "TXT-ARA-0D0378"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852884,
+      "original_hex": "82C882A982C882A982E282E982C8",
+      "original_text": "なかなかやるな",
+      "cp932_text": "なかなかやるな",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": null,
+      "id": "TXT-ARA-0D0394"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852900,
+      "original_hex": "82BF82E582C182C6837A8393834C82BE82B582C482E282E982A9",
+      "original_text": "ちょっとホンキだしてやるか",
+      "cp932_text": "ちょっとホンキだしてやるか",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": null,
+      "id": "TXT-ARA-0D03A4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852928,
+      "original_hex": "8358837D8343838A815B837B815B838B82F0",
+      "original_text": "スマイリーボールを",
+      "cp932_text": "スマイリーボールを",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-0D03C0"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852948,
+      "original_hex": "82C282A982A282B182C882BB82A48149",
+      "original_text": "つかいこなそう！",
+      "cp932_text": "つかいこなそう！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": null,
+      "id": "TXT-ARA-0D03D4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852968,
+      "original_hex": "834183438365838082F0",
+      "original_text": "アイテムを",
+      "cp932_text": "アイテムを",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": null,
+      "id": "TXT-ARA-0D03E8"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 852980,
+      "original_hex": "82C282A982A282B182C882BB82A48149",
+      "original_text": "つかいこなそう！",
+      "cp932_text": "つかいこなそう！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": null,
+      "id": "TXT-ARA-0D03F4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 853000,
+      "original_hex": "82BD82AD82B382F182CC8365834C82C6",
+      "original_text": "たくさんのテキと",
+      "cp932_text": "たくさんのテキと",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": null,
+      "id": "TXT-ARA-0D0408"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 853020,
+      "original_hex": "82BD82BD82A982A882A48149",
+      "original_text": "たたかおう！",
+      "cp932_text": "たたかおう！",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": null,
+      "id": "TXT-ARA-0D041C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 853864,
+      "original_hex": "82A282DC82B182B182C9814082BF82A982E782C282AB82E9",
+      "original_text": "いまここに　ちからつきる",
+      "cp932_text": "いまここに　ちからつきる",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0D0768"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 853892,
+      "original_hex": "834C837E82CC82B182C682CD82ED82B782EA82C882A2814281428142",
+      "original_text": "キミのことはわすれない。。。",
+      "cp932_text": "キミのことはわすれない。。。",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": null,
+      "id": "TXT-ARA-0D0784"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 853924,
+      "original_hex": "82CD837A835682C982C882C182BD",
+      "original_text": "はホシになった",
+      "cp932_text": "はホシになった",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": null,
+      "id": "TXT-ARA-0D07A4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 853940,
+      "original_hex": "835682B582C48356834A836F836C82D082EB82A482E082CC82C882B5",
+      "original_text": "シしてシカバネひろうものなし",
+      "cp932_text": "シしてシカバネひろうものなし",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": null,
+      "id": "TXT-ARA-0D07B4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 853972,
+      "original_hex": "8349837D834782CD82E682ED82A982C182BD",
+      "original_text": "オマエはよわかった",
+      "cp932_text": "オマエはよわかった",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-0D07D4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 853992,
+      "original_hex": "834F8362836F834383748348815B8347836F815B",
+      "original_text": "グッバイフォーエバー",
+      "cp932_text": "グッバイフォーエバー",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0D07E8"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854016,
+      "original_hex": "82BE82A282A882A482B682E582A4",
+      "original_text": "だいおうじょう",
+      "cp932_text": "だいおうじょう",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": null,
+      "id": "TXT-ARA-0D0800"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854032,
+      "original_hex": "82C882F182BE82BB82CC8355837D82CD8148",
+      "original_text": "なんだそのザマは？",
+      "cp932_text": "なんだそのザマは？",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-0D0810"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854052,
+      "original_hex": "82A882DC82A682CC8360834A838982CD82B182F182C882E082CC82A9",
+      "original_text": "おまえのチカラはこんなものか",
+      "cp932_text": "おまえのチカラはこんなものか",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": null,
+      "id": "TXT-ARA-0D0824"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854084,
+      "original_hex": "8376838C83438384815B82AA82ED82E982A982C182BD82C8",
+      "original_text": "プレイヤーがわるかったな",
+      "cp932_text": "プレイヤーがわるかったな",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0D0844"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854112,
+      "original_hex": "82AB82DD82C98369837E835F82CD82C982A082ED82C882A2",
+      "original_text": "きみにナミダはにあわない",
+      "cp932_text": "きみにナミダはにあわない",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0D0860"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854140,
+      "original_hex": "83418393835E814182DC82D482B582A982C182BD82BA",
+      "original_text": "アンタ、まぶしかったぜ",
+      "cp932_text": "アンタ、まぶしかったぜ",
+      "byte_length": 22,
+      "character_count": 11,
+      "block_index": null,
+      "id": "TXT-ARA-0D087C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854164,
+      "original_hex": "82A882E282A882E2814182C782A482B582BD82F182BE82A28148",
+      "original_text": "おやおや、どうしたんだい？",
+      "cp932_text": "おやおや、どうしたんだい？",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": null,
+      "id": "TXT-ARA-0D0894"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854192,
+      "original_hex": "82DC82BD8349837D834782A9814281428142",
+      "original_text": "またオマエか。。。",
+      "cp932_text": "またオマエか。。。",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-0D08B0"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854212,
+      "original_hex": "82BE82EA82C982C582E0837E835882CD82A082E9",
+      "original_text": "だれにでもミスはある",
+      "cp932_text": "だれにでもミスはある",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0D08C4"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854236,
+      "original_hex": "82A082AB82E782DF82E982CC82CD82DC82BE82CD82E282A2",
+      "original_text": "あきらめるのはまだはやい",
+      "cp932_text": "あきらめるのはまだはやい",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": null,
+      "id": "TXT-ARA-0D08DC"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854264,
+      "original_hex": "8349837D834782E782B582A282E6",
+      "original_text": "オマエらしいよ",
+      "cp932_text": "オマエらしいよ",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": null,
+      "id": "TXT-ARA-0D08F8"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854280,
+      "original_hex": "82A282A282ED82AF82CD814082A282E782C882A2",
+      "original_text": "いいわけは　いらない",
+      "cp932_text": "いいわけは　いらない",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0D0908"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854304,
+      "original_hex": "82ED82E982A082AA82AB82CD814082E682B9",
+      "original_text": "わるあがきは　よせ",
+      "cp932_text": "わるあがきは　よせ",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": null,
+      "id": "TXT-ARA-0D0920"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854324,
+      "original_hex": "82DD82AE82E982B582A282BA",
+      "original_text": "みぐるしいぜ",
+      "cp932_text": "みぐるしいぜ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": null,
+      "id": "TXT-ARA-0D0934"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854340,
+      "original_hex": "82DD82B282C682C8814082B582C982B482DC82BE",
+      "original_text": "みごとな　しにざまだ",
+      "cp932_text": "みごとな　しにざまだ",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0D0944"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854364,
+      "original_hex": "8353815B814083678344815B8140837783758393",
+      "original_text": "ゴー　トゥー　ヘブン",
+      "cp932_text": "ゴー　トゥー　ヘブン",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": null,
+      "id": "TXT-ARA-0D095C"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854388,
+      "original_hex": "82E282B782E782A982C982CB82DE82EA",
+      "original_text": "やすらかにねむれ",
+      "cp932_text": "やすらかにねむれ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": null,
+      "id": "TXT-ARA-0D0974"
+    },
+    {
+      "source": "ARA.BIN",
+      "file_offset": 854408,
+      "original_hex": "82BE82EA82E0834C837E82F0814082B982DF82BD82E882B582C882A2",
+      "original_text": "だれもキミを　せめたりしない",
+      "cp932_text": "だれもキミを　せめたりしない",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": null,
+      "id": "TXT-ARA-0D0988"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 106596,
+      "original_hex": "83768362835683858358835E815B8367837B835E8393",
+      "original_text": "プッシュスタートボタン",
+      "cp932_text": "プッシュスタートボタン",
+      "byte_length": 22,
+      "character_count": 11,
+      "block_index": 0,
+      "id": "TXT-HAG-01A064"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 484688,
+      "original_hex": "83588365815B8357835A838C834E8367",
+      "original_text": "ステージセレクト",
+      "cp932_text": "ステージセレクト",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 1,
+      "id": "TXT-HAG-076550"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 484708,
+      "original_hex": "838C8378838B835A838C834E8367",
+      "original_text": "レベルセレクト",
+      "cp932_text": "レベルセレクト",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": 1,
+      "id": "TXT-HAG-076564"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 484724,
+      "original_hex": "82AF82C182C482A2",
+      "original_text": "けってい",
+      "cp932_text": "けってい",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-076574"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 484736,
+      "original_hex": "838C8378838B815E",
+      "original_text": "レベル／",
+      "cp932_text": "レベル／",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-076580"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 484748,
+      "original_hex": "815B815B815B815B",
+      "original_text": "ーーーー",
+      "cp932_text": "ーーーー",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-07658C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 484760,
+      "original_hex": "8343815B8357815B",
+      "original_text": "イージー",
+      "cp932_text": "イージー",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-076598"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 484772,
+      "original_hex": "836D815B837D838B",
+      "original_text": "ノーマル",
+      "cp932_text": "ノーマル",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-0765A4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 484784,
+      "original_hex": "836E815B8368",
+      "original_text": "ハード",
+      "cp932_text": "ハード",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-0765B0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 484792,
+      "original_hex": "8358815B8370815B",
+      "original_text": "スーパー",
+      "cp932_text": "スーパー",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-0765B8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529372,
+      "original_hex": "8386834C8392",
+      "original_text": "ユキヲ",
+      "cp932_text": "ユキヲ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-0813DC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529402,
+      "original_hex": "8373815B835E8393",
+      "original_text": "ピータン",
+      "cp932_text": "ピータン",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-0813FA"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529432,
+      "original_hex": "834783588370815B",
+      "original_text": "エスパー",
+      "cp932_text": "エスパー",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-081418"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529443,
+      "original_hex": "82AF82F1",
+      "original_text": "けん",
+      "cp932_text": "けん",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 1,
+      "id": "TXT-HAG-081423"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529462,
+      "original_hex": "836E83848365",
+      "original_text": "ハヤテ",
+      "cp932_text": "ハヤテ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-081436"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529492,
+      "original_hex": "82DC82E882C8",
+      "original_text": "まりな",
+      "cp932_text": "まりな",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-081454"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529522,
+      "original_hex": "83608387815B",
+      "original_text": "チョー",
+      "cp932_text": "チョー",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-081472"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529533,
+      "original_hex": "83588350",
+      "original_text": "スケ",
+      "cp932_text": "スケ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 1,
+      "id": "TXT-HAG-08147D"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529552,
+      "original_hex": "8347834E8358",
+      "original_text": "エクス",
+      "cp932_text": "エクス",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-081490"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529563,
+      "original_hex": "834A838A836F",
+      "original_text": "カリバ",
+      "cp932_text": "カリバ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-08149B"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529582,
+      "original_hex": "83548354837E",
+      "original_text": "ササミ",
+      "cp932_text": "ササミ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-0814AE"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529612,
+      "original_hex": "82C282DA82CD82BF",
+      "original_text": "つぼはち",
+      "cp932_text": "つぼはち",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-0814CC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529642,
+      "original_hex": "838A838D",
+      "original_text": "リロ",
+      "cp932_text": "リロ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 1,
+      "id": "TXT-HAG-0814EA"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529672,
+      "original_hex": "837D8380",
+      "original_text": "マム",
+      "cp932_text": "マム",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 1,
+      "id": "TXT-HAG-081508"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529702,
+      "original_hex": "835F83668342",
+      "original_text": "ダディ",
+      "cp932_text": "ダディ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-081526"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529732,
+      "original_hex": "8345838B83678389",
+      "original_text": "ウルトラ",
+      "cp932_text": "ウルトラ",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-081544"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529743,
+      "original_hex": "83578387836A815B",
+      "original_text": "ジョニー",
+      "cp932_text": "ジョニー",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-08154F"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529762,
+      "original_hex": "835783878393",
+      "original_text": "ジョン",
+      "cp932_text": "ジョン",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-081562"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529773,
+      "original_hex": "834A838A836F",
+      "original_text": "カリバ",
+      "cp932_text": "カリバ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-08156D"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529792,
+      "original_hex": "82D982A482BE82A2",
+      "original_text": "ほうだい",
+      "cp932_text": "ほうだい",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-081580"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529803,
+      "original_hex": "83558352",
+      "original_text": "ザコ",
+      "cp932_text": "ザコ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 1,
+      "id": "TXT-HAG-08158B"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529822,
+      "original_hex": "835783878393",
+      "original_text": "ジョン",
+      "cp932_text": "ジョン",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-08159E"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529833,
+      "original_hex": "826C828B815B8251",
+      "original_text": "Ｍｋー２",
+      "cp932_text": "Ｍｋー２",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-0815A9"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529852,
+      "original_hex": "83558352",
+      "original_text": "ザコ",
+      "cp932_text": "ザコ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 1,
+      "id": "TXT-HAG-0815BC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529882,
+      "original_hex": "835383628367",
+      "original_text": "ゴット",
+      "cp932_text": "ゴット",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-0815DA"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529893,
+      "original_hex": "836E83938368",
+      "original_text": "ハンド",
+      "cp932_text": "ハンド",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-0815E5"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529912,
+      "original_hex": "83898393835F8380",
+      "original_text": "ランダム",
+      "cp932_text": "ランダム",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-0815F8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529942,
+      "original_hex": "815B815B815B815B",
+      "original_text": "ーーーー",
+      "cp932_text": "ーーーー",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-081616"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529964,
+      "original_hex": "824F",
+      "original_text": "０",
+      "cp932_text": "０",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-08162C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529968,
+      "original_hex": "8250",
+      "original_text": "１",
+      "cp932_text": "１",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-081630"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529972,
+      "original_hex": "8251",
+      "original_text": "２",
+      "cp932_text": "２",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-081634"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529976,
+      "original_hex": "8252",
+      "original_text": "３",
+      "cp932_text": "３",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-081638"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529980,
+      "original_hex": "8253",
+      "original_text": "４",
+      "cp932_text": "４",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-08163C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529984,
+      "original_hex": "8254",
+      "original_text": "５",
+      "cp932_text": "５",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-081640"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529988,
+      "original_hex": "8255",
+      "original_text": "６",
+      "cp932_text": "６",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-081644"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529992,
+      "original_hex": "8256",
+      "original_text": "７",
+      "cp932_text": "７",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-081648"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 529996,
+      "original_hex": "8257",
+      "original_text": "８",
+      "cp932_text": "８",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-08164C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 530000,
+      "original_hex": "8258",
+      "original_text": "９",
+      "cp932_text": "９",
+      "byte_length": 2,
+      "character_count": 1,
+      "block_index": 1,
+      "id": "TXT-HAG-081650"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531092,
+      "original_hex": "826E826D",
+      "original_text": "ＯＮ",
+      "cp932_text": "ＯＮ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 1,
+      "id": "TXT-HAG-081A94"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531120,
+      "original_hex": "826E82658265",
+      "original_text": "ＯＦＦ",
+      "cp932_text": "ＯＦＦ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-081AB0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531148,
+      "original_hex": "826E826A8148",
+      "original_text": "ＯＫ？",
+      "cp932_text": "ＯＫ？",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-081ACC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531196,
+      "original_hex": "8343838F",
+      "original_text": "イワ",
+      "cp932_text": "イワ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 1,
+      "id": "TXT-HAG-081AFC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531252,
+      "original_hex": "837583898362834E837A815B838B",
+      "original_text": "ブラックホール",
+      "cp932_text": "ブラックホール",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": 1,
+      "id": "TXT-HAG-081B34"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531308,
+      "original_hex": "826882628261826C",
+      "original_text": "ＩＣＢＭ",
+      "cp932_text": "ＩＣＢＭ",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-081B6C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531364,
+      "original_hex": "834F838C836C815B8368",
+      "original_text": "グレネード",
+      "cp932_text": "グレネード",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": 1,
+      "id": "TXT-HAG-081BA4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531420,
+      "original_hex": "835783898343",
+      "original_text": "ジライ",
+      "cp932_text": "ジライ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 1,
+      "id": "TXT-HAG-081BDC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531476,
+      "original_hex": "837A815B837E8393834F837E83548343838B",
+      "original_text": "ホーミングミサイル",
+      "cp932_text": "ホーミングミサイル",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": 1,
+      "id": "TXT-HAG-081C14"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531532,
+      "original_hex": "8358837D8343838A815B837B815B838B8140817E",
+      "original_text": "スマイリーボール　×",
+      "cp932_text": "スマイリーボール　×",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": 1,
+      "id": "TXT-HAG-081C4C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 531588,
+      "original_hex": "82CD82A282BF834183438365838081408140817E",
+      "original_text": "はいちアイテム　　×",
+      "cp932_text": "はいちアイテム　　×",
+      "byte_length": 20,
+      "character_count": 10,
+      "block_index": 1,
+      "id": "TXT-HAG-081C84"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 532468,
+      "original_hex": "835E83438357839382C882B0",
+      "original_text": "タイジンなげ",
+      "cp932_text": "タイジンなげ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 1,
+      "id": "TXT-HAG-081FF4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 532484,
+      "original_hex": "835E83438375836382C882B0",
+      "original_text": "タイブツなげ",
+      "cp932_text": "タイブツなげ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 1,
+      "id": "TXT-HAG-082004"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 532500,
+      "original_hex": "8357838383938376",
+      "original_text": "ジャンプ",
+      "cp932_text": "ジャンプ",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 1,
+      "id": "TXT-HAG-082014"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 532512,
+      "original_hex": "8367834E8356838582ED82B4",
+      "original_text": "トクシュわざ",
+      "cp932_text": "トクシュわざ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 1,
+      "id": "TXT-HAG-082020"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 532528,
+      "original_hex": "82D082BE82E882A982A282C482F1",
+      "original_text": "ひだりかいてん",
+      "cp932_text": "ひだりかいてん",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": 1,
+      "id": "TXT-HAG-082030"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 532544,
+      "original_hex": "82DD82AC82A982A282C482F1",
+      "original_text": "みぎかいてん",
+      "cp932_text": "みぎかいてん",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 1,
+      "id": "TXT-HAG-082040"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 532560,
+      "original_hex": "82DD82B582E682A48250",
+      "original_text": "みしよう１",
+      "cp932_text": "みしよう１",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": 1,
+      "id": "TXT-HAG-082050"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 532572,
+      "original_hex": "82DD82B582E682A48251",
+      "original_text": "みしよう２",
+      "cp932_text": "みしよう２",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": 1,
+      "id": "TXT-HAG-08205C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071380,
+      "original_hex": "838C8378838B8343815B8357815B8140834E838A8341815B8149",
+      "original_text": "レベルイージー　クリアー！",
+      "cp932_text": "レベルイージー　クリアー！",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9B54"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071408,
+      "original_hex": "838C8378838B836D815B837D838B8140834E838A8341815B8149",
+      "original_text": "レベルノーマル　クリアー！",
+      "cp932_text": "レベルノーマル　クリアー！",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9B70"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071436,
+      "original_hex": "838C8378838B836E815B83688140834E838A8341815B8149",
+      "original_text": "レベルハード　クリアー！",
+      "cp932_text": "レベルハード　クリアー！",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9B8C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071464,
+      "original_hex": "838C8378838B8358815B8370815B8140834E838A8341815B8149",
+      "original_text": "レベルスーパー　クリアー！",
+      "cp932_text": "レベルスーパー　クリアー！",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9BA8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071492,
+      "original_hex": "814083518362836781498149",
+      "original_text": "　ゲット！！",
+      "cp932_text": "　ゲット！！",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9BC4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071508,
+      "original_hex": "82E082C182C682AA82F182CE82E982C6",
+      "original_text": "もっとがんばると",
+      "cp932_text": "もっとがんばると",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9BD4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071528,
+      "original_hex": "82D982A982CC834C8383838982E083518362836782C582AB82E982E681498149",
+      "original_text": "ほかのキャラもゲットできるよ！！",
+      "cp932_text": "ほかのキャラもゲットできるよ！！",
+      "byte_length": 32,
+      "character_count": 16,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9BE8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071564,
+      "original_hex": "8349815B838B835283938376838A815B8367",
+      "original_text": "オールコンプリート",
+      "cp932_text": "オールコンプリート",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C0C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071584,
+      "original_hex": "82A882DF82C582C682A481498149",
+      "original_text": "おめでとう！！",
+      "cp932_text": "おめでとう！！",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C20"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071600,
+      "original_hex": "8386834C8392",
+      "original_text": "ユキヲ",
+      "cp932_text": "ユキヲ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C30"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071608,
+      "original_hex": "8373815B835E8393",
+      "original_text": "ピータン",
+      "cp932_text": "ピータン",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C38"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071620,
+      "original_hex": "834783588370815B82AF82F1",
+      "original_text": "エスパーけん",
+      "cp932_text": "エスパーけん",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C44"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071636,
+      "original_hex": "836E83848365",
+      "original_text": "ハヤテ",
+      "cp932_text": "ハヤテ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C54"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071644,
+      "original_hex": "82DC82E882C8",
+      "original_text": "まりな",
+      "cp932_text": "まりな",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C5C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071652,
+      "original_hex": "83608387815B83588350",
+      "original_text": "チョースケ",
+      "cp932_text": "チョースケ",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C64"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071664,
+      "original_hex": "8347834E8358834A838A836F",
+      "original_text": "エクスカリバ",
+      "cp932_text": "エクスカリバ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C70"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071680,
+      "original_hex": "83548354837E",
+      "original_text": "ササミ",
+      "cp932_text": "ササミ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C80"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071688,
+      "original_hex": "82C282DA82CD82BF",
+      "original_text": "つぼはち",
+      "cp932_text": "つぼはち",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C88"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071700,
+      "original_hex": "838A838D",
+      "original_text": "リロ",
+      "cp932_text": "リロ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C94"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071708,
+      "original_hex": "837D8380",
+      "original_text": "マム",
+      "cp932_text": "マム",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9C9C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071716,
+      "original_hex": "835F83668342",
+      "original_text": "ダディ",
+      "cp932_text": "ダディ",
+      "byte_length": 6,
+      "character_count": 3,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9CA4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071724,
+      "original_hex": "8345838B8367838983578387836A815B",
+      "original_text": "ウルトラジョニー",
+      "cp932_text": "ウルトラジョニー",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9CAC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071744,
+      "original_hex": "835783878393834A838A836F",
+      "original_text": "ジョンカリバ",
+      "cp932_text": "ジョンカリバ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9CC0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071760,
+      "original_hex": "82D982A482BE82A283558352",
+      "original_text": "ほうだいザコ",
+      "cp932_text": "ほうだいザコ",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9CD0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071776,
+      "original_hex": "835783878393826C828B815B8251",
+      "original_text": "ジョンＭｋー２",
+      "cp932_text": "ジョンＭｋー２",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9CE0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2071792,
+      "original_hex": "83558352",
+      "original_text": "ザコ",
+      "cp932_text": "ザコ",
+      "byte_length": 4,
+      "character_count": 2,
+      "block_index": 4,
+      "id": "TXT-HAG-1F9CF0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251600,
+      "original_hex": "8140836E815B8368",
+      "original_text": "　ハード",
+      "cp932_text": "　ハード",
+      "byte_length": 8,
+      "character_count": 4,
+      "block_index": 6,
+      "id": "TXT-HAG-225B50"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251612,
+      "original_hex": "8140836D815B837D838B",
+      "original_text": "　ノーマル",
+      "cp932_text": "　ノーマル",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": 6,
+      "id": "TXT-HAG-225B5C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251624,
+      "original_hex": "81408343815B8357815B",
+      "original_text": "　イージー",
+      "cp932_text": "　イージー",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": 6,
+      "id": "TXT-HAG-225B68"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251636,
+      "original_hex": "837D835782B782B282A282E6834C837E",
+      "original_text": "マジすごいよキミ",
+      "cp932_text": "マジすごいよキミ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225B74"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251656,
+      "original_hex": "83558352837D8358835E815B82C182B7",
+      "original_text": "ザコマスターっす",
+      "cp932_text": "ザコマスターっす",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225B88"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251676,
+      "original_hex": "83438346816083438149",
+      "original_text": "イェ～イ！",
+      "cp932_text": "イェ～イ！",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": 6,
+      "id": "TXT-HAG-225B9C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251688,
+      "original_hex": "8354838B82C182C482A282A482C88149",
+      "original_text": "サルっていうな！",
+      "cp932_text": "サルっていうな！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225BA8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251708,
+      "original_hex": "82E282E982B682E182CB815B82A98149",
+      "original_text": "やるじゃねーか！",
+      "cp932_text": "やるじゃねーか！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225BBC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251728,
+      "original_hex": "82AF82C181498356835082C482E9835B",
+      "original_text": "けっ！シケてるゼ",
+      "cp932_text": "けっ！シケてるゼ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225BD0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251748,
+      "original_hex": "8359838B82E282E882B582BD82EB8148",
+      "original_text": "ズルやりしたろ？",
+      "cp932_text": "ズルやりしたろ？",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225BE4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251768,
+      "original_hex": "82A882A982B582A282E68349837D8347",
+      "original_text": "おかしいよオマエ",
+      "cp932_text": "おかしいよオマエ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225BF8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251788,
+      "original_hex": "82C882B082C882C782A282E782CA8149",
+      "original_text": "なげなどいらぬ！",
+      "cp932_text": "なげなどいらぬ！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225C0C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251808,
+      "original_hex": "834A8372838982B682E182CB815B82BC",
+      "original_text": "カビラじゃねーぞ",
+      "cp932_text": "カビラじゃねーぞ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225C20"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251828,
+      "original_hex": "835683858384834E82CD82A882EA82BE",
+      "original_text": "シュヤクはおれだ",
+      "cp932_text": "シュヤクはおれだ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225C34"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251848,
+      "original_hex": "82DC82BE82DC82BE82A282AF82E9835B",
+      "original_text": "まだまだいけるゼ",
+      "cp932_text": "まだまだいけるゼ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225C48"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251868,
+      "original_hex": "8349838C8141834C826E834B83438148",
+      "original_text": "オレ、キＯガイ？",
+      "cp932_text": "オレ、キＯガイ？",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225C5C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251888,
+      "original_hex": "8352836D81A681A781F28384838D8345",
+      "original_text": "コノ※〒♯ヤロウ",
+      "cp932_text": "コノ※〒♯ヤロウ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225C70"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251908,
+      "original_hex": "83498344834383468340838F83488149",
+      "original_text": "オゥイェァワォ！",
+      "cp932_text": "オゥイェァワォ！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225C84"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251928,
+      "original_hex": "82AB82E782ED82EA82BD8148",
+      "original_text": "きらわれた？",
+      "cp932_text": "きらわれた？",
+      "byte_length": 12,
+      "character_count": 6,
+      "block_index": 6,
+      "id": "TXT-HAG-225C98"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251944,
+      "original_hex": "82E082C182C682C282E682A2836E8359",
+      "original_text": "もっとつよいハズ",
+      "cp932_text": "もっとつよいハズ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225CA8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251964,
+      "original_hex": "82E682ED82A282E68360837E83428160",
+      "original_text": "よわいよチミィ～",
+      "cp932_text": "よわいよチミィ～",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225CBC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2251984,
+      "original_hex": "82C6815B82BA82F182E6835183778377",
+      "original_text": "とーぜんよゲヘヘ",
+      "cp932_text": "とーぜんよゲヘヘ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225CD0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252004,
+      "original_hex": "82BD82E882C882A282ED83408393",
+      "original_text": "たりないわァン",
+      "cp932_text": "たりないわァン",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": 6,
+      "id": "TXT-HAG-225CE4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252020,
+      "original_hex": "82F182D38141835F838182CB82A58160",
+      "original_text": "んふ、ダメねぇ～",
+      "cp932_text": "んふ、ダメねぇ～",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225CF4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252040,
+      "original_hex": "82A082BD82B582CC8367838A835282CB",
+      "original_text": "あたしのトリコね",
+      "cp932_text": "あたしのトリコね",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225D08"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252060,
+      "original_hex": "82DD82BD82ED82CB816081488149",
+      "original_text": "みたわね～？！",
+      "cp932_text": "みたわね～？！",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": 6,
+      "id": "TXT-HAG-225D1C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252076,
+      "original_hex": "82A0816082F1835F8381835F83818346",
+      "original_text": "あ～んダメダメェ",
+      "cp932_text": "あ～んダメダメェ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225D2C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252096,
+      "original_hex": "82DD82F182C882A082B082BF82E182A4",
+      "original_text": "みんなあげちゃう",
+      "cp932_text": "みんなあげちゃう",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225D40"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252116,
+      "original_hex": "8140814082A282A282CB82A58160",
+      "original_text": "　　いいねぇ～",
+      "cp932_text": "　　いいねぇ～",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": 6,
+      "id": "TXT-HAG-225D54"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252132,
+      "original_hex": "8375838C83438352815B814982A882A5",
+      "original_text": "ブレイコー！おぇ",
+      "cp932_text": "ブレイコー！おぇ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225D64"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252152,
+      "original_hex": "814082E082A3835483438352815B8149",
+      "original_text": "　もぅサイコー！",
+      "cp932_text": "　もぅサイコー！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225D78"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252172,
+      "original_hex": "8140814082E282C182BD82CB82C181F4",
+      "original_text": "　　やったねっ♪",
+      "cp932_text": "　　やったねっ♪",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225D8C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252192,
+      "original_hex": "82A882C282A982EA82B382DC82C18199",
+      "original_text": "おつかれさまっ☆",
+      "cp932_text": "おつかれさまっ☆",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225DA0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252212,
+      "original_hex": "8360837282C182C482A282A482C88149",
+      "original_text": "チビっていうな！",
+      "cp932_text": "チビっていうな！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225DB4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252232,
+      "original_hex": "82C782A282C282E08355835282BE82C8",
+      "original_text": "どいつもザコだな",
+      "cp932_text": "どいつもザコだな",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225DC8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252252,
+      "original_hex": "82B182EA82C182DB82C182BF82A982E6",
+      "original_text": "これっぽっちかよ",
+      "cp932_text": "これっぽっちかよ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225DDC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252272,
+      "original_hex": "82DE82A3814983498367835282BE8149",
+      "original_text": "むぅ！オトコだ！",
+      "cp932_text": "むぅ！オトコだ！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225DF0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252292,
+      "original_hex": "82C782B182AA834A8389836582BE8148",
+      "original_text": "どこがカラテだ？",
+      "cp932_text": "どこがカラテだ？",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225E04"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252312,
+      "original_hex": "82A082C282A982A282B882E782A2836C",
+      "original_text": "あつかいずらいネ",
+      "cp932_text": "あつかいずらいネ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225E18"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252332,
+      "original_hex": "82B382B782AA83808365834C838D837B",
+      "original_text": "さすがムテキロボ",
+      "cp932_text": "さすがムテキロボ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225E2C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252352,
+      "original_hex": "82E482AF8367838982E682EB82B582AD",
+      "original_text": "ゆけトラよろしく",
+      "cp932_text": "ゆけトラよろしく",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225E40"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252372,
+      "original_hex": "8358834B82E282F182B282DF82F182CB",
+      "original_text": "スガやんごめんね",
+      "cp932_text": "スガやんごめんね",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225E54"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252392,
+      "original_hex": "836A839382C682E0834A839382C682E0",
+      "original_text": "ニンともカンとも",
+      "cp932_text": "ニンともカンとも",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225E68"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252412,
+      "original_hex": "82C882A982C882A982C583538355838B",
+      "original_text": "なかなかでゴザル",
+      "cp932_text": "なかなかでゴザル",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225E7C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252432,
+      "original_hex": "82B682C282CD83638389834382A982E0",
+      "original_text": "じつはツライかも",
+      "cp932_text": "じつはツライかも",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225E90"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252452,
+      "original_hex": "834D8393834B82CD838F834B8382836D",
+      "original_text": "ギンガはワガモノ",
+      "cp932_text": "ギンガはワガモノ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225EA4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252472,
+      "original_hex": "8360834C8385834582F08356836E8343",
+      "original_text": "チキュウをシハイ",
+      "cp932_text": "チキュウをシハイ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225EB8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252492,
+      "original_hex": "836F834583488362837A837A837A8344",
+      "original_text": "バウォッホホホゥ",
+      "cp932_text": "バウォッホホホゥ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225ECC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252512,
+      "original_hex": "82DD82C882A882B582BD82C582A58160",
+      "original_text": "みなおしたでぇ～",
+      "cp932_text": "みなおしたでぇ～",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225EE0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252532,
+      "original_hex": "814082E082A482BF82E582A282E28149",
+      "original_text": "　もうちょいや！",
+      "cp932_text": "　もうちょいや！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225EF4"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252552,
+      "original_hex": "834C8383838982AA82BF82E282C882C1",
+      "original_text": "キャラがちやなっ",
+      "cp932_text": "キャラがちやなっ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225F08"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252572,
+      "original_hex": "814082E282E982B682E182F181498149",
+      "original_text": "　やるじゃん！！",
+      "cp932_text": "　やるじゃん！！",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225F1C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252592,
+      "original_hex": "8140814083438343834A839383578148",
+      "original_text": "　　イイカンジ？",
+      "cp932_text": "　　イイカンジ？",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225F30"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252612,
+      "original_hex": "8140814082DC82BE82DC82BE82BE82C8",
+      "original_text": "　　まだまだだな",
+      "cp932_text": "　　まだまだだな",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-225F44"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252672,
+      "original_hex": "82C282A982EA82BD82CB",
+      "original_text": "つかれたね",
+      "cp932_text": "つかれたね",
+      "byte_length": 10,
+      "character_count": 5,
+      "block_index": 6,
+      "id": "TXT-HAG-225F80"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252684,
+      "original_hex": "82B382F182AD82B8815E82AA82F182BC815B",
+      "original_text": "さんくず／がんぞー",
+      "cp932_text": "さんくず／がんぞー",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": 6,
+      "id": "TXT-HAG-225F8C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252704,
+      "original_hex": "82B582E182BF82E5815B815E82DC82A682AA82ED814082DC82B382C6",
+      "original_text": "しゃちょー／まえがわ　まさと",
+      "cp932_text": "しゃちょー／まえがわ　まさと",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": 6,
+      "id": "TXT-HAG-225FA0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252736,
+      "original_hex": "82A882A982CB82CC82A982A982E882E6815E82CD82E982B1",
+      "original_text": "おかねのかかりよ／はるこ",
+      "cp932_text": "おかねのかかりよ／はるこ",
+      "byte_length": 24,
+      "character_count": 12,
+      "block_index": 6,
+      "id": "TXT-HAG-225FC0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252764,
+      "original_hex": "8365835883678376838C83438384815B815E82C882DD81408195814082D082B382B5",
+      "original_text": "テストプレイヤー／なみ　＆　ひさし",
+      "cp932_text": "テストプレイヤー／なみ　＆　ひさし",
+      "byte_length": 34,
+      "character_count": 17,
+      "block_index": 6,
+      "id": "TXT-HAG-225FDC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252800,
+      "original_hex": "82B182A482A982A882F1815E82DE82E782BD",
+      "original_text": "こうかおん／むらた",
+      "cp932_text": "こうかおん／むらた",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": 6,
+      "id": "TXT-HAG-226000"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252820,
+      "original_hex": "82A882F182AA82AD815E82CC82F181408195814082E282DC82C882A9814082C682B582E2",
+      "original_text": "おんがく／のん　＆　やまなか　としや",
+      "cp932_text": "おんがく／のん　＆　やまなか　としや",
+      "byte_length": 36,
+      "character_count": 18,
+      "block_index": 6,
+      "id": "TXT-HAG-226014"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252860,
+      "original_hex": "834F8389837483428362834A8160815E82E282B782BE814082A982B882A8",
+      "original_text": "グラフィッカ～／やすだ　かずお",
+      "cp932_text": "グラフィッカ～／やすだ　かずお",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": 6,
+      "id": "TXT-HAG-22603C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252892,
+      "original_hex": "8365834E835883608383815B8366835583438393815E82A982C882AA82A6",
+      "original_text": "テクスチャーデザイン／かながえ",
+      "cp932_text": "テクスチャーデザイン／かながえ",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": 6,
+      "id": "TXT-HAG-22605C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252924,
+      "original_hex": "83828366838A8393834F815E82A982D382C9",
+      "original_text": "モデリング／かふに",
+      "cp932_text": "モデリング／かふに",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": 6,
+      "id": "TXT-HAG-22607C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252944,
+      "original_hex": "82E782AD82AA82AB815E82B2815B",
+      "original_text": "らくがき／ごー",
+      "cp932_text": "らくがき／ごー",
+      "byte_length": 14,
+      "character_count": 7,
+      "block_index": 6,
+      "id": "TXT-HAG-226090"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252960,
+      "original_hex": "82A082BE82A482BF8366835583438369815B815E82C882A882AB82DC82F1",
+      "original_text": "あだうちデザイナー／なおきまん",
+      "cp932_text": "あだうちデザイナー／なおきまん",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": 6,
+      "id": "TXT-HAG-2260A0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2252992,
+      "original_hex": "834E815B838B834C83838389834E835E815B834E838A83478343835E815B815E82CD82F1",
+      "original_text": "クールキャラクタークリエイター／はん",
+      "cp932_text": "クールキャラクタークリエイター／はん",
+      "byte_length": 36,
+      "character_count": 18,
+      "block_index": 6,
+      "id": "TXT-HAG-2260C0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253032,
+      "original_hex": "82B182C782A482AE8195834A83818389837D8393815E82D382AD82E882E382A4",
+      "original_text": "こどうぐ＆カメラマン／ふくりゅう",
+      "cp932_text": "こどうぐ＆カメラマン／ふくりゅう",
+      "byte_length": 32,
+      "character_count": 16,
+      "block_index": 6,
+      "id": "TXT-HAG-2260E8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253068,
+      "original_hex": "82A982A682E882AA82A882BB82AD82C482B282DF82F182CB8376838D834F8389837D815B815E82DC82C2",
+      "original_text": "かえりがおそくてごめんねプログラマー／まつ",
+      "cp932_text": "かえりがおそくてごめんねプログラマー／まつ",
+      "byte_length": 42,
+      "character_count": 21,
+      "block_index": 6,
+      "id": "TXT-HAG-22610C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253112,
+      "original_hex": "834C83838389834E835E815B8376838D834F83898380815E82A482AB82E5",
+      "original_text": "キャラクタープログラム／うきょ",
+      "cp932_text": "キャラクタープログラム／うきょ",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": 6,
+      "id": "TXT-HAG-226138"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253144,
+      "original_hex": "82508195825382BE82A282DF82A082CE82EA82F182DA82A4838A815B835F815B815E82AB82AD82BF814082C482C282D082B1",
+      "original_text": "１＆４だいめあばれんぼうリーダー／きくち　てつひこ",
+      "cp932_text": "１＆４だいめあばれんぼうリーダー／きくち　てつひこ",
+      "byte_length": 50,
+      "character_count": 25,
+      "block_index": 6,
+      "id": "TXT-HAG-226158"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253196,
+      "original_hex": "835783878393834A838A836F815E82AD82B382A8814082BD82AF82B5",
+      "original_text": "ジョンカリバ／くさお　たけし",
+      "cp932_text": "ジョンカリバ／くさお　たけし",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": 6,
+      "id": "TXT-HAG-22618C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253228,
+      "original_hex": "8347834E8358834A838A836F815E82C882A982E282DC814082DC82C882DD",
+      "original_text": "エクスカリバ／なかやま　まなみ",
+      "cp932_text": "エクスカリバ／なかやま　まなみ",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": 6,
+      "id": "TXT-HAG-2261AC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253260,
+      "original_hex": "83608387815B83588350815E82AB82B582CC814082E482AB82DC82B3",
+      "original_text": "チョースケ／きしの　ゆきまさ",
+      "cp932_text": "チョースケ／きしの　ゆきまさ",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": 6,
+      "id": "TXT-HAG-2261CC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253292,
+      "original_hex": "836E83848365815E82A882AB82A082E4814082E882E582A482BD82EB82A4",
+      "original_text": "ハヤテ／おきあゆ　りょうたろう",
+      "cp932_text": "ハヤテ／おきあゆ　りょうたろう",
+      "byte_length": 30,
+      "character_count": 15,
+      "block_index": 6,
+      "id": "TXT-HAG-2261EC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253324,
+      "original_hex": "838A838D815E82B782DD82C682E0814082E482A482B1",
+      "original_text": "リロ／すみとも　ゆうこ",
+      "cp932_text": "リロ／すみとも　ゆうこ",
+      "byte_length": 22,
+      "character_count": 11,
+      "block_index": 6,
+      "id": "TXT-HAG-22620C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253348,
+      "original_hex": "837D8380815E82A982DD82DE82E7814082CC82E882B1",
+      "original_text": "マム／かみむら　のりこ",
+      "cp932_text": "マム／かみむら　のりこ",
+      "byte_length": 22,
+      "character_count": 11,
+      "block_index": 6,
+      "id": "TXT-HAG-226224"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253372,
+      "original_hex": "835F8366834281408195814083578387836A815B814081958140834783588370815B82AF82F1815E83508393814583548393835F815B8358",
+      "original_text": "ダディ　＆　ジョニー　＆　エスパーけん／ケン・サンダース",
+      "cp932_text": "ダディ　＆　ジョニー　＆　エスパーけん／ケン・サンダース",
+      "byte_length": 56,
+      "character_count": 28,
+      "block_index": 6,
+      "id": "TXT-HAG-22623C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253432,
+      "original_hex": "8363837B836E836081408195814083558352815E82BD82C282BD814082C882A882AB",
+      "original_text": "ツボハチ　＆　ザコ／たつた　なおき",
+      "cp932_text": "ツボハチ　＆　ザコ／たつた　なおき",
+      "byte_length": 34,
+      "character_count": 17,
+      "block_index": 6,
+      "id": "TXT-HAG-226278"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253468,
+      "original_hex": "8373815B835E8393814081958140835383628368836E83938368815E82CC82BE814082B682E382F182B1",
+      "original_text": "ピータン　＆　ゴッドハンド／のだ　じゅんこ",
+      "cp932_text": "ピータン　＆　ゴッドハンド／のだ　じゅんこ",
+      "byte_length": 42,
+      "character_count": 21,
+      "block_index": 6,
+      "id": "TXT-HAG-22629C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253512,
+      "original_hex": "83548354837E815E82B782B882AB814082DC82E882B1",
+      "original_text": "ササミ／すずき　まりこ",
+      "cp932_text": "ササミ／すずき　まりこ",
+      "byte_length": 22,
+      "character_count": 11,
+      "block_index": 6,
+      "id": "TXT-HAG-2262C8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253536,
+      "original_hex": "8386834C8392815E82DD82C782E882A982ED814082D082A982E9",
+      "original_text": "ユキヲ／みどりかわ　ひかる",
+      "cp932_text": "ユキヲ／みどりかわ　ひかる",
+      "byte_length": 26,
+      "character_count": 13,
+      "block_index": 6,
+      "id": "TXT-HAG-2262E0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253564,
+      "original_hex": "82A082C982DF815B82B582E582F182B982A282B382AD815E82B182DD82E282DC814082C682E082CD82E9",
+      "original_text": "あにめーしょんせいさく／こみやま　ともはる",
+      "cp932_text": "あにめーしょんせいさく／こみやま　ともはる",
+      "byte_length": 42,
+      "character_count": 21,
+      "block_index": 6,
+      "id": "TXT-HAG-2262FC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253608,
+      "original_hex": "82CD82A282AF82A282EA82A282A082A482C6815E82A282ED82B3814082BD82BE82B5",
+      "original_text": "はいけいれいあうと／いわさ　ただし",
+      "cp932_text": "はいけいれいあうと／いわさ　ただし",
+      "byte_length": 34,
+      "character_count": 17,
+      "block_index": 6,
+      "id": "TXT-HAG-226328"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253644,
+      "original_hex": "82CD82A282AF82A282B782BD82C182D3815E82BD82CE82BD814082DD82A92C82D982E8814082BB82A482BD82EB82A42C82AB82CD82E7814082E482A482B6",
+      "original_text": "はいけいすたっふ／たばた　みか<2C82><D982>閨<4082><BB82><A482><BD82><EB82>､,きはら　ゆうじ",
+      "cp932_text": "はいけいすたっふ／たばた　みか,ほり　そうたろう,きはら　ゆうじ",
+      "byte_length": 62,
+      "character_count": 67,
+      "block_index": 6,
+      "id": "TXT-HAG-22634C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253708,
+      "original_hex": "82D182B682E382C282A982F182C682AD815E82A982E882E2814082D082EB82DD",
+      "original_text": "びじゅつかんとく／かりや　ひろみ",
+      "cp932_text": "びじゅつかんとく／かりや　ひろみ",
+      "byte_length": 32,
+      "character_count": 16,
+      "block_index": 6,
+      "id": "TXT-HAG-22638C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253744,
+      "original_hex": "82B982A282B382AD82B582F182B182A4815E835E834A836E83568140835F834383588350",
+      "original_text": "せいさくしんこう／タカハシ　ダイスケ",
+      "cp932_text": "せいさくしんこう／タカハシ　ダイスケ",
+      "byte_length": 36,
+      "character_count": 18,
+      "block_index": 6,
+      "id": "TXT-HAG-2263B0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253784,
+      "original_hex": "82B982A282B382AD83668358834E815E82D082E782BD814082D082EB82A082AB",
+      "original_text": "せいさくデスク／ひらた　ひろあき",
+      "cp932_text": "せいさくデスク／ひらた　ひろあき",
+      "byte_length": 32,
+      "character_count": 16,
+      "block_index": 6,
+      "id": "TXT-HAG-2263D8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253820,
+      "original_hex": "82B582AB82B382A282B982C182C482A2814582A282EB82B582C482A2815E82C882D782B582DC814082A982B882B1",
+      "original_text": "しきさいせってい・いろしてい／なべしま　かずこ",
+      "cp932_text": "しきさいせってい・いろしてい／なべしま　かずこ",
+      "byte_length": 46,
+      "character_count": 23,
+      "block_index": 6,
+      "id": "TXT-HAG-2263FC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2253868,
+      "original_hex": "82C782A482AA815E837D8347835F814083718367837E8140819581408343834B838A8140837D8368834A81408195814082DC82BF82BE814082B182A482B782AF814081958140834A838F83438140837D83528367814081958140834183938357834C81408350834381408195814082A882C282C382AB814082DC82C882D4814081958140835A838C8393834D814083748346838C8393834D814083748346815B835783938140834E8341815B834E8140819581408341835F836081408341834C83718352814081958140834A8349835881408376838D83578346834E83678140819581408358835E8357834981408356815B835E",
+      "original_text": "どうが／マエダ　ヒトミ　＆　イガリ　マドカ　＆　まちだ　こうすけ　＆　カワイ　マコト　＆　アンジキ　ケイ　＆　おつづき　まなぶ　＆　セレンギ　フェレンギ　フェージン　クアーク　＆　アダチ　アキヒコ　＆　カオス　プロジェクト　＆　スタジオ　シータ",
+      "cp932_text": "どうが／マエダ　ヒトミ　＆　イガリ　マドカ　＆　まちだ　こうすけ　＆　カワイ　マコト　＆　アンジキ　ケイ　＆　おつづき　まなぶ　＆　セレンギ　フェレンギ　フェージン　クアーク　＆　アダチ　アキヒコ　＆　カオス　プロジェクト　＆　スタジオ　シータ",
+      "byte_length": 244,
+      "character_count": 122,
+      "block_index": 6,
+      "id": "TXT-HAG-22642C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2254116,
+      "original_hex": "82C782A482AA82AF82F182B3815E82DC82A682BE814082D082C682DD",
+      "original_text": "どうがけんさ／まえだ　ひとみ",
+      "cp932_text": "どうがけんさ／まえだ　ひとみ",
+      "byte_length": 28,
+      "character_count": 14,
+      "block_index": 6,
+      "id": "TXT-HAG-226524"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2254148,
+      "original_hex": "82B082F182AA815E83458360835F8140835E834A8356814081958140835E836F8140835683858393835781408195814082AB82E682DC82E9814082B382C682E981408195814082B382C682A4814082BD82A9",
+      "original_text": "げんが／ウチダ　タカシ　＆　タバ　シュンジ　＆　きよまる　さとる　＆　さとう　たか",
+      "cp932_text": "げんが／ウチダ　タカシ　＆　タバ　シュンジ　＆　きよまる　さとる　＆　さとう　たか",
+      "byte_length": 82,
+      "character_count": 41,
+      "block_index": 6,
+      "id": "TXT-HAG-226544"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2254232,
+      "original_hex": "82A6835283938365814582A682F182B582E382C2814582B382AD82AA82A982F182C682AD815E82A082E782AB814082D082C582AB",
+      "original_text": "えコンテ・えんしゅつ・さくがかんとく／あらき　ひでき",
+      "cp932_text": "えコンテ・えんしゅつ・さくがかんとく／あらき　ひでき",
+      "byte_length": 52,
+      "character_count": 26,
+      "block_index": 6,
+      "id": "TXT-HAG-226598"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2254288,
+      "original_hex": "83588365834C82C8814082B582E182BF82E5815B815E82D382AD82B582DC814082E282B782D082EB",
+      "original_text": "ステキな　しゃちょー／ふくしま　やすひろ",
+      "cp932_text": "ステキな　しゃちょー／ふくしま　やすひろ",
+      "byte_length": 40,
+      "character_count": 20,
+      "block_index": 6,
+      "id": "TXT-HAG-2265D0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2254332,
+      "original_hex": "834F838C8343836782C8814082A682AE82BA82AD82C482A182D4814082D582EB82C582E3815B82B3815B815E82BF82BE814082E482AB82CC82D481408195814082D982F182BE814082AF82A282B6",
+      "original_text": "グレイトな　えぐぜくてぃぶ　ぷろでゅーさー／ちだ　ゆきのぶ　＆　ほんだ　けいじ",
+      "cp932_text": "グレイトな　えぐぜくてぃぶ　ぷろでゅーさー／ちだ　ゆきのぶ　＆　ほんだ　けいじ",
+      "byte_length": 78,
+      "character_count": 39,
+      "block_index": 6,
+      "id": "TXT-HAG-2265FC"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2254412,
+      "original_hex": "8343834A82B7814082D582EB82C582E3815B82B3815B815E82AB82AD82E082C6814082E482A482BF81408195814082C882E982B382ED814082E882A6",
+      "original_text": "イカす　ぷろでゅーさー／きくもと　ゆうち　＆　なるさわ　りえ",
+      "cp932_text": "イカす　ぷろでゅーさー／きくもと　ゆうち　＆　なるさわ　りえ",
+      "byte_length": 60,
+      "character_count": 30,
+      "block_index": 6,
+      "id": "TXT-HAG-22664C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2254476,
+      "original_hex": "8366836F8362834B815B815E82CC82C882A9814082B582CC82D481408195814082E082E882A482BF814082B982A282A282BF81408195814082A082BB82A4814082C682E082D082EB81408195814082C882E882AB82E6814082A682DD81408195814082A882B482ED814082C882A882DD81408195814082E282DC82E082C6814082AF82F182A282BF81408195814082B382C682A4814082B382C682B581408195814082B382AD82DC814082C482E982E681408195814082D382BF814082D082EB82E482AB81408195814082A982AA82E2814082E682A482B1",
+      "original_text": "デバッガー／のなか　しのぶ　＆　もりうち　せいいち　＆　あそう　ともひろ　＆　なりきよ　えみ　＆　おざわ　なおみ　＆　やまもと　けんいち　＆　さとう　さとし　＆　さくま　てるよ　＆　ふち　ひろゆき　＆　かがや　ようこ",
+      "cp932_text": "デバッガー／のなか　しのぶ　＆　もりうち　せいいち　＆　あそう　ともひろ　＆　なりきよ　えみ　＆　おざわ　なおみ　＆　やまもと　けんいち　＆　さとう　さとし　＆　さくま　てるよ　＆　ふち　ひろゆき　＆　かがや　ようこ",
+      "byte_length": 216,
+      "character_count": 108,
+      "block_index": 6,
+      "id": "TXT-HAG-22668C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2254696,
+      "original_hex": "835E835F82CC814082E482A982A282C882C882A982DC82BD82BF815E82E282DC82AC82B5814082E682B582CC82E881408195814082B782A282CC82A4814082D082C682B581408195814082ED82BD82C882D7814082E282B782D082C681408195814082A282CA82C382A9814082BD82A282BF81408195814082DD82E282AF814082E482A481408195814082B582D482E2814082E482AB82D082EB81408195814082D382B682E082C6814082D082EB82AB81408195814082B382A282C682A4814082E682A482B782AF81408195814082ED82BF814082B582F182B681408195814082B182CE82E282B5814082BE82A282B782AF81408195814082A082F182C782A4814082BD82AF82D082EB81408195814082B582CE82CD82E7814082D082EB82A981408195814082B182CE82E282B5814082A682E882B1",
+      "original_text": "タダの　ゆかいななかまたち／やまぎし　よしのり　＆　すいのう　ひとし　＆　わたなべ　やすひと　＆　いぬづか　たいち　＆　みやけ　ゆう　＆　しぶや　ゆきひろ　＆　ふじもと　ひろき　＆　さいとう　ようすけ　＆　わち　しんじ　＆　こばやし　だいすけ　＆　あんどう　たけひろ　＆　しばはら　ひろか　＆　こばやし　えりこ",
+      "cp932_text": "タダの　ゆかいななかまたち／やまぎし　よしのり　＆　すいのう　ひとし　＆　わたなべ　やすひと　＆　いぬづか　たいち　＆　みやけ　ゆう　＆　しぶや　ゆきひろ　＆　ふじもと　ひろき　＆　さいとう　ようすけ　＆　わち　しんじ　＆　こばやし　だいすけ　＆　あんどう　たけひろ　＆　しばはら　ひろか　＆　こばやし　えりこ",
+      "byte_length": 310,
+      "character_count": 155,
+      "block_index": 6,
+      "id": "TXT-HAG-226768"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2255008,
+      "original_hex": "82AB82E382A482AB82E582AD82CC81408341815B8367838F815B834E82BD82F182C682A4815E82A882A882A282B5814082C882A882AB",
+      "original_text": "きゅうきょくの　アートワークたんとう／おおいし　なおき",
+      "cp932_text": "きゅうきょくの　アートワークたんとう／おおいし　なおき",
+      "byte_length": 54,
+      "character_count": 27,
+      "block_index": 6,
+      "id": "TXT-HAG-2268A0"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2255064,
+      "original_hex": "82BD82CC82E082B582A281408365834E836A834A838B82B382DB815B82C682CC82DD82C882B382F1815E82B382C682A4814082D082EB82B581408195814082E682CB82E282DC814082D082C582AB",
+      "original_text": "たのもしい　テクニカルさぽーとのみなさん／さとう　ひろし　＆　よねやま　ひでき",
+      "cp932_text": "たのもしい　テクニカルさぽーとのみなさん／さとう　ひろし　＆　よねやま　ひでき",
+      "byte_length": 78,
+      "character_count": 39,
+      "block_index": 6,
+      "id": "TXT-HAG-2268D8"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2255144,
+      "original_hex": "82DC82B682DF82C88140835C8374836783458347834182B382DB815B82C682CC82DD82C882B382F1815E82CD82C882ED814082C482E982D082B181408195814082A982CC814082AF82F182B682EB82A481408195814082C882A982CC82DF814082CC82E882B1",
+      "original_text": "まじめな　ソフトウエアさぽーとのみなさん／はなわ　てるひこ　＆　かの　けんじろう　＆　なかのめ　のりこ",
+      "cp932_text": "まじめな　ソフトウエアさぽーとのみなさん／はなわ　てるひこ　＆　かの　けんじろう　＆　なかのめ　のりこ",
+      "byte_length": 102,
+      "character_count": 51,
+      "block_index": 6,
+      "id": "TXT-HAG-226928"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2255248,
+      "original_hex": "82E282B382B582A2814082B182A482B182AD835A83938366839382CC82DD82C882B382F1815E82D382BD82DD814082B582F182B681408195814082E282DC82E082C6814082D082C582AB81408195814082A882A882B382ED814082DE82CB82D082EB81408195814082C882F182CE814082A082AB82E781408195814082E682B582A982ED814082E982DD81408195814082E282DC82AC82B5814082D982BD82A9",
+      "original_text": "やさしい　こうこくセンデンのみなさん／ふたみ　しんじ　＆　やまもと　ひでき　＆　おおさわ　むねひろ　＆　なんば　あきら　＆　よしかわ　るみ　＆　やまぎし　ほたか",
+      "cp932_text": "やさしい　こうこくセンデンのみなさん／ふたみ　しんじ　＆　やまもと　ひでき　＆　おおさわ　むねひろ　＆　なんば　あきら　＆　よしかわ　るみ　＆　やまぎし　ほたか",
+      "byte_length": 160,
+      "character_count": 80,
+      "block_index": 6,
+      "id": "TXT-HAG-226990"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2255412,
+      "original_hex": "82B782B282A2814082A682A282AC82E582A482CC8371836782BD82BF815E82A982C982A6814082CD82B682DF81408195814082BD82AE82BF814082B182A482B681408195814082A982C282E782AC814082DC82B382CD82E981408195814082A882A882B382AB814082C682E082E682B581408195814082BD82A982BE814082B182A482B681408195814082D382EB814082E482A482AF82F181408195814082CC82DE82E7814082C682B582D082C581408195814082C682BE814082B682E382F181408195814082CD82CE82E7814082B382A882E8",
+      "original_text": "すごい　えいぎょうのヒトたち／かにえ　はじめ　＆　たぐち　こうじ　＆　かつらぎ　まさはる　＆　おおさき　ともよし　＆　たかだ　こうじ　＆　ふろ　ゆうけん　＆　のむら　としひで　＆　とだ　じゅん　＆　はばら　さおり",
+      "cp932_text": "すごい　えいぎょうのヒトたち／かにえ　はじめ　＆　たぐち　こうじ　＆　かつらぎ　まさはる　＆　おおさき　ともよし　＆　たかだ　こうじ　＆　ふろ　ゆうけん　＆　のむら　としひで　＆　とだ　じゅん　＆　はばら　さおり",
+      "byte_length": 212,
+      "character_count": 106,
+      "block_index": 6,
+      "id": "TXT-HAG-226A34"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2255628,
+      "original_hex": "82A082BB82F182C582AD82EA82BD834C837E",
+      "original_text": "あそんでくれたキミ",
+      "cp932_text": "あそんでくれたキミ",
+      "byte_length": 18,
+      "character_count": 9,
+      "block_index": 6,
+      "id": "TXT-HAG-226B0C"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2255648,
+      "original_hex": "82A982C182C482AD82EA82BD834C837E",
+      "original_text": "かってくれたキミ",
+      "cp932_text": "かってくれたキミ",
+      "byte_length": 16,
+      "character_count": 8,
+      "block_index": 6,
+      "id": "TXT-HAG-226B20"
+    },
+    {
+      "source": "HAGECHO.BIN",
+      "file_offset": 2265104,
+      "original_hex": "8367838C83578383815B815E8347836A8362834E835881408250825882588258",
+      "original_text": "トレジャー／エニックス　１９９９",
+      "cp932_text": "トレジャー／エニックス　１９９９",
+      "byte_length": 32,
+      "character_count": 16,
+      "block_index": 6,
+      "id": "TXT-HAG-229010"
+    }
+  ],
+  "references": {
+    "HAGECHO.BIN+0x8162C": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[0]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81630": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[1]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x81634": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[2]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[2]"
+      }
+    ],
+    "HAGECHO.BIN+0x81638": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[3]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[3]"
+      }
+    ],
+    "HAGECHO.BIN+0x8163C": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[4]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[4]"
+      }
+    ],
+    "HAGECHO.BIN+0x81640": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[5]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[5]"
+      }
+    ],
+    "HAGECHO.BIN+0x81644": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[6]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[6]"
+      }
+    ],
+    "HAGECHO.BIN+0x81648": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[7]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[7]"
+      }
+    ],
+    "HAGECHO.BIN+0x8164C": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[8]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[8]"
+      }
+    ],
+    "HAGECHO.BIN+0x81650": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.digit_table.entries[9]"
+      },
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block1_digit_table_reused.entries[9]"
+      }
+    ],
+    "HAGECHO.BIN+0x813DC": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[0].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x813FA": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[1].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81418": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[2].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81423": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[2].slots[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x81436": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[3].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81454": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[4].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81472": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[5].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x8147D": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[5].slots[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x81490": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[6].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x8149B": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[6].slots[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x814AE": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[7].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x814CC": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[8].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x814EA": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[9].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81508": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[10].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81526": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[11].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81544": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[12].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x8154F": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[12].slots[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x81562": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[13].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x8156D": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[13].slots[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x81580": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[14].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x8158B": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[14].slots[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x8159E": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[15].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x815A9": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[15].slots[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x815BC": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[16].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x815DA": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[17].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x815E5": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[17].slots[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x815F8": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[18].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81616": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.character_name_records.records[19].slots[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81FF4": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.control_label_pointer_table.entries[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x82004": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.control_label_pointer_table.entries[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x82014": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.control_label_pointer_table.entries[2]"
+      }
+    ],
+    "HAGECHO.BIN+0x82020": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.control_label_pointer_table.entries[3]"
+      }
+    ],
+    "HAGECHO.BIN+0x82030": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.control_label_pointer_table.entries[4]"
+      }
+    ],
+    "HAGECHO.BIN+0x82050": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.control_label_pointer_table.entries[5]"
+      }
+    ],
+    "HAGECHO.BIN+0x82040": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.control_label_pointer_table.entries[6]"
+      }
+    ],
+    "HAGECHO.BIN+0x8205C": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.control_label_pointer_table.entries[7]"
+      }
+    ],
+    "HAGECHO.BIN+0x76550": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x76564": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x76574": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[2]"
+      }
+    ],
+    "HAGECHO.BIN+0x76580": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[3]"
+      }
+    ],
+    "HAGECHO.BIN+0x7658C": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[4]"
+      }
+    ],
+    "HAGECHO.BIN+0x76598": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[5]"
+      }
+    ],
+    "HAGECHO.BIN+0x765A4": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[6]"
+      }
+    ],
+    "HAGECHO.BIN+0x765B0": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[7]"
+      }
+    ],
+    "HAGECHO.BIN+0x765B8": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[8]"
+      }
+    ],
+    "HAGECHO.BIN+0x81A94": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[9]"
+      }
+    ],
+    "HAGECHO.BIN+0x81AB0": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[10]"
+      }
+    ],
+    "HAGECHO.BIN+0x81ACC": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.direct_literals[11]"
+      }
+    ],
+    "HAGECHO.BIN+0x81AFC": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.item_name_records.records[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x81B34": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.item_name_records.records[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x81B6C": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.item_name_records.records[2]"
+      }
+    ],
+    "HAGECHO.BIN+0x81BA4": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.item_name_records.records[3]"
+      }
+    ],
+    "HAGECHO.BIN+0x81BDC": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.item_name_records.records[4]"
+      }
+    ],
+    "HAGECHO.BIN+0x81C14": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.item_name_records.records[5]"
+      }
+    ],
+    "HAGECHO.BIN+0x81C4C": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.item_name_records.records[6]"
+      }
+    ],
+    "HAGECHO.BIN+0x81C84": [
+      {
+        "report": "work/analysis/text_callsites_block1_001.json",
+        "json_path": "$.static_population.item_name_records.records[7]"
+      }
+    ],
+    "ARA.BIN+0xD01A4": [
+      {
+        "report": "work/analysis/text_callsites_block10_001.json",
+        "json_path": "$.static_population.entries[0]"
+      },
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[6]"
+      }
+    ],
+    "ARA.BIN+0xD01B4": [
+      {
+        "report": "work/analysis/text_callsites_block10_001.json",
+        "json_path": "$.static_population.entries[1]"
+      },
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[7]"
+      }
+    ],
+    "ARA.BIN+0xD01BC": [
+      {
+        "report": "work/analysis/text_callsites_block10_001.json",
+        "json_path": "$.static_population.entries[2]"
+      },
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[8]"
+      }
+    ],
+    "ARA.BIN+0xCDBF0": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[0]"
+      }
+    ],
+    "ARA.BIN+0xCDBF2": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[1]"
+      }
+    ],
+    "ARA.BIN+0xCDBF4": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[2]"
+      }
+    ],
+    "ARA.BIN+0xCDBF6": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[3]"
+      }
+    ],
+    "ARA.BIN+0xCDBF8": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[4]"
+      }
+    ],
+    "ARA.BIN+0xCDBFA": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[5]"
+      }
+    ],
+    "ARA.BIN+0xCDBFC": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[6]"
+      }
+    ],
+    "ARA.BIN+0xCDBFE": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[7]"
+      }
+    ],
+    "ARA.BIN+0xCDC00": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[8]"
+      }
+    ],
+    "ARA.BIN+0xCDC02": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.digit_table.entries[9]"
+      }
+    ],
+    "ARA.BIN+0x3A00C": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[0]"
+      }
+    ],
+    "ARA.BIN+0x3A018": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[1]"
+      }
+    ],
+    "ARA.BIN+0x3A024": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[2]"
+      }
+    ],
+    "ARA.BIN+0x3A030": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[3]"
+      }
+    ],
+    "ARA.BIN+0x3A03C": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[4]"
+      }
+    ],
+    "ARA.BIN+0x3A050": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[5]"
+      }
+    ],
+    "ARA.BIN+0xD0364": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[9]"
+      }
+    ],
+    "ARA.BIN+0xD0378": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[10]"
+      }
+    ],
+    "ARA.BIN+0xD0394": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[11]"
+      }
+    ],
+    "ARA.BIN+0xD03A4": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[12]"
+      }
+    ],
+    "ARA.BIN+0xD03C0": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[13]"
+      }
+    ],
+    "ARA.BIN+0xD03D4": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[14]"
+      }
+    ],
+    "ARA.BIN+0xD03E8": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[15]"
+      }
+    ],
+    "ARA.BIN+0xD03F4": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[16]"
+      }
+    ],
+    "ARA.BIN+0xD0408": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[17]"
+      }
+    ],
+    "ARA.BIN+0xD041C": [
+      {
+        "report": "work/analysis/text_callsites_ara_001.json",
+        "json_path": "$.confirmed_static_population.literals[18]"
+      }
+    ],
+    "ARA.BIN+0xCE86C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.ara_player_slots.entries[0]"
+      }
+    ],
+    "ARA.BIN+0xCE871": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.ara_player_slots.entries[1]"
+      }
+    ],
+    "ARA.BIN+0xCE876": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.ara_player_slots.entries[2]"
+      }
+    ],
+    "ARA.BIN+0xCE87B": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.ara_player_slots.entries[3]"
+      }
+    ],
+    "ARA.BIN+0xCE884": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.ara_direct_labels[0]"
+      }
+    ],
+    "ARA.BIN+0xCE88E": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.ara_direct_labels[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C0C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block4_literals[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C20": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block4_literals[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9BD4": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block4_literals[2]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9BE8": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block4_literals[3]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9B54": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block4_literals[4]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9B70": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block4_literals[5]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9B8C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block4_literals[6]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9BA8": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block4_literals[7]"
+      }
+    ],
+    "HAGECHO.BIN+0x225F44": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x225F30": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x225F1C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[2]"
+      }
+    ],
+    "HAGECHO.BIN+0x225F08": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[3]"
+      }
+    ],
+    "HAGECHO.BIN+0x225EF4": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[4]"
+      }
+    ],
+    "HAGECHO.BIN+0x225EE0": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[5]"
+      }
+    ],
+    "HAGECHO.BIN+0x225ECC": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[6]"
+      }
+    ],
+    "HAGECHO.BIN+0x225EB8": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[7]"
+      }
+    ],
+    "HAGECHO.BIN+0x225EA4": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[8]"
+      }
+    ],
+    "HAGECHO.BIN+0x225E90": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[9]"
+      }
+    ],
+    "HAGECHO.BIN+0x225E7C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[10]"
+      }
+    ],
+    "HAGECHO.BIN+0x225E68": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[11]"
+      }
+    ],
+    "HAGECHO.BIN+0x225E54": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[12]"
+      }
+    ],
+    "HAGECHO.BIN+0x225E40": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[13]"
+      }
+    ],
+    "HAGECHO.BIN+0x225E2C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[14]"
+      }
+    ],
+    "HAGECHO.BIN+0x225E18": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[15]"
+      }
+    ],
+    "HAGECHO.BIN+0x225E04": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[16]"
+      }
+    ],
+    "HAGECHO.BIN+0x225DF0": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[17]"
+      }
+    ],
+    "HAGECHO.BIN+0x225DDC": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[18]"
+      }
+    ],
+    "HAGECHO.BIN+0x225DC8": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[19]"
+      }
+    ],
+    "HAGECHO.BIN+0x225DB4": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[20]"
+      }
+    ],
+    "HAGECHO.BIN+0x225DA0": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[21]"
+      }
+    ],
+    "HAGECHO.BIN+0x225D8C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[22]"
+      }
+    ],
+    "HAGECHO.BIN+0x225D78": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[23]"
+      }
+    ],
+    "HAGECHO.BIN+0x225D64": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[24]"
+      }
+    ],
+    "HAGECHO.BIN+0x225D54": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[25]"
+      }
+    ],
+    "HAGECHO.BIN+0x225D40": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[26]"
+      }
+    ],
+    "HAGECHO.BIN+0x225D2C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[27]"
+      }
+    ],
+    "HAGECHO.BIN+0x225D1C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[28]"
+      }
+    ],
+    "HAGECHO.BIN+0x225D08": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[29]"
+      }
+    ],
+    "HAGECHO.BIN+0x225CF4": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[30]"
+      }
+    ],
+    "HAGECHO.BIN+0x225CE4": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[31]"
+      }
+    ],
+    "HAGECHO.BIN+0x225CD0": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[32]"
+      }
+    ],
+    "HAGECHO.BIN+0x225CBC": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[33]"
+      }
+    ],
+    "HAGECHO.BIN+0x225CA8": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[34]"
+      }
+    ],
+    "HAGECHO.BIN+0x225C98": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[35]"
+      }
+    ],
+    "HAGECHO.BIN+0x225C84": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[36]"
+      }
+    ],
+    "HAGECHO.BIN+0x225C70": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[37]"
+      }
+    ],
+    "HAGECHO.BIN+0x225C5C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[38]"
+      }
+    ],
+    "HAGECHO.BIN+0x225C48": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[39]"
+      }
+    ],
+    "HAGECHO.BIN+0x225C34": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[40]"
+      }
+    ],
+    "HAGECHO.BIN+0x225C20": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[41]"
+      }
+    ],
+    "HAGECHO.BIN+0x225C0C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[42]"
+      }
+    ],
+    "HAGECHO.BIN+0x225BF8": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[43]"
+      }
+    ],
+    "HAGECHO.BIN+0x225BE4": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[44]"
+      }
+    ],
+    "HAGECHO.BIN+0x225BD0": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[45]"
+      }
+    ],
+    "HAGECHO.BIN+0x225BBC": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[46]"
+      }
+    ],
+    "HAGECHO.BIN+0x225BA8": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[47]"
+      }
+    ],
+    "HAGECHO.BIN+0x225B9C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[48]"
+      }
+    ],
+    "HAGECHO.BIN+0x225B88": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[49]"
+      }
+    ],
+    "HAGECHO.BIN+0x225B74": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[50]"
+      }
+    ],
+    "HAGECHO.BIN+0x225B68": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[51]"
+      }
+    ],
+    "HAGECHO.BIN+0x225B5C": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[52]"
+      }
+    ],
+    "HAGECHO.BIN+0x225B50": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_result_table.entries[53]"
+      }
+    ],
+    "HAGECHO.BIN+0x225F80": [
+      {
+        "report": "work/analysis/text_wrapper_callers_001.json",
+        "json_path": "$.static_sources.block6_direct_literal"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C30": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[0]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C38": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[1]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C44": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[2]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C54": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[3]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C5C": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[4]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C64": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[5]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C70": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[6]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C80": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[7]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C88": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[8]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C94": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[9]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9C9C": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[10]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9CA4": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[11]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9CAC": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[12]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9CC0": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[13]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9CD0": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[14]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9CE0": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[15]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9CF0": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.name_table.entries[16]"
+      }
+    ],
+    "HAGECHO.BIN+0x1F9BC4": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.block4_assembled_buffer.suffix"
+      }
+    ],
+    "ARA.BIN+0x5CE3C": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[0]"
+      }
+    ],
+    "ARA.BIN+0x5CE34": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[1]"
+      }
+    ],
+    "ARA.BIN+0x5CE28": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[2]"
+      }
+    ],
+    "ARA.BIN+0x5CE1C": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[3]"
+      }
+    ],
+    "ARA.BIN+0x5CE14": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[4]"
+      }
+    ],
+    "ARA.BIN+0x5CE04": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[5]"
+      }
+    ],
+    "ARA.BIN+0x5CDF0": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[6]"
+      }
+    ],
+    "ARA.BIN+0x5CDE0": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[7]"
+      }
+    ],
+    "ARA.BIN+0x5CDD0": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[8]"
+      }
+    ],
+    "ARA.BIN+0x5CDC4": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[9]"
+      }
+    ],
+    "ARA.BIN+0x5CDBC": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[10]"
+      }
+    ],
+    "ARA.BIN+0x5CDB4": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[11]"
+      }
+    ],
+    "ARA.BIN+0x5CDAC": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[12]"
+      }
+    ],
+    "ARA.BIN+0x5CDA4": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[13]"
+      }
+    ],
+    "ARA.BIN+0x5CD94": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[14]"
+      }
+    ],
+    "ARA.BIN+0x5CD8C": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[15]"
+      }
+    ],
+    "ARA.BIN+0x5CD7C": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[16]"
+      }
+    ],
+    "ARA.BIN+0x5CD6C": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[17]"
+      }
+    ],
+    "ARA.BIN+0x5CD60": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[18]"
+      }
+    ],
+    "ARA.BIN+0x5CD54": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[19]"
+      }
+    ],
+    "ARA.BIN+0x5CD48": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[20]"
+      }
+    ],
+    "ARA.BIN+0x5CD3C": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.name_team_table.entries[21]"
+      }
+    ],
+    "ARA.BIN+0x5CE5C": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.result_table.entries[0]"
+      }
+    ],
+    "ARA.BIN+0x5CE50": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.result_table.entries[1]"
+      }
+    ],
+    "ARA.BIN+0x5CE44": [
+      {
+        "report": "work/analysis/text_wrapper_producers_001.json",
+        "json_path": "$.ara_inline_character_buffer.result_table.entries[2]"
+      }
+    ],
+    "ARA.BIN+0xCE958": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.duplicate_targets[0].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[6].slots[1].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[26].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE96C": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.duplicate_targets[1].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[6].slots[2].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[7].slots[2].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[25].slots[2].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[26].slots[1].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[30].slots[2].source"
+      }
+    ],
+    "ARA.BIN+0xCEB48": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.duplicate_targets[2].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[15].slots[1].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[16].slots[1].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[18].slots[1].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[21].slots[1].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[22].slots[1].source"
+      }
+    ],
+    "ARA.BIN+0xCEB68": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.duplicate_targets[3].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[15].slots[2].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[16].slots[2].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[18].slots[2].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[21].slots[2].source"
+      },
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[22].slots[2].source"
+      }
+    ],
+    "ARA.BIN+0xCE898": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[0].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE8B8": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[0].slots[1].source"
+      }
+    ],
+    "ARA.BIN+0xCE8CC": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[1].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE8E4": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[2].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE900": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[4].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE920": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[5].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE93C": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[6].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE984": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[7].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE9A0": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[7].slots[1].source"
+      }
+    ],
+    "ARA.BIN+0xCE9C4": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[8].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE9DC": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[9].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCE9F8": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[10].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEA10": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[11].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEA2C": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[12].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEA44": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[13].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEA5C": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[14].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEA7C": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[14].slots[1].source"
+      }
+    ],
+    "ARA.BIN+0xCEA8C": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[15].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEBDC": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[16].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEAAC": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[17].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEAC8": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[17].slots[1].source"
+      }
+    ],
+    "ARA.BIN+0xCEADC": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[18].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEAF4": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[19].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEB14": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[20].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEB30": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[21].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEB88": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[22].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEBA0": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[23].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEBBC": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[24].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEBEC": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[25].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEC0C": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[25].slots[1].source"
+      }
+    ],
+    "ARA.BIN+0xCEC24": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[27].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEC38": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[27].slots[1].source"
+      }
+    ],
+    "ARA.BIN+0xCEC4C": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[28].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEC6C": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[29].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCEC88": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[30].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xCECA8": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[30].slots[1].source"
+      }
+    ],
+    "ARA.BIN+0xCECBC": [
+      {
+        "report": "work/analysis/text_array_callers_001.json",
+        "json_path": "$.array_catalog.arrays[31].slots[0].source"
+      }
+    ],
+    "ARA.BIN+0xD0768": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[0]"
+      }
+    ],
+    "ARA.BIN+0xD0784": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[1]"
+      }
+    ],
+    "ARA.BIN+0xD07A4": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[2]"
+      }
+    ],
+    "ARA.BIN+0xD07B4": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[3]"
+      }
+    ],
+    "ARA.BIN+0xD07D4": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[4]"
+      }
+    ],
+    "ARA.BIN+0xD07E8": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[5]"
+      }
+    ],
+    "ARA.BIN+0xD0800": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[6]"
+      }
+    ],
+    "ARA.BIN+0xD0810": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[7]"
+      }
+    ],
+    "ARA.BIN+0xD0824": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[8]"
+      }
+    ],
+    "ARA.BIN+0xD0844": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[9]"
+      }
+    ],
+    "ARA.BIN+0xD0860": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[10]"
+      }
+    ],
+    "ARA.BIN+0xD087C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[11]"
+      }
+    ],
+    "ARA.BIN+0xD0894": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[12]"
+      }
+    ],
+    "ARA.BIN+0xD08B0": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[13]"
+      }
+    ],
+    "ARA.BIN+0xD08C4": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[14]"
+      }
+    ],
+    "ARA.BIN+0xD08DC": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[15]"
+      }
+    ],
+    "ARA.BIN+0xD08F8": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[16]"
+      }
+    ],
+    "ARA.BIN+0xD0908": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[17]"
+      }
+    ],
+    "ARA.BIN+0xD0920": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[18]"
+      }
+    ],
+    "ARA.BIN+0xD0934": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[19]"
+      }
+    ],
+    "ARA.BIN+0xD0944": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[20]"
+      }
+    ],
+    "ARA.BIN+0xD095C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[21]"
+      }
+    ],
+    "ARA.BIN+0xD0974": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[22]"
+      }
+    ],
+    "ARA.BIN+0xD0988": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.ara_death_message_table.entries[23]"
+      }
+    ],
+    "HAGECHO.BIN+0x226158": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[0].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[0].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226138": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[1].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[1].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22610C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[2].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[2].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2260E8": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[3].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[3].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2260C0": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[4].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[4].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2260A0": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[5].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[5].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226090": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[6].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[6].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22607C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[7].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[7].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22605C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[8].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[8].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22603C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[9].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[9].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226014": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[10].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[10].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226000": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[11].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[11].source"
+      }
+    ],
+    "HAGECHO.BIN+0x225FDC": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[12].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[12].source"
+      }
+    ],
+    "HAGECHO.BIN+0x225FC0": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[13].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[13].source"
+      }
+    ],
+    "HAGECHO.BIN+0x225FA0": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[14].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[14].source"
+      }
+    ],
+    "HAGECHO.BIN+0x225F8C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[0].records[15].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[0].records[15].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2262E0": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[0].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[0].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2262C8": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[1].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[1].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22629C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[2].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[2].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226278": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[3].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[3].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22623C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[4].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[4].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226224": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[5].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[5].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22620C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[6].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[6].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2261EC": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[7].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[7].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2261CC": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[8].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[8].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2261AC": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[9].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[9].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22618C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[1].records[10].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[1].records[10].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22638C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[2].records[0].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[2].records[0].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22634C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[2].records[1].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[2].records[1].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226328": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[2].records[2].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[2].records[2].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2262FC": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[2].records[3].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[2].records[3].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226598": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[3].records[0].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[3].records[0].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226544": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[3].records[1].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[3].records[1].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226524": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[3].records[2].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[3].records[2].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22642C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[3].records[3].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[3].records[3].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2263FC": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[3].records[4].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[3].records[4].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2263D8": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[3].records[5].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[3].records[5].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2263B0": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[3].records[6].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[3].records[6].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226A34": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[0].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[0].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226990": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[1].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[1].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226928": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[2].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[2].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2268D8": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[3].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[3].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2268A0": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[4].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[4].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226768": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[5].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[5].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22668C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[6].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[6].source"
+      }
+    ],
+    "HAGECHO.BIN+0x22664C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[7].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[7].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2265FC": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[8].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[8].source"
+      }
+    ],
+    "HAGECHO.BIN+0x2265D0": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[4].records[9].source"
+      },
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[4].records[9].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226B0C": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[0].pages[5].records[0].source"
+      }
+    ],
+    "HAGECHO.BIN+0x226B20": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_credits.outer_tables[1].pages[5].records[0].source"
+      }
+    ],
+    "HAGECHO.BIN+0x229010": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.hagecho_copyright"
+      }
+    ],
+    "HAGECHO.BIN+0x1A064": [
+      {
+        "report": "work/analysis/text_reader_audit_001.json",
+        "json_path": "$.alternate_sources.title_source_reused.source"
+      }
+    ]
+  }
+}

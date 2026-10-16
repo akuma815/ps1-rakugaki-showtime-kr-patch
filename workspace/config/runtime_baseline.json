@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-08-04",
+  "duckstation": {
+    "root": "H:/Duckstation",
+    "version": "0.1-11636-g7111f4c12",
+    "scm_timestamp": "2026-08-04T00:10:50+10:00",
+    "executable_sha256": "98f0ce45c21f947cd6eb3741a83409589eaf0d42a5a1bb66cb28b807cead83b3",
+    "settings_sha256": "09d2a47afc2f773382f0203c157b1a3debed3ebd846faa80b4079b9fd2f5629d",
+    "accepted_settings_sha256s": [
+      "02037cc124559e370bdf7dea165806c272ee97b835fcd61bfa732567219e9c9d",
+      "09d2a47afc2f773382f0203c157b1a3debed3ebd846faa80b4079b9fd2f5629d"
+    ],
+    "settings_rebaseline_reason": "DuckStation flips settings.ini between two byte serializations of the same settings on graceful exit (observed 2026-08-06 after the HITL occupancy session when the emulator was closed from its window). Both hashes had all critical renderer, PGXP, dump and GDB values reverified; tooling accepts either.",
+    "gdb_server": "127.0.0.1:2345"
+  },
+  "bios": {
+    "file": "H:/Duckstation/bios/PSX - SCPH5500.BIN",
+    "model": "SCPH-5500",
+    "version": "3.0 09-09-96 J",
+    "size": 524288,
+    "sha256": "9c0421858e217805f4abe18698afea8d5aa36ff0727eb8484944e00eb5e7eadb"
+  },
+  "disc": {
+    "cue": "H:/Duckstation/Roms/Rakugaki Showtime (J)/Rakugaki Showtime (Japan).cue",
+    "bin_sha256": "99dc6c7f748c4882d6f197a0a0a2eb943affc25bb4271deff9bb9bf55859aa54",
+    "cue_sha256": "4c6d97218e38fb592e9c426bf2fa086a2110005a82ab062352387594e0af3f97"
+  },
+  "renderer": {
+    "api": "Vulkan",
+    "configured_adapter": "AMD Radeon RX 7800 XT",
+    "runtime_adapter": "AMD Radeon RX 9070 XT",
+    "runtime_warning": "configured adapter was not found; DuckStation selected the first adapter",
+    "resolution_scale": 9,
+    "multisamples": 8,
+    "pgxp": true,
+    "texture_filter": "MMPXEnhanced",
+    "postprocessing": ["Cccalibrator", "CRT-NewPixie"]
+  },
+  "critical_settings_reverified": {
+    "Renderer": "Vulkan",
+    "Adapter": "AMD Radeon RX 7800 XT",
+    "ResolutionScale": 9,
+    "Multisamples": 8,
+    "PGXPEnable": true,
+    "PGXPTextureCorrection": true,
+    "TextureFilter": "MMPXEnhanced",
+    "DumpTextures": false,
+    "DumpCPUToVRAMCopies": false,
+    "EnableGDBServer": true,
+    "GDBServerPort": 2345
+  }
+}

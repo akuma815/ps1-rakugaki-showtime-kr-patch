@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "disc": {
+    "bin": "original/Rakugaki Showtime (Japan).bin",
+    "cue": "original/Rakugaki Showtime (Japan).cue",
+    "bin_size": 591880800,
+    "bin_sha256": "99dc6c7f748c4882d6f197a0a0a2eb943affc25bb4271deff9bb9bf55859aa54",
+    "cue_sha256": "4c6d97218e38fb592e9c426bf2fa086a2110005a82ab062352387594e0af3f97",
+    "sector_size": 2352,
+    "sector_count": 251650,
+    "track": "MODE2/2352"
+  },
+  "expected_files": {
+    "SLPM_862.72": {
+      "size": 81920,
+      "sha256": "52b2fc1fb7af2ae2791b94ab0ed835573dacb8d2e24e0c94f1c995eeb959f4c5"
+    },
+    "ARA.BIN": {
+      "size": 888832,
+      "sha256": "d357a68e707088f35bd81c7ea10ca12e36d3eda188b86da37dacf5cfd75c8968"
+    },
+    "DO.BIN": {
+      "size": 652,
+      "sha256": "e38ec889b7ece29b0c4a4e18318de3c12f88e1578b2a6d1d631fe87daed3854c"
+    },
+    "HAGECHO.BIN": {
+      "size": 13039616,
+      "sha256": "616c313d02f136133baae7bdc4f32fef04902d7f877b9dbb94264b5c56bd4e43"
+    },
+    "SYSTEM.CNF": {
+      "size": 68,
+      "sha256": "c71726d99d2c6bf13c67dd0b38ec0ead544fd34f8b380c4472ea169f0e0375d2"
+    }
+  }
+}

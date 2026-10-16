@@ -1,0 +1,50 @@
+{
+ "schema_version": 1,
+ "status": "PROVISIONAL_PRESERVED_GLYPH_SET_REVIEW_REQUIRED",
+ "font_cell_budget": 255,
+ "blank_fallback_cell": "FF",
+ "whitespace_policy": "ASCII and ideographic spaces use the blank fallback and do not consume atlas cells",
+ "mandatory_preserved_glyphs": "0123456789.,!?…:;+-×/%&()[]",
+ "preserved_set_scope": "minimum UI digits and punctuation; Latin letters and other symbols are added automatically when they occur in Korean translations",
+ "normalization": "NFC",
+ "forbidden_translation_characters": [
+  "U+0009",
+  "U+000A",
+  "U+000D"
+ ],
+ "overflow_policy": "fail the fixed-atlas build and advance to the static two-bank hook PoC; do not shorten translations to fit",
+ "font_policy": {
+  "status": "PROVISIONAL_HUMAN_STYLE_REVIEW_REQUIRED",
+  "primary": {
+   "path": "g:/Downloads/Korean Traslate Project/Font/Room No.703.ttf",
+   "sha256": "31255d1e566a1eab6550dfad9d2eb6488603e0a672716e55c56eafb5e063d927",
+   "size_px": 16
+  },
+  "oversize_fallback": "retry the primary font at decreasing sizes down to 14 px",
+  "missing_glyph_fallback": [
+   "g:/Downloads/Korean Traslate Project/Font/Galmuri11-Condensed.ttf"
+  ],
+  "coverage_evidence": "work/analysis/font_coverage_001.json (FULL_COVERAGE_WITH_ASSIGNMENTS: 440 primary@16, 1 primary@15, 4 fallback)",
+  "wobble_planes": {
+   "offsets": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "rationale": "match the stock 4-bitplane jitter animation selected by palettes 0-3"
+  }
+ }
+}

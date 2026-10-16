@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "observation_id": "BANNER-WORDS-001",
+  "tim_container_offset": "0x33578",
+  "payload_offset": "0x33798",
+  "stride_bytes": 128,
+  "note": "word boxes inside block0 TIM idx4 (dest 640,217); patched as 4bpp pixels in place",
+  "words": [
+    {
+      "name": "ゴール",
+      "korean": "골",
+      "x": 48,
+      "y": 0,
+      "w": 24,
+      "h": 8,
+      "ink_sha256": "57bbb2e01fe0fea581b2264d54b7db91f72b12400cb9b205024d5af7fcf4afc8"
+    },
+    {
+      "name": "ネクストステージ",
+      "korean": "넥스트 스테이지",
+      "x": 72,
+      "y": 0,
+      "w": 184,
+      "h": 16,
+      "ink_sha256": "84d28872e70209a79339d792d68a911ca5233d42513a15e74e651bb0dd0bafc4"
+    },
+    {
+      "name": "ナウローディング",
+      "korean": "로딩 중",
+      "x": 0,
+      "y": 22,
+      "w": 167,
+      "h": 16,
+      "ink_sha256": "f32430fed071b44e11ff9c7872933ea1c5b22f66c4e7baa6f7cf0a6b23a3a8b9"
+    }
+  ]
+}

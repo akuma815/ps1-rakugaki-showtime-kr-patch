@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "frame_rate": 15,
+  "play_resolution": {
+    "width": 320,
+    "height": 240
+  },
+  "font_path": "../../Font/Galmuri11-Condensed.ttf",
+  "font_family": "Galmuri11",
+  "font_size": 18,
+  "primary_colour": "&H00FFFFFF",
+  "outline_colour": "&H00000000",
+  "back_colour": "&H80000000",
+  "border_style": 1,
+  "outline": 2,
+  "shadow": 0,
+  "alignment": 2,
+  "margin_left": 12,
+  "margin_right": 12,
+  "margin_vertical": 14,
+  "max_lines": 2,
+  "status": "STYLE_USER_APPROVED_2026-08-10"
+}

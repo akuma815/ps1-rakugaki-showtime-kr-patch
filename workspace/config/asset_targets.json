@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "evidence": [
+    "work/analysis/tim_render_catalog.json",
+    "work/analysis/vram_tim_matches.json",
+    "work/analysis/font_candidate_005.json",
+    "work/analysis/options_session_001.json",
+    "work/analysis/options_session_001_font_consume.json",
+    "work/analysis/font_writer_analysis.json",
+    "work/analysis/font_poc_001_build.json",
+    "work/analysis/font_poc_001_runtime_review.json",
+    "work/analysis/font_motion_001_video.json",
+    "work/analysis/font_motion_001_code.json",
+    "work/analysis/text_population_001.json",
+    "work/analysis/text_callsites_block1_001.json",
+    "work/analysis/text_callsites_block10_001.json",
+    "work/analysis/text_callsites_ara_001.json",
+    "work/analysis/text_wrapper_callers_001.json",
+    "work/analysis/text_wrapper_producers_001.json",
+    "work/analysis/text_array_callers_001.json",
+    "work/analysis/text_reader_audit_001.json",
+    "work/analysis/hangul_strategy_001.json",
+    "work/analysis/text_ssot_001.json",
+    "work/analysis/glyph_census_001.json",
+    "work/analysis/translation_ssot_repair_001.json",
+    "work/analysis/korean_translation_audit_001.json",
+    "workspace/config/font_encoding.json",
+    "workspace/config/hangul_glyph_policy.json"
+  ],
+  "targets": {
+    "primary_font_atlas": {
+      "catalog_index": 5,
+      "block_index": 0,
+      "container_offset": 215704,
+      "format": "TIM 4bpp",
+      "dimensions": "256x256",
+      "status": "HANGUL_VISIBILITY_POC_CONFIRMED",
+      "reason": "The image upload, all 8 CLUT rows, and Options-screen texture samples match the 16x16 glyph atlas exactly",
+      "runtime_upload": {
+        "image_upload_id": 139,
+        "image_dimensions_words": "64x256",
+        "image_destination_from_tim": "960,256",
+        "clut_upload_id": 140,
+        "clut_dimensions_words": "16x8",
+        "clut_destination_from_tim": "288,496",
+        "options_session_image_upload_ids": [139, 330]
+      },
+      "runtime_sampling": {
+        "observation_id": "FONT-CONSUME-001",
+        "duckstation_texture_hash": "87256C8FB824543F",
+        "exact_palette_rows": [0, 1, 2, 3],
+        "aggregate_sample_region_pixels": {"x": 16, "y": 176, "width": 228, "height": 80},
+        "screenshot": "work/runtime/options_session_001/screenshots/ラクガキショータイム 2026-08-04-22-20-04.png"
+      }
+    },
+    "title_menu_art": [
+      {"catalog_index": 3, "block_index": 0},
+      {"catalog_index": 4, "block_index": 0},
+      {"catalog_index": 7, "block_index": 0},
+      {"catalog_index": 8, "block_index": 0}
+    ]
+  },
+  "text_engine": {
+    "status": "RUNTIME_CODE_TO_CELL_PATH_CONFIRMED",
+    "storage": "NUL-terminated two-byte Shift-JIS / CP932",
+    "reader_runtime": "0x80144D44",
+    "decoder_runtime": "0x800430DC",
+    "decoder_ara_offset": "0x6D0DC",
+    "primitive_builder_runtime": "0x80042F28",
+    "primitive_builder_ara_offset": "0x6CF28",
+    "uv_rule": "u = (cell & 0x0F) << 4; v = cell & 0xF0",
+    "mapping": "workspace/config/font_encoding.json"
+  },
+  "visibility_poc": {
+    "observation_id": "FONT-VISIBILITY-001",
+    "status": "PASS",
+    "cells": {"D9": "한", "C5": "글"},
+    "modified_lbas": [615, 616, 617],
+    "build_report": "work/analysis/font_poc_001_build.json",
+    "runtime_review": "work/analysis/font_poc_001_runtime_review.json"
+  },
+  "title_font_motion": {
+    "observation_id": "FONT-MOTION-001",
+    "status": "IMPLEMENTATION_REUSE_CONFIRMED",
+    "string_builder_runtime": "0x80144CFC",
+    "motion_controller_runtime": "0x80144E38",
+    "repeat_interval_pixels": 256,
+    "max_cells_without_overlap": 16,
+    "separate_hangul_motion_implementation_required": false,
+    "evidence": "work/analysis/font_motion_001_code.json"
+  },
+  "text_population": {
+    "observation_id": "TEXT-POPULATION-001",
+    "status": "HANGUL_STRATEGY_SELECTED_CORPUS_CENSUS_OPEN",
+    "generic_string_builder_runtime": "0x80043348",
+    "generic_calls": {"ARA.BIN": 19, "HAGECHO.BIN": 18, "total": 37},
+    "confirmed_entries": 1,
+    "candidate_runs": 324,
+    "callsite_resolution": {
+      "direct_generic_calls": {
+        "HAGECHO.BIN": {"classified": 18, "resolved_static_source": 18, "unknown_shape": 0},
+        "ARA.BIN": {"classified": 19, "resolved_static_source": 17, "forwarding_api": 2, "unknown_shape": 0}
+      },
+      "forwarded_consumers": {
+        "single_string_wrapper": {"callers": 16, "resolved_static_source": 16, "producer_unresolved": 0},
+        "pointer_array_renderer": {"callers": 27, "resolved": 27, "unknown": 0},
+        "resolved": 43,
+        "unknown": 0
+      }
+    },
+    "confirmed_unique_static_source_entries": 324,
+    "reader_audit": {
+      "confirmed_decoder_reader_paths_unknown": 0,
+      "alternate_glyph_renderer_callers": 5,
+      "new_unique_static_source_entries": 75,
+      "scope_limit": "confirmed decoder and atlas primitive-builder paths"
+    },
+    "consumer_confirmed_decoder_fallback_codes": ["8140"],
+    "currently_proven_free_reachable_cells": 0,
+    "allocation_decision": "NO_SAFE_HANGUL_CODE_ALLOCATION_YET",
+    "evidence": [
+      "work/analysis/text_population_001.json",
+      "work/analysis/text_callsites_block1_001.json",
+      "work/analysis/text_callsites_block10_001.json",
+      "work/analysis/text_callsites_ara_001.json",
+      "work/analysis/text_wrapper_callers_001.json",
+      "work/analysis/text_wrapper_producers_001.json",
+      "work/analysis/text_array_callers_001.json",
+      "work/analysis/text_reader_audit_001.json"
+    ]
+  },
+  "hangul_strategy": {
+    "observation_id": "HANGUL-STRATEGY-001",
+    "status": "FIXED_ATLAS_REJECTED_STATIC_TWO_BANK_POC_SELECTED",
+    "primary": "CORPUS_SCOPED_PRECOMPOSED_HANGUL_WITH_SHARED_DECODER_REMAP",
+    "capacity_gate": "unique required glyphs including preserved symbols <= 255",
+    "overflow_action": "fail build and advance to static two-bank atlas hook PoC",
+    "fallback": "STATIC_BANKED_ATLAS_WITH_DECODER_AND_PRIMITIVE_BUILDER_HOOK",
+    "final_selection": "STATIC_TWO_BANK_ATLAS_WITH_DECODER_AND_PRIMITIVE_BUILDER_HOOK",
+    "selection_evidence": "corrected complete corpus requires 445 glyphs; 379 Hangul syllables alone exceed the 255-cell fixed-atlas budget",
+    "in_place_atlas_growth": "REJECTED_VRAM_BOUNDARY_AND_8_BIT_UV_LIMIT",
+    "evidence": "work/analysis/hangul_strategy_001.json"
+  },
+  "translation_ssot": {
+    "observation_id": "TEXT-SSOT-001",
+    "status": "SSOT_TRANSLATION_COMPLETE_UNREVIEWED",
+    "csv": "workspace/text/rakugaki_text_ja_ko.csv",
+    "manifest": "workspace/text/rakugaki_text_manifest.json",
+    "entries": 324,
+    "source_counts": {"ARA.BIN": 125, "HAGECHO.BIN": 199},
+    "translation_status_counts": {"translate": 324},
+    "immutable_repair": {
+      "observation_id": "TEXT-SSOT-REPAIR-002",
+      "status": "IMMUTABLE_FIELDS_REPAIRED_TRANSLATIONS_PRESERVED",
+      "changes": {"original_hex": 11, "original_text": 20, "total": 31},
+      "backup": "backups/rakugaki_text_ja_ko.pre_immutable_repair_002.csv",
+      "evidence": "work/analysis/translation_ssot_repair_002.json"
+    },
+    "immutable_fields": ["id", "source", "file_offset_hex", "block_index", "original_hex", "original_text"],
+    "editable_fields": ["translation", "status", "notes"],
+    "scope_limit": "confirmed decoder and atlas primitive-builder dynamic-text paths; baked graphic text excluded"
+  },
+  "glyph_census": {
+    "observation_id": "GLYPH-CENSUS-001",
+    "status": "FIXED_ATLAS_OVERFLOW_TWO_BANK_POC_REQUIRED",
+    "policy": "workspace/config/hangul_glyph_policy.json",
+    "font_cell_budget": 255,
+    "provisional_mandatory_glyphs": 27,
+    "translated_rows": 324,
+    "unique_required_glyphs": 445,
+    "hangul_syllables": 379,
+    "minimum_static_banks": 2,
+    "two_bank_capacity": 510,
+    "two_bank_headroom": 65,
+    "evidence": "work/analysis/glyph_census_001.json"
+  },
+  "translation_audit": {
+    "observation_id": "TRANSLATION-AUDIT-001",
+    "status": "COMPLETE_UNREVIEWED_WITH_REVIEW_FLAGS",
+    "flagged_rows": 32,
+    "blocking_rows": 0,
+    "blocking_ids": [],
+    "automatic_text_changes": false,
+    "evidence": "work/analysis/korean_translation_audit_001.json"
+  },
+  "two_bank_poc": {
+    "observation_id": "FONT-TWO-BANK-POC-001",
+    "status": "BANK_AWARE_ABI_RUNTIME_PASS_ASSET_PERSISTENCE_OPEN",
+    "decoder_return_abi": "bit 8 = bank; bits 7..0 = cell",
+    "builder_runtime": "0x80042F84",
+    "runtime_sample": {"value": "0x1DE", "bank": 1, "cell": "0xDE", "u": "0xE0", "v": "0xD0", "tpage": "0x001E"},
+    "poc_bank_vram_rect_words": [896, 256, 64, 224],
+    "preferred_final_probe_vram_rect_words": [704, 256, 64, 256],
+    "evidence": [
+      "work/analysis/font_two_bank_poc_001_build.json",
+      "work/analysis/font_two_bank_poc_001_trace.json",
+      "work/analysis/font_two_bank_vram_001.json"
+    ]
+  },
+  "next_gate": {
+    "goal": "audit runtime occupancy and upload lifetime for the static-clear 704,256 second-bank probe, then build a visually confirmed title E2E PoC; keep 32 nonblocking translation review flags for human QA"
+  }
+}

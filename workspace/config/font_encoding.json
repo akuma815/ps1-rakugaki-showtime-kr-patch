@@ -1,0 +1,2749 @@
+{
+  "schema_version": 1,
+  "status": "RUNTIME_DECODER_EXTRACTED_WITH_ALIASES",
+  "source_encoding": "Shift-JIS / CP932 two-byte code, big-endian byte order in strings",
+  "terminator": "00 00 (loop tests the next lead byte for zero)",
+  "decoder": {
+    "runtime_address": "0x800430DC",
+    "ara_file_offset": "0x6D0DC",
+    "sample_size": 444,
+    "sha256": "8494ee36bad3d68ac158924375ad8ea21d76baeb40d7e068972d5739fad4226e"
+  },
+  "special_jump_table": {
+    "runtime_address": "0x800310A8",
+    "first_sjis": "0x8141",
+    "entry_count": 180,
+    "valid_handler_count": 26,
+    "entries": [
+      {
+        "sjis": "0x8141",
+        "handler": "0x80043260",
+        "cell": "0xF9"
+      },
+      {
+        "sjis": "0x8142",
+        "handler": "0x80043268",
+        "cell": "0xFA"
+      },
+      {
+        "sjis": "0x8143",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8144",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8145",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8146",
+        "handler": "0x80043248",
+        "cell": "0xF6"
+      },
+      {
+        "sjis": "0x8147",
+        "handler": "0x80043250",
+        "cell": "0xF7"
+      },
+      {
+        "sjis": "0x8148",
+        "handler": "0x80043270",
+        "cell": "0xFB"
+      },
+      {
+        "sjis": "0x8149",
+        "handler": "0x80043278",
+        "cell": "0xFC"
+      },
+      {
+        "sjis": "0x814A",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x814B",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x814C",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x814D",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x814E",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x814F",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8150",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8151",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8152",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8153",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8154",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8155",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8156",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8157",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8158",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8159",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x815A",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x815B",
+        "handler": "0x80043280",
+        "cell": "0xFD"
+      },
+      {
+        "sjis": "0x815C",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x815D",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x815E",
+        "handler": "0x80043258",
+        "cell": "0xF8"
+      },
+      {
+        "sjis": "0x815F",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8160",
+        "handler": "0x80043288",
+        "cell": "0xFE"
+      },
+      {
+        "sjis": "0x8161",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8162",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8163",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8164",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8165",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8166",
+        "handler": "0x800431E8",
+        "cell": "0x0F"
+      },
+      {
+        "sjis": "0x8167",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8168",
+        "handler": "0x800431C0",
+        "cell": "0x0A"
+      },
+      {
+        "sjis": "0x8169",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x816A",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x816B",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x816C",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x816D",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x816E",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x816F",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8170",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8171",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8172",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8173",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8174",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8175",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8176",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8177",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8178",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8179",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x817A",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x817B",
+        "handler": "0x800431F8",
+        "cell": "0x2B"
+      },
+      {
+        "sjis": "0x817C",
+        "handler": "0x80043200",
+        "cell": "0x2C"
+      },
+      {
+        "sjis": "0x817D",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x817E",
+        "handler": "0x80043208",
+        "cell": "0x2D"
+      },
+      {
+        "sjis": "0x817F",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8180",
+        "handler": "0x80043210",
+        "cell": "0x2E"
+      },
+      {
+        "sjis": "0x8181",
+        "handler": "0x80043218",
+        "cell": "0x2F"
+      },
+      {
+        "sjis": "0x8182",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8183",
+        "handler": "0x80043238",
+        "cell": "0x4E"
+      },
+      {
+        "sjis": "0x8184",
+        "handler": "0x80043240",
+        "cell": "0x4F"
+      },
+      {
+        "sjis": "0x8185",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8186",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8187",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8188",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8189",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x818A",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x818B",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x818C",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x818D",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x818E",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x818F",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8190",
+        "handler": "0x800431D0",
+        "cell": "0x0C"
+      },
+      {
+        "sjis": "0x8191",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8192",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8193",
+        "handler": "0x800431D8",
+        "cell": "0x0D"
+      },
+      {
+        "sjis": "0x8194",
+        "handler": "0x800431C8",
+        "cell": "0x0B"
+      },
+      {
+        "sjis": "0x8195",
+        "handler": "0x800431E0",
+        "cell": "0x0E"
+      },
+      {
+        "sjis": "0x8196",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8197",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8198",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x8199",
+        "handler": "0x80043230",
+        "cell": "0x4D"
+      },
+      {
+        "sjis": "0x819A",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x819B",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x819C",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x819D",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x819E",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x819F",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81A0",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81A1",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81A2",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81A3",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81A4",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81A5",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81A6",
+        "handler": "0x800431F0",
+        "cell": "0x10"
+      },
+      {
+        "sjis": "0x81A7",
+        "handler": "0x80043220",
+        "cell": "0x4B"
+      },
+      {
+        "sjis": "0x81A8",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81A9",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81AA",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81AB",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81AC",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81AD",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81AE",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81AF",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B0",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B1",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B2",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B3",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B4",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B5",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B6",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B7",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B8",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81B9",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81BA",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81BB",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81BC",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81BD",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81BE",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81BF",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C0",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C1",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C2",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C3",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C4",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C5",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C6",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C7",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C8",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81C9",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81CA",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81CB",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81CC",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81CD",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81CE",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81CF",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D0",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D1",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D2",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D3",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D4",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D5",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D6",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D7",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D8",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81D9",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81DA",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81DB",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81DC",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81DD",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81DE",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81DF",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E0",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E1",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E2",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E3",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E4",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E5",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E6",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E7",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E8",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81E9",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81EA",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81EB",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81EC",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81ED",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81EE",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81EF",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81F0",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81F1",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81F2",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81F3",
+        "handler": "0x80043290",
+        "cell": "0xFF"
+      },
+      {
+        "sjis": "0x81F4",
+        "handler": "0x80043228",
+        "cell": "0x4C"
+      }
+    ]
+  },
+  "mapping_count": 257,
+  "mapped_cell_range": "0x00-0xFE",
+  "invalid_return": "0xFF",
+  "missing_cells": [
+    "30"
+  ],
+  "duplicate_cells": {
+    "F6": [
+      "8146",
+      "8394"
+    ],
+    "F7": [
+      "8147",
+      "8395"
+    ],
+    "F8": [
+      "815E",
+      "8396"
+    ]
+  },
+  "mapping_note": "The decoder is authoritative even where multiple Shift-JIS codes alias one cell or a populated atlas cell is unreachable through this decoder.",
+  "runtime_sample": {
+    "source_bytes": "83 58",
+    "character": "ス",
+    "expected_cell": "0xBB",
+    "observed_cell": "0xBB",
+    "writer": "0x80042F94 sb v0,0x0C(t0), with s1 holding decoder output"
+  },
+  "mappings": [
+    {
+      "sjis": "8141",
+      "bytes_hex": "81 41",
+      "character": "、",
+      "cell": 249,
+      "cell_hex": "F9"
+    },
+    {
+      "sjis": "8142",
+      "bytes_hex": "81 42",
+      "character": "。",
+      "cell": 250,
+      "cell_hex": "FA"
+    },
+    {
+      "sjis": "8146",
+      "bytes_hex": "81 46",
+      "character": "：",
+      "cell": 246,
+      "cell_hex": "F6"
+    },
+    {
+      "sjis": "8147",
+      "bytes_hex": "81 47",
+      "character": "；",
+      "cell": 247,
+      "cell_hex": "F7"
+    },
+    {
+      "sjis": "8148",
+      "bytes_hex": "81 48",
+      "character": "？",
+      "cell": 251,
+      "cell_hex": "FB"
+    },
+    {
+      "sjis": "8149",
+      "bytes_hex": "81 49",
+      "character": "！",
+      "cell": 252,
+      "cell_hex": "FC"
+    },
+    {
+      "sjis": "815B",
+      "bytes_hex": "81 5B",
+      "character": "ー",
+      "cell": 253,
+      "cell_hex": "FD"
+    },
+    {
+      "sjis": "815E",
+      "bytes_hex": "81 5E",
+      "character": "／",
+      "cell": 248,
+      "cell_hex": "F8"
+    },
+    {
+      "sjis": "8160",
+      "bytes_hex": "81 60",
+      "character": "～",
+      "cell": 254,
+      "cell_hex": "FE"
+    },
+    {
+      "sjis": "8166",
+      "bytes_hex": "81 66",
+      "character": "’",
+      "cell": 15,
+      "cell_hex": "0F"
+    },
+    {
+      "sjis": "8168",
+      "bytes_hex": "81 68",
+      "character": "”",
+      "cell": 10,
+      "cell_hex": "0A"
+    },
+    {
+      "sjis": "817B",
+      "bytes_hex": "81 7B",
+      "character": "＋",
+      "cell": 43,
+      "cell_hex": "2B"
+    },
+    {
+      "sjis": "817C",
+      "bytes_hex": "81 7C",
+      "character": "－",
+      "cell": 44,
+      "cell_hex": "2C"
+    },
+    {
+      "sjis": "817E",
+      "bytes_hex": "81 7E",
+      "character": "×",
+      "cell": 45,
+      "cell_hex": "2D"
+    },
+    {
+      "sjis": "8180",
+      "bytes_hex": "81 80",
+      "character": "÷",
+      "cell": 46,
+      "cell_hex": "2E"
+    },
+    {
+      "sjis": "8181",
+      "bytes_hex": "81 81",
+      "character": "＝",
+      "cell": 47,
+      "cell_hex": "2F"
+    },
+    {
+      "sjis": "8183",
+      "bytes_hex": "81 83",
+      "character": "＜",
+      "cell": 78,
+      "cell_hex": "4E"
+    },
+    {
+      "sjis": "8184",
+      "bytes_hex": "81 84",
+      "character": "＞",
+      "cell": 79,
+      "cell_hex": "4F"
+    },
+    {
+      "sjis": "8190",
+      "bytes_hex": "81 90",
+      "character": "＄",
+      "cell": 12,
+      "cell_hex": "0C"
+    },
+    {
+      "sjis": "8193",
+      "bytes_hex": "81 93",
+      "character": "％",
+      "cell": 13,
+      "cell_hex": "0D"
+    },
+    {
+      "sjis": "8194",
+      "bytes_hex": "81 94",
+      "character": "＃",
+      "cell": 11,
+      "cell_hex": "0B"
+    },
+    {
+      "sjis": "8195",
+      "bytes_hex": "81 95",
+      "character": "＆",
+      "cell": 14,
+      "cell_hex": "0E"
+    },
+    {
+      "sjis": "8199",
+      "bytes_hex": "81 99",
+      "character": "☆",
+      "cell": 77,
+      "cell_hex": "4D"
+    },
+    {
+      "sjis": "81A6",
+      "bytes_hex": "81 A6",
+      "character": "※",
+      "cell": 16,
+      "cell_hex": "10"
+    },
+    {
+      "sjis": "81A7",
+      "bytes_hex": "81 A7",
+      "character": "〒",
+      "cell": 75,
+      "cell_hex": "4B"
+    },
+    {
+      "sjis": "81F4",
+      "bytes_hex": "81 F4",
+      "character": "♪",
+      "cell": 76,
+      "cell_hex": "4C"
+    },
+    {
+      "sjis": "824F",
+      "bytes_hex": "82 4F",
+      "character": "０",
+      "cell": 0,
+      "cell_hex": "00"
+    },
+    {
+      "sjis": "8250",
+      "bytes_hex": "82 50",
+      "character": "１",
+      "cell": 1,
+      "cell_hex": "01"
+    },
+    {
+      "sjis": "8251",
+      "bytes_hex": "82 51",
+      "character": "２",
+      "cell": 2,
+      "cell_hex": "02"
+    },
+    {
+      "sjis": "8252",
+      "bytes_hex": "82 52",
+      "character": "３",
+      "cell": 3,
+      "cell_hex": "03"
+    },
+    {
+      "sjis": "8253",
+      "bytes_hex": "82 53",
+      "character": "４",
+      "cell": 4,
+      "cell_hex": "04"
+    },
+    {
+      "sjis": "8254",
+      "bytes_hex": "82 54",
+      "character": "５",
+      "cell": 5,
+      "cell_hex": "05"
+    },
+    {
+      "sjis": "8255",
+      "bytes_hex": "82 55",
+      "character": "６",
+      "cell": 6,
+      "cell_hex": "06"
+    },
+    {
+      "sjis": "8256",
+      "bytes_hex": "82 56",
+      "character": "７",
+      "cell": 7,
+      "cell_hex": "07"
+    },
+    {
+      "sjis": "8257",
+      "bytes_hex": "82 57",
+      "character": "８",
+      "cell": 8,
+      "cell_hex": "08"
+    },
+    {
+      "sjis": "8258",
+      "bytes_hex": "82 58",
+      "character": "９",
+      "cell": 9,
+      "cell_hex": "09"
+    },
+    {
+      "sjis": "8260",
+      "bytes_hex": "82 60",
+      "character": "Ａ",
+      "cell": 17,
+      "cell_hex": "11"
+    },
+    {
+      "sjis": "8261",
+      "bytes_hex": "82 61",
+      "character": "Ｂ",
+      "cell": 18,
+      "cell_hex": "12"
+    },
+    {
+      "sjis": "8262",
+      "bytes_hex": "82 62",
+      "character": "Ｃ",
+      "cell": 19,
+      "cell_hex": "13"
+    },
+    {
+      "sjis": "8263",
+      "bytes_hex": "82 63",
+      "character": "Ｄ",
+      "cell": 20,
+      "cell_hex": "14"
+    },
+    {
+      "sjis": "8264",
+      "bytes_hex": "82 64",
+      "character": "Ｅ",
+      "cell": 21,
+      "cell_hex": "15"
+    },
+    {
+      "sjis": "8265",
+      "bytes_hex": "82 65",
+      "character": "Ｆ",
+      "cell": 22,
+      "cell_hex": "16"
+    },
+    {
+      "sjis": "8266",
+      "bytes_hex": "82 66",
+      "character": "Ｇ",
+      "cell": 23,
+      "cell_hex": "17"
+    },
+    {
+      "sjis": "8267",
+      "bytes_hex": "82 67",
+      "character": "Ｈ",
+      "cell": 24,
+      "cell_hex": "18"
+    },
+    {
+      "sjis": "8268",
+      "bytes_hex": "82 68",
+      "character": "Ｉ",
+      "cell": 25,
+      "cell_hex": "19"
+    },
+    {
+      "sjis": "8269",
+      "bytes_hex": "82 69",
+      "character": "Ｊ",
+      "cell": 26,
+      "cell_hex": "1A"
+    },
+    {
+      "sjis": "826A",
+      "bytes_hex": "82 6A",
+      "character": "Ｋ",
+      "cell": 27,
+      "cell_hex": "1B"
+    },
+    {
+      "sjis": "826B",
+      "bytes_hex": "82 6B",
+      "character": "Ｌ",
+      "cell": 28,
+      "cell_hex": "1C"
+    },
+    {
+      "sjis": "826C",
+      "bytes_hex": "82 6C",
+      "character": "Ｍ",
+      "cell": 29,
+      "cell_hex": "1D"
+    },
+    {
+      "sjis": "826D",
+      "bytes_hex": "82 6D",
+      "character": "Ｎ",
+      "cell": 30,
+      "cell_hex": "1E"
+    },
+    {
+      "sjis": "826E",
+      "bytes_hex": "82 6E",
+      "character": "Ｏ",
+      "cell": 31,
+      "cell_hex": "1F"
+    },
+    {
+      "sjis": "826F",
+      "bytes_hex": "82 6F",
+      "character": "Ｐ",
+      "cell": 32,
+      "cell_hex": "20"
+    },
+    {
+      "sjis": "8270",
+      "bytes_hex": "82 70",
+      "character": "Ｑ",
+      "cell": 33,
+      "cell_hex": "21"
+    },
+    {
+      "sjis": "8271",
+      "bytes_hex": "82 71",
+      "character": "Ｒ",
+      "cell": 34,
+      "cell_hex": "22"
+    },
+    {
+      "sjis": "8272",
+      "bytes_hex": "82 72",
+      "character": "Ｓ",
+      "cell": 35,
+      "cell_hex": "23"
+    },
+    {
+      "sjis": "8273",
+      "bytes_hex": "82 73",
+      "character": "Ｔ",
+      "cell": 36,
+      "cell_hex": "24"
+    },
+    {
+      "sjis": "8274",
+      "bytes_hex": "82 74",
+      "character": "Ｕ",
+      "cell": 37,
+      "cell_hex": "25"
+    },
+    {
+      "sjis": "8275",
+      "bytes_hex": "82 75",
+      "character": "Ｖ",
+      "cell": 38,
+      "cell_hex": "26"
+    },
+    {
+      "sjis": "8276",
+      "bytes_hex": "82 76",
+      "character": "Ｗ",
+      "cell": 39,
+      "cell_hex": "27"
+    },
+    {
+      "sjis": "8277",
+      "bytes_hex": "82 77",
+      "character": "Ｘ",
+      "cell": 40,
+      "cell_hex": "28"
+    },
+    {
+      "sjis": "8278",
+      "bytes_hex": "82 78",
+      "character": "Ｙ",
+      "cell": 41,
+      "cell_hex": "29"
+    },
+    {
+      "sjis": "8279",
+      "bytes_hex": "82 79",
+      "character": "Ｚ",
+      "cell": 42,
+      "cell_hex": "2A"
+    },
+    {
+      "sjis": "8281",
+      "bytes_hex": "82 81",
+      "character": "ａ",
+      "cell": 49,
+      "cell_hex": "31"
+    },
+    {
+      "sjis": "8282",
+      "bytes_hex": "82 82",
+      "character": "ｂ",
+      "cell": 50,
+      "cell_hex": "32"
+    },
+    {
+      "sjis": "8283",
+      "bytes_hex": "82 83",
+      "character": "ｃ",
+      "cell": 51,
+      "cell_hex": "33"
+    },
+    {
+      "sjis": "8284",
+      "bytes_hex": "82 84",
+      "character": "ｄ",
+      "cell": 52,
+      "cell_hex": "34"
+    },
+    {
+      "sjis": "8285",
+      "bytes_hex": "82 85",
+      "character": "ｅ",
+      "cell": 53,
+      "cell_hex": "35"
+    },
+    {
+      "sjis": "8286",
+      "bytes_hex": "82 86",
+      "character": "ｆ",
+      "cell": 54,
+      "cell_hex": "36"
+    },
+    {
+      "sjis": "8287",
+      "bytes_hex": "82 87",
+      "character": "ｇ",
+      "cell": 55,
+      "cell_hex": "37"
+    },
+    {
+      "sjis": "8288",
+      "bytes_hex": "82 88",
+      "character": "ｈ",
+      "cell": 56,
+      "cell_hex": "38"
+    },
+    {
+      "sjis": "8289",
+      "bytes_hex": "82 89",
+      "character": "ｉ",
+      "cell": 57,
+      "cell_hex": "39"
+    },
+    {
+      "sjis": "828A",
+      "bytes_hex": "82 8A",
+      "character": "ｊ",
+      "cell": 58,
+      "cell_hex": "3A"
+    },
+    {
+      "sjis": "828B",
+      "bytes_hex": "82 8B",
+      "character": "ｋ",
+      "cell": 59,
+      "cell_hex": "3B"
+    },
+    {
+      "sjis": "828C",
+      "bytes_hex": "82 8C",
+      "character": "ｌ",
+      "cell": 60,
+      "cell_hex": "3C"
+    },
+    {
+      "sjis": "828D",
+      "bytes_hex": "82 8D",
+      "character": "ｍ",
+      "cell": 61,
+      "cell_hex": "3D"
+    },
+    {
+      "sjis": "828E",
+      "bytes_hex": "82 8E",
+      "character": "ｎ",
+      "cell": 62,
+      "cell_hex": "3E"
+    },
+    {
+      "sjis": "828F",
+      "bytes_hex": "82 8F",
+      "character": "ｏ",
+      "cell": 63,
+      "cell_hex": "3F"
+    },
+    {
+      "sjis": "8290",
+      "bytes_hex": "82 90",
+      "character": "ｐ",
+      "cell": 64,
+      "cell_hex": "40"
+    },
+    {
+      "sjis": "8291",
+      "bytes_hex": "82 91",
+      "character": "ｑ",
+      "cell": 65,
+      "cell_hex": "41"
+    },
+    {
+      "sjis": "8292",
+      "bytes_hex": "82 92",
+      "character": "ｒ",
+      "cell": 66,
+      "cell_hex": "42"
+    },
+    {
+      "sjis": "8293",
+      "bytes_hex": "82 93",
+      "character": "ｓ",
+      "cell": 67,
+      "cell_hex": "43"
+    },
+    {
+      "sjis": "8294",
+      "bytes_hex": "82 94",
+      "character": "ｔ",
+      "cell": 68,
+      "cell_hex": "44"
+    },
+    {
+      "sjis": "8295",
+      "bytes_hex": "82 95",
+      "character": "ｕ",
+      "cell": 69,
+      "cell_hex": "45"
+    },
+    {
+      "sjis": "8296",
+      "bytes_hex": "82 96",
+      "character": "ｖ",
+      "cell": 70,
+      "cell_hex": "46"
+    },
+    {
+      "sjis": "8297",
+      "bytes_hex": "82 97",
+      "character": "ｗ",
+      "cell": 71,
+      "cell_hex": "47"
+    },
+    {
+      "sjis": "8298",
+      "bytes_hex": "82 98",
+      "character": "ｘ",
+      "cell": 72,
+      "cell_hex": "48"
+    },
+    {
+      "sjis": "8299",
+      "bytes_hex": "82 99",
+      "character": "ｙ",
+      "cell": 73,
+      "cell_hex": "49"
+    },
+    {
+      "sjis": "829A",
+      "bytes_hex": "82 9A",
+      "character": "ｚ",
+      "cell": 74,
+      "cell_hex": "4A"
+    },
+    {
+      "sjis": "829F",
+      "bytes_hex": "82 9F",
+      "character": "ぁ",
+      "cell": 80,
+      "cell_hex": "50"
+    },
+    {
+      "sjis": "82A0",
+      "bytes_hex": "82 A0",
+      "character": "あ",
+      "cell": 81,
+      "cell_hex": "51"
+    },
+    {
+      "sjis": "82A1",
+      "bytes_hex": "82 A1",
+      "character": "ぃ",
+      "cell": 82,
+      "cell_hex": "52"
+    },
+    {
+      "sjis": "82A2",
+      "bytes_hex": "82 A2",
+      "character": "い",
+      "cell": 83,
+      "cell_hex": "53"
+    },
+    {
+      "sjis": "82A3",
+      "bytes_hex": "82 A3",
+      "character": "ぅ",
+      "cell": 84,
+      "cell_hex": "54"
+    },
+    {
+      "sjis": "82A4",
+      "bytes_hex": "82 A4",
+      "character": "う",
+      "cell": 85,
+      "cell_hex": "55"
+    },
+    {
+      "sjis": "82A5",
+      "bytes_hex": "82 A5",
+      "character": "ぇ",
+      "cell": 86,
+      "cell_hex": "56"
+    },
+    {
+      "sjis": "82A6",
+      "bytes_hex": "82 A6",
+      "character": "え",
+      "cell": 87,
+      "cell_hex": "57"
+    },
+    {
+      "sjis": "82A7",
+      "bytes_hex": "82 A7",
+      "character": "ぉ",
+      "cell": 88,
+      "cell_hex": "58"
+    },
+    {
+      "sjis": "82A8",
+      "bytes_hex": "82 A8",
+      "character": "お",
+      "cell": 89,
+      "cell_hex": "59"
+    },
+    {
+      "sjis": "82A9",
+      "bytes_hex": "82 A9",
+      "character": "か",
+      "cell": 90,
+      "cell_hex": "5A"
+    },
+    {
+      "sjis": "82AA",
+      "bytes_hex": "82 AA",
+      "character": "が",
+      "cell": 91,
+      "cell_hex": "5B"
+    },
+    {
+      "sjis": "82AB",
+      "bytes_hex": "82 AB",
+      "character": "き",
+      "cell": 92,
+      "cell_hex": "5C"
+    },
+    {
+      "sjis": "82AC",
+      "bytes_hex": "82 AC",
+      "character": "ぎ",
+      "cell": 93,
+      "cell_hex": "5D"
+    },
+    {
+      "sjis": "82AD",
+      "bytes_hex": "82 AD",
+      "character": "く",
+      "cell": 94,
+      "cell_hex": "5E"
+    },
+    {
+      "sjis": "82AE",
+      "bytes_hex": "82 AE",
+      "character": "ぐ",
+      "cell": 95,
+      "cell_hex": "5F"
+    },
+    {
+      "sjis": "82AF",
+      "bytes_hex": "82 AF",
+      "character": "け",
+      "cell": 96,
+      "cell_hex": "60"
+    },
+    {
+      "sjis": "82B0",
+      "bytes_hex": "82 B0",
+      "character": "げ",
+      "cell": 97,
+      "cell_hex": "61"
+    },
+    {
+      "sjis": "82B1",
+      "bytes_hex": "82 B1",
+      "character": "こ",
+      "cell": 98,
+      "cell_hex": "62"
+    },
+    {
+      "sjis": "82B2",
+      "bytes_hex": "82 B2",
+      "character": "ご",
+      "cell": 99,
+      "cell_hex": "63"
+    },
+    {
+      "sjis": "82B3",
+      "bytes_hex": "82 B3",
+      "character": "さ",
+      "cell": 100,
+      "cell_hex": "64"
+    },
+    {
+      "sjis": "82B4",
+      "bytes_hex": "82 B4",
+      "character": "ざ",
+      "cell": 101,
+      "cell_hex": "65"
+    },
+    {
+      "sjis": "82B5",
+      "bytes_hex": "82 B5",
+      "character": "し",
+      "cell": 102,
+      "cell_hex": "66"
+    },
+    {
+      "sjis": "82B6",
+      "bytes_hex": "82 B6",
+      "character": "じ",
+      "cell": 103,
+      "cell_hex": "67"
+    },
+    {
+      "sjis": "82B7",
+      "bytes_hex": "82 B7",
+      "character": "す",
+      "cell": 104,
+      "cell_hex": "68"
+    },
+    {
+      "sjis": "82B8",
+      "bytes_hex": "82 B8",
+      "character": "ず",
+      "cell": 105,
+      "cell_hex": "69"
+    },
+    {
+      "sjis": "82B9",
+      "bytes_hex": "82 B9",
+      "character": "せ",
+      "cell": 106,
+      "cell_hex": "6A"
+    },
+    {
+      "sjis": "82BA",
+      "bytes_hex": "82 BA",
+      "character": "ぜ",
+      "cell": 107,
+      "cell_hex": "6B"
+    },
+    {
+      "sjis": "82BB",
+      "bytes_hex": "82 BB",
+      "character": "そ",
+      "cell": 108,
+      "cell_hex": "6C"
+    },
+    {
+      "sjis": "82BC",
+      "bytes_hex": "82 BC",
+      "character": "ぞ",
+      "cell": 109,
+      "cell_hex": "6D"
+    },
+    {
+      "sjis": "82BD",
+      "bytes_hex": "82 BD",
+      "character": "た",
+      "cell": 110,
+      "cell_hex": "6E"
+    },
+    {
+      "sjis": "82BE",
+      "bytes_hex": "82 BE",
+      "character": "だ",
+      "cell": 111,
+      "cell_hex": "6F"
+    },
+    {
+      "sjis": "82BF",
+      "bytes_hex": "82 BF",
+      "character": "ち",
+      "cell": 112,
+      "cell_hex": "70"
+    },
+    {
+      "sjis": "82C0",
+      "bytes_hex": "82 C0",
+      "character": "ぢ",
+      "cell": 113,
+      "cell_hex": "71"
+    },
+    {
+      "sjis": "82C1",
+      "bytes_hex": "82 C1",
+      "character": "っ",
+      "cell": 114,
+      "cell_hex": "72"
+    },
+    {
+      "sjis": "82C2",
+      "bytes_hex": "82 C2",
+      "character": "つ",
+      "cell": 115,
+      "cell_hex": "73"
+    },
+    {
+      "sjis": "82C3",
+      "bytes_hex": "82 C3",
+      "character": "づ",
+      "cell": 116,
+      "cell_hex": "74"
+    },
+    {
+      "sjis": "82C4",
+      "bytes_hex": "82 C4",
+      "character": "て",
+      "cell": 117,
+      "cell_hex": "75"
+    },
+    {
+      "sjis": "82C5",
+      "bytes_hex": "82 C5",
+      "character": "で",
+      "cell": 118,
+      "cell_hex": "76"
+    },
+    {
+      "sjis": "82C6",
+      "bytes_hex": "82 C6",
+      "character": "と",
+      "cell": 119,
+      "cell_hex": "77"
+    },
+    {
+      "sjis": "82C7",
+      "bytes_hex": "82 C7",
+      "character": "ど",
+      "cell": 120,
+      "cell_hex": "78"
+    },
+    {
+      "sjis": "82C8",
+      "bytes_hex": "82 C8",
+      "character": "な",
+      "cell": 121,
+      "cell_hex": "79"
+    },
+    {
+      "sjis": "82C9",
+      "bytes_hex": "82 C9",
+      "character": "に",
+      "cell": 122,
+      "cell_hex": "7A"
+    },
+    {
+      "sjis": "82CA",
+      "bytes_hex": "82 CA",
+      "character": "ぬ",
+      "cell": 123,
+      "cell_hex": "7B"
+    },
+    {
+      "sjis": "82CB",
+      "bytes_hex": "82 CB",
+      "character": "ね",
+      "cell": 124,
+      "cell_hex": "7C"
+    },
+    {
+      "sjis": "82CC",
+      "bytes_hex": "82 CC",
+      "character": "の",
+      "cell": 125,
+      "cell_hex": "7D"
+    },
+    {
+      "sjis": "82CD",
+      "bytes_hex": "82 CD",
+      "character": "は",
+      "cell": 126,
+      "cell_hex": "7E"
+    },
+    {
+      "sjis": "82CE",
+      "bytes_hex": "82 CE",
+      "character": "ば",
+      "cell": 127,
+      "cell_hex": "7F"
+    },
+    {
+      "sjis": "82CF",
+      "bytes_hex": "82 CF",
+      "character": "ぱ",
+      "cell": 128,
+      "cell_hex": "80"
+    },
+    {
+      "sjis": "82D0",
+      "bytes_hex": "82 D0",
+      "character": "ひ",
+      "cell": 129,
+      "cell_hex": "81"
+    },
+    {
+      "sjis": "82D1",
+      "bytes_hex": "82 D1",
+      "character": "び",
+      "cell": 130,
+      "cell_hex": "82"
+    },
+    {
+      "sjis": "82D2",
+      "bytes_hex": "82 D2",
+      "character": "ぴ",
+      "cell": 131,
+      "cell_hex": "83"
+    },
+    {
+      "sjis": "82D3",
+      "bytes_hex": "82 D3",
+      "character": "ふ",
+      "cell": 132,
+      "cell_hex": "84"
+    },
+    {
+      "sjis": "82D4",
+      "bytes_hex": "82 D4",
+      "character": "ぶ",
+      "cell": 133,
+      "cell_hex": "85"
+    },
+    {
+      "sjis": "82D5",
+      "bytes_hex": "82 D5",
+      "character": "ぷ",
+      "cell": 134,
+      "cell_hex": "86"
+    },
+    {
+      "sjis": "82D6",
+      "bytes_hex": "82 D6",
+      "character": "へ",
+      "cell": 135,
+      "cell_hex": "87"
+    },
+    {
+      "sjis": "82D7",
+      "bytes_hex": "82 D7",
+      "character": "べ",
+      "cell": 136,
+      "cell_hex": "88"
+    },
+    {
+      "sjis": "82D8",
+      "bytes_hex": "82 D8",
+      "character": "ぺ",
+      "cell": 137,
+      "cell_hex": "89"
+    },
+    {
+      "sjis": "82D9",
+      "bytes_hex": "82 D9",
+      "character": "ほ",
+      "cell": 138,
+      "cell_hex": "8A"
+    },
+    {
+      "sjis": "82DA",
+      "bytes_hex": "82 DA",
+      "character": "ぼ",
+      "cell": 139,
+      "cell_hex": "8B"
+    },
+    {
+      "sjis": "82DB",
+      "bytes_hex": "82 DB",
+      "character": "ぽ",
+      "cell": 140,
+      "cell_hex": "8C"
+    },
+    {
+      "sjis": "82DC",
+      "bytes_hex": "82 DC",
+      "character": "ま",
+      "cell": 141,
+      "cell_hex": "8D"
+    },
+    {
+      "sjis": "82DD",
+      "bytes_hex": "82 DD",
+      "character": "み",
+      "cell": 142,
+      "cell_hex": "8E"
+    },
+    {
+      "sjis": "82DE",
+      "bytes_hex": "82 DE",
+      "character": "む",
+      "cell": 143,
+      "cell_hex": "8F"
+    },
+    {
+      "sjis": "82DF",
+      "bytes_hex": "82 DF",
+      "character": "め",
+      "cell": 144,
+      "cell_hex": "90"
+    },
+    {
+      "sjis": "82E0",
+      "bytes_hex": "82 E0",
+      "character": "も",
+      "cell": 145,
+      "cell_hex": "91"
+    },
+    {
+      "sjis": "82E1",
+      "bytes_hex": "82 E1",
+      "character": "ゃ",
+      "cell": 146,
+      "cell_hex": "92"
+    },
+    {
+      "sjis": "82E2",
+      "bytes_hex": "82 E2",
+      "character": "や",
+      "cell": 147,
+      "cell_hex": "93"
+    },
+    {
+      "sjis": "82E3",
+      "bytes_hex": "82 E3",
+      "character": "ゅ",
+      "cell": 148,
+      "cell_hex": "94"
+    },
+    {
+      "sjis": "82E4",
+      "bytes_hex": "82 E4",
+      "character": "ゆ",
+      "cell": 149,
+      "cell_hex": "95"
+    },
+    {
+      "sjis": "82E5",
+      "bytes_hex": "82 E5",
+      "character": "ょ",
+      "cell": 150,
+      "cell_hex": "96"
+    },
+    {
+      "sjis": "82E6",
+      "bytes_hex": "82 E6",
+      "character": "よ",
+      "cell": 151,
+      "cell_hex": "97"
+    },
+    {
+      "sjis": "82E7",
+      "bytes_hex": "82 E7",
+      "character": "ら",
+      "cell": 152,
+      "cell_hex": "98"
+    },
+    {
+      "sjis": "82E8",
+      "bytes_hex": "82 E8",
+      "character": "り",
+      "cell": 153,
+      "cell_hex": "99"
+    },
+    {
+      "sjis": "82E9",
+      "bytes_hex": "82 E9",
+      "character": "る",
+      "cell": 154,
+      "cell_hex": "9A"
+    },
+    {
+      "sjis": "82EA",
+      "bytes_hex": "82 EA",
+      "character": "れ",
+      "cell": 155,
+      "cell_hex": "9B"
+    },
+    {
+      "sjis": "82EB",
+      "bytes_hex": "82 EB",
+      "character": "ろ",
+      "cell": 156,
+      "cell_hex": "9C"
+    },
+    {
+      "sjis": "82EC",
+      "bytes_hex": "82 EC",
+      "character": "ゎ",
+      "cell": 157,
+      "cell_hex": "9D"
+    },
+    {
+      "sjis": "82ED",
+      "bytes_hex": "82 ED",
+      "character": "わ",
+      "cell": 158,
+      "cell_hex": "9E"
+    },
+    {
+      "sjis": "82EE",
+      "bytes_hex": "82 EE",
+      "character": "ゐ",
+      "cell": 159,
+      "cell_hex": "9F"
+    },
+    {
+      "sjis": "82EF",
+      "bytes_hex": "82 EF",
+      "character": "ゑ",
+      "cell": 160,
+      "cell_hex": "A0"
+    },
+    {
+      "sjis": "82F0",
+      "bytes_hex": "82 F0",
+      "character": "を",
+      "cell": 161,
+      "cell_hex": "A1"
+    },
+    {
+      "sjis": "82F1",
+      "bytes_hex": "82 F1",
+      "character": "ん",
+      "cell": 162,
+      "cell_hex": "A2"
+    },
+    {
+      "sjis": "8340",
+      "bytes_hex": "83 40",
+      "character": "ァ",
+      "cell": 163,
+      "cell_hex": "A3"
+    },
+    {
+      "sjis": "8341",
+      "bytes_hex": "83 41",
+      "character": "ア",
+      "cell": 164,
+      "cell_hex": "A4"
+    },
+    {
+      "sjis": "8342",
+      "bytes_hex": "83 42",
+      "character": "ィ",
+      "cell": 165,
+      "cell_hex": "A5"
+    },
+    {
+      "sjis": "8343",
+      "bytes_hex": "83 43",
+      "character": "イ",
+      "cell": 166,
+      "cell_hex": "A6"
+    },
+    {
+      "sjis": "8344",
+      "bytes_hex": "83 44",
+      "character": "ゥ",
+      "cell": 167,
+      "cell_hex": "A7"
+    },
+    {
+      "sjis": "8345",
+      "bytes_hex": "83 45",
+      "character": "ウ",
+      "cell": 168,
+      "cell_hex": "A8"
+    },
+    {
+      "sjis": "8346",
+      "bytes_hex": "83 46",
+      "character": "ェ",
+      "cell": 169,
+      "cell_hex": "A9"
+    },
+    {
+      "sjis": "8347",
+      "bytes_hex": "83 47",
+      "character": "エ",
+      "cell": 170,
+      "cell_hex": "AA"
+    },
+    {
+      "sjis": "8348",
+      "bytes_hex": "83 48",
+      "character": "ォ",
+      "cell": 171,
+      "cell_hex": "AB"
+    },
+    {
+      "sjis": "8349",
+      "bytes_hex": "83 49",
+      "character": "オ",
+      "cell": 172,
+      "cell_hex": "AC"
+    },
+    {
+      "sjis": "834A",
+      "bytes_hex": "83 4A",
+      "character": "カ",
+      "cell": 173,
+      "cell_hex": "AD"
+    },
+    {
+      "sjis": "834B",
+      "bytes_hex": "83 4B",
+      "character": "ガ",
+      "cell": 174,
+      "cell_hex": "AE"
+    },
+    {
+      "sjis": "834C",
+      "bytes_hex": "83 4C",
+      "character": "キ",
+      "cell": 175,
+      "cell_hex": "AF"
+    },
+    {
+      "sjis": "834D",
+      "bytes_hex": "83 4D",
+      "character": "ギ",
+      "cell": 176,
+      "cell_hex": "B0"
+    },
+    {
+      "sjis": "834E",
+      "bytes_hex": "83 4E",
+      "character": "ク",
+      "cell": 177,
+      "cell_hex": "B1"
+    },
+    {
+      "sjis": "834F",
+      "bytes_hex": "83 4F",
+      "character": "グ",
+      "cell": 178,
+      "cell_hex": "B2"
+    },
+    {
+      "sjis": "8350",
+      "bytes_hex": "83 50",
+      "character": "ケ",
+      "cell": 179,
+      "cell_hex": "B3"
+    },
+    {
+      "sjis": "8351",
+      "bytes_hex": "83 51",
+      "character": "ゲ",
+      "cell": 180,
+      "cell_hex": "B4"
+    },
+    {
+      "sjis": "8352",
+      "bytes_hex": "83 52",
+      "character": "コ",
+      "cell": 181,
+      "cell_hex": "B5"
+    },
+    {
+      "sjis": "8353",
+      "bytes_hex": "83 53",
+      "character": "ゴ",
+      "cell": 182,
+      "cell_hex": "B6"
+    },
+    {
+      "sjis": "8354",
+      "bytes_hex": "83 54",
+      "character": "サ",
+      "cell": 183,
+      "cell_hex": "B7"
+    },
+    {
+      "sjis": "8355",
+      "bytes_hex": "83 55",
+      "character": "ザ",
+      "cell": 184,
+      "cell_hex": "B8"
+    },
+    {
+      "sjis": "8356",
+      "bytes_hex": "83 56",
+      "character": "シ",
+      "cell": 185,
+      "cell_hex": "B9"
+    },
+    {
+      "sjis": "8357",
+      "bytes_hex": "83 57",
+      "character": "ジ",
+      "cell": 186,
+      "cell_hex": "BA"
+    },
+    {
+      "sjis": "8358",
+      "bytes_hex": "83 58",
+      "character": "ス",
+      "cell": 187,
+      "cell_hex": "BB"
+    },
+    {
+      "sjis": "8359",
+      "bytes_hex": "83 59",
+      "character": "ズ",
+      "cell": 188,
+      "cell_hex": "BC"
+    },
+    {
+      "sjis": "835A",
+      "bytes_hex": "83 5A",
+      "character": "セ",
+      "cell": 189,
+      "cell_hex": "BD"
+    },
+    {
+      "sjis": "835B",
+      "bytes_hex": "83 5B",
+      "character": "ゼ",
+      "cell": 190,
+      "cell_hex": "BE"
+    },
+    {
+      "sjis": "835C",
+      "bytes_hex": "83 5C",
+      "character": "ソ",
+      "cell": 191,
+      "cell_hex": "BF"
+    },
+    {
+      "sjis": "835D",
+      "bytes_hex": "83 5D",
+      "character": "ゾ",
+      "cell": 192,
+      "cell_hex": "C0"
+    },
+    {
+      "sjis": "835E",
+      "bytes_hex": "83 5E",
+      "character": "タ",
+      "cell": 193,
+      "cell_hex": "C1"
+    },
+    {
+      "sjis": "835F",
+      "bytes_hex": "83 5F",
+      "character": "ダ",
+      "cell": 194,
+      "cell_hex": "C2"
+    },
+    {
+      "sjis": "8360",
+      "bytes_hex": "83 60",
+      "character": "チ",
+      "cell": 195,
+      "cell_hex": "C3"
+    },
+    {
+      "sjis": "8361",
+      "bytes_hex": "83 61",
+      "character": "ヂ",
+      "cell": 196,
+      "cell_hex": "C4"
+    },
+    {
+      "sjis": "8362",
+      "bytes_hex": "83 62",
+      "character": "ッ",
+      "cell": 197,
+      "cell_hex": "C5"
+    },
+    {
+      "sjis": "8363",
+      "bytes_hex": "83 63",
+      "character": "ツ",
+      "cell": 198,
+      "cell_hex": "C6"
+    },
+    {
+      "sjis": "8364",
+      "bytes_hex": "83 64",
+      "character": "ヅ",
+      "cell": 199,
+      "cell_hex": "C7"
+    },
+    {
+      "sjis": "8365",
+      "bytes_hex": "83 65",
+      "character": "テ",
+      "cell": 200,
+      "cell_hex": "C8"
+    },
+    {
+      "sjis": "8366",
+      "bytes_hex": "83 66",
+      "character": "デ",
+      "cell": 201,
+      "cell_hex": "C9"
+    },
+    {
+      "sjis": "8367",
+      "bytes_hex": "83 67",
+      "character": "ト",
+      "cell": 202,
+      "cell_hex": "CA"
+    },
+    {
+      "sjis": "8368",
+      "bytes_hex": "83 68",
+      "character": "ド",
+      "cell": 203,
+      "cell_hex": "CB"
+    },
+    {
+      "sjis": "8369",
+      "bytes_hex": "83 69",
+      "character": "ナ",
+      "cell": 204,
+      "cell_hex": "CC"
+    },
+    {
+      "sjis": "836A",
+      "bytes_hex": "83 6A",
+      "character": "ニ",
+      "cell": 205,
+      "cell_hex": "CD"
+    },
+    {
+      "sjis": "836B",
+      "bytes_hex": "83 6B",
+      "character": "ヌ",
+      "cell": 206,
+      "cell_hex": "CE"
+    },
+    {
+      "sjis": "836C",
+      "bytes_hex": "83 6C",
+      "character": "ネ",
+      "cell": 207,
+      "cell_hex": "CF"
+    },
+    {
+      "sjis": "836D",
+      "bytes_hex": "83 6D",
+      "character": "ノ",
+      "cell": 208,
+      "cell_hex": "D0"
+    },
+    {
+      "sjis": "836E",
+      "bytes_hex": "83 6E",
+      "character": "ハ",
+      "cell": 209,
+      "cell_hex": "D1"
+    },
+    {
+      "sjis": "836F",
+      "bytes_hex": "83 6F",
+      "character": "バ",
+      "cell": 210,
+      "cell_hex": "D2"
+    },
+    {
+      "sjis": "8370",
+      "bytes_hex": "83 70",
+      "character": "パ",
+      "cell": 211,
+      "cell_hex": "D3"
+    },
+    {
+      "sjis": "8371",
+      "bytes_hex": "83 71",
+      "character": "ヒ",
+      "cell": 212,
+      "cell_hex": "D4"
+    },
+    {
+      "sjis": "8372",
+      "bytes_hex": "83 72",
+      "character": "ビ",
+      "cell": 213,
+      "cell_hex": "D5"
+    },
+    {
+      "sjis": "8373",
+      "bytes_hex": "83 73",
+      "character": "ピ",
+      "cell": 214,
+      "cell_hex": "D6"
+    },
+    {
+      "sjis": "8374",
+      "bytes_hex": "83 74",
+      "character": "フ",
+      "cell": 215,
+      "cell_hex": "D7"
+    },
+    {
+      "sjis": "8375",
+      "bytes_hex": "83 75",
+      "character": "ブ",
+      "cell": 216,
+      "cell_hex": "D8"
+    },
+    {
+      "sjis": "8376",
+      "bytes_hex": "83 76",
+      "character": "プ",
+      "cell": 217,
+      "cell_hex": "D9"
+    },
+    {
+      "sjis": "8377",
+      "bytes_hex": "83 77",
+      "character": "ヘ",
+      "cell": 218,
+      "cell_hex": "DA"
+    },
+    {
+      "sjis": "8378",
+      "bytes_hex": "83 78",
+      "character": "ベ",
+      "cell": 219,
+      "cell_hex": "DB"
+    },
+    {
+      "sjis": "8379",
+      "bytes_hex": "83 79",
+      "character": "ペ",
+      "cell": 220,
+      "cell_hex": "DC"
+    },
+    {
+      "sjis": "837A",
+      "bytes_hex": "83 7A",
+      "character": "ホ",
+      "cell": 221,
+      "cell_hex": "DD"
+    },
+    {
+      "sjis": "837B",
+      "bytes_hex": "83 7B",
+      "character": "ボ",
+      "cell": 222,
+      "cell_hex": "DE"
+    },
+    {
+      "sjis": "837C",
+      "bytes_hex": "83 7C",
+      "character": "ポ",
+      "cell": 223,
+      "cell_hex": "DF"
+    },
+    {
+      "sjis": "837D",
+      "bytes_hex": "83 7D",
+      "character": "マ",
+      "cell": 224,
+      "cell_hex": "E0"
+    },
+    {
+      "sjis": "837E",
+      "bytes_hex": "83 7E",
+      "character": "ミ",
+      "cell": 225,
+      "cell_hex": "E1"
+    },
+    {
+      "sjis": "8380",
+      "bytes_hex": "83 80",
+      "character": "ム",
+      "cell": 226,
+      "cell_hex": "E2"
+    },
+    {
+      "sjis": "8381",
+      "bytes_hex": "83 81",
+      "character": "メ",
+      "cell": 227,
+      "cell_hex": "E3"
+    },
+    {
+      "sjis": "8382",
+      "bytes_hex": "83 82",
+      "character": "モ",
+      "cell": 228,
+      "cell_hex": "E4"
+    },
+    {
+      "sjis": "8383",
+      "bytes_hex": "83 83",
+      "character": "ャ",
+      "cell": 229,
+      "cell_hex": "E5"
+    },
+    {
+      "sjis": "8384",
+      "bytes_hex": "83 84",
+      "character": "ヤ",
+      "cell": 230,
+      "cell_hex": "E6"
+    },
+    {
+      "sjis": "8385",
+      "bytes_hex": "83 85",
+      "character": "ュ",
+      "cell": 231,
+      "cell_hex": "E7"
+    },
+    {
+      "sjis": "8386",
+      "bytes_hex": "83 86",
+      "character": "ユ",
+      "cell": 232,
+      "cell_hex": "E8"
+    },
+    {
+      "sjis": "8387",
+      "bytes_hex": "83 87",
+      "character": "ョ",
+      "cell": 233,
+      "cell_hex": "E9"
+    },
+    {
+      "sjis": "8388",
+      "bytes_hex": "83 88",
+      "character": "ヨ",
+      "cell": 234,
+      "cell_hex": "EA"
+    },
+    {
+      "sjis": "8389",
+      "bytes_hex": "83 89",
+      "character": "ラ",
+      "cell": 235,
+      "cell_hex": "EB"
+    },
+    {
+      "sjis": "838A",
+      "bytes_hex": "83 8A",
+      "character": "リ",
+      "cell": 236,
+      "cell_hex": "EC"
+    },
+    {
+      "sjis": "838B",
+      "bytes_hex": "83 8B",
+      "character": "ル",
+      "cell": 237,
+      "cell_hex": "ED"
+    },
+    {
+      "sjis": "838C",
+      "bytes_hex": "83 8C",
+      "character": "レ",
+      "cell": 238,
+      "cell_hex": "EE"
+    },
+    {
+      "sjis": "838D",
+      "bytes_hex": "83 8D",
+      "character": "ロ",
+      "cell": 239,
+      "cell_hex": "EF"
+    },
+    {
+      "sjis": "838E",
+      "bytes_hex": "83 8E",
+      "character": "ヮ",
+      "cell": 240,
+      "cell_hex": "F0"
+    },
+    {
+      "sjis": "838F",
+      "bytes_hex": "83 8F",
+      "character": "ワ",
+      "cell": 241,
+      "cell_hex": "F1"
+    },
+    {
+      "sjis": "8390",
+      "bytes_hex": "83 90",
+      "character": "ヰ",
+      "cell": 242,
+      "cell_hex": "F2"
+    },
+    {
+      "sjis": "8391",
+      "bytes_hex": "83 91",
+      "character": "ヱ",
+      "cell": 243,
+      "cell_hex": "F3"
+    },
+    {
+      "sjis": "8392",
+      "bytes_hex": "83 92",
+      "character": "ヲ",
+      "cell": 244,
+      "cell_hex": "F4"
+    },
+    {
+      "sjis": "8393",
+      "bytes_hex": "83 93",
+      "character": "ン",
+      "cell": 245,
+      "cell_hex": "F5"
+    },
+    {
+      "sjis": "8394",
+      "bytes_hex": "83 94",
+      "character": "ヴ",
+      "cell": 246,
+      "cell_hex": "F6"
+    },
+    {
+      "sjis": "8395",
+      "bytes_hex": "83 95",
+      "character": "ヵ",
+      "cell": 247,
+      "cell_hex": "F7"
+    },
+    {
+      "sjis": "8396",
+      "bytes_hex": "83 96",
+      "character": "ヶ",
+      "cell": 248,
+      "cell_hex": "F8"
+    }
+  ]
+}

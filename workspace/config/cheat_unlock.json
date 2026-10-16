@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "observation_id": "CHEAT-UNLOCK-001",
+  "purpose": "auto-enable the built-in title-screen cheats (all characters + special options) without input",
+  "mechanism": "the title cheat handler compares the pad word at 0x800E4D68 against a button mask and requires the combo held for N frames; setting each mask to 0 (no buttons) and each hold threshold to 1 makes the unlocks fire within a frame of idling on the title screen",
+  "unlock_targets": {
+    "0x800D342C": "master cheat state 0->1->2",
+    "0x800AED24": "-1 = all characters unlocked",
+    "0x800AECF8 bit 0x10": "special options unlocked"
+  },
+  "patches": [
+    {
+      "runtime": "0x80144FDC",
+      "hagecho_offset": 103164,
+      "description": "button mask L2+Select -> none",
+      "original_word": "0x24020101",
+      "patched_word": "0x24020000",
+      "original_asm": "addiu $v0, $zero, 0x101",
+      "patched_asm": "addiu $v0, $zero, 0"
+    },
+    {
+      "runtime": "0x80145048",
+      "hagecho_offset": 103272,
+      "description": "button mask R2+Select -> none",
+      "original_word": "0x24020201",
+      "patched_word": "0x24020000",
+      "original_asm": "addiu $v0, $zero, 0x201",
+      "patched_asm": "addiu $v0, $zero, 0"
+    },
+    {
+      "runtime": "0x801450E4",
+      "hagecho_offset": 103428,
+      "description": "button mask master cheat -> none",
+      "original_word": "0x24025681",
+      "patched_word": "0x24020000",
+      "original_asm": "addiu $v0, $zero, 0x5681",
+      "patched_asm": "addiu $v0, $zero, 0"
+    },
+    {
+      "runtime": "0x80145144",
+      "hagecho_offset": 103524,
+      "description": "button mask master cheat stage2 -> none",
+      "original_word": "0x24025681",
+      "patched_word": "0x24020000",
+      "original_asm": "addiu $v0, $zero, 0x5681",
+      "patched_asm": "addiu $v0, $zero, 0"
+    },
+    {
+      "runtime": "0x80145018",
+      "hagecho_offset": 103224,
+      "description": "hold 180f -> 1f (characters)",
+      "original_word": "0x284200B4",
+      "patched_word": "0x28420001",
+      "original_asm": "slti $v0, $v0, 0xb4",
+      "patched_asm": "slti $v0, $v0, 1"
+    },
+    {
+      "runtime": "0x8014508C",
+      "hagecho_offset": 103340,
+      "description": "hold 180f -> 1f (special options)",
+      "original_word": "0x284200B4",
+      "patched_word": "0x28420001",
+      "original_asm": "slti $v0, $v0, 0xb4",
+      "patched_asm": "slti $v0, $v0, 1"
+    },
+    {
+      "runtime": "0x8014511C",
+      "hagecho_offset": 103484,
+      "description": "hold 600f -> 1f (master stage1)",
+      "original_word": "0x28630258",
+      "patched_word": "0x28630001",
+      "original_asm": "slti $v1, $v1, 0x258",
+      "patched_asm": "slti $v1, $v1, 1"
+    },
+    {
+      "runtime": "0x8014517C",
+      "hagecho_offset": 103580,
+      "description": "hold 600f -> 1f (master stage2)",
+      "original_word": "0x28420258",
+      "patched_word": "0x28420001",
+      "original_asm": "slti $v0, $v0, 0x258",
+      "patched_asm": "slti $v0, $v0, 1"
+    }
+  ]
+}

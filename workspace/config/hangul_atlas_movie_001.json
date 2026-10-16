@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "observation_id": "HANGUL-ATLAS-MOVIE-001",
+  "status": "BAD_SUBTITLE_USER_APPROVED_2026-08-10",
+  "base_build": {
+    "script": "workspace/scripts/build_hangul_atlas.py",
+    "report": "work/analysis/hangul_atlas_001_build.json",
+    "expected_status": "STATIC_BUILD_PASS_RUNTIME_PENDING"
+  },
+  "subtitle": {
+    "csv": "workspace/text/rakugaki_movie_subtitles_ja_ko.csv",
+    "csv_sha256": "fbb3d1711ddc418dab3964e250e99fd0b69fbf3b0528829d5147a30978b54b13",
+    "subtitle_id": "MOV-BAD-001",
+    "movie": "BAD",
+    "expected_status": "approved"
+  },
+  "movie": {
+    "asset_id": "MOVIE-BAD",
+    "catalog": "work/analysis/movie_catalog_001.json",
+    "catalog_sha256": "4a8d8c3ac22c9a81a230d48708cb68b964ff6d57d3bf3378f761002065d66e21",
+    "candidate": "work/video/movies/psx_str_candidates/BAD_dialogue_approved_001.STR",
+    "candidate_sha256": "f7d10952afca981d1692f773a17d5ba184e1ff23e6b39f3265608716e320a7ea",
+    "donor_report": "work/analysis/movie_psxavenc_donor_bad_dialogue_approved_001.json",
+    "donor_report_sha256": "b11b70917abb15ab100218286b2dede1e437ceff506e3c733b8ae69c3f58f715",
+    "merge_report": "work/analysis/movie_subtitle_str_approved_001.json",
+    "merge_report_sha256": "ac08b52b8cb4874598af5ff14959162ab1b871afcb79d49a2e798fd98e04544b",
+    "decode_report": "work/analysis/movie_subtitle_str_approved_001_decode.json",
+    "decode_report_sha256": "bf71df1a2ddbf98f53893b34fda7a35bc083f5fa6cd84a71fa3361505fecfb9f",
+    "alignment_report": "work/analysis/movie_subtitle_str_approved_001_alignment.json",
+    "alignment_report_sha256": "89f31eb0c9f46da2221da6b5f9f5d17b45edf9397a4c82be3c5201999a7e9e16",
+    "expected_sector_count": 3000,
+    "expected_video_sector_count": 2625,
+    "expected_xa_sector_count": 375,
+    "expected_changed_video_sector_count": 2400
+  },
+  "output": {
+    "build_id": "hangul_atlas_movie_001",
+    "bin_name": "Rakugaki Showtime (Japan) [HANGUL-ATLAS-MOVIE-001].bin"
+  }
+}
