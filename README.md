@@ -6,10 +6,10 @@
 
 <!-- game-preview:start -->
 <p align="center">
-  <img src="img/preview.webp" alt="라쿠가키 쇼타임 — 한글 메뉴 · 작업 당시 캡처" width="640">
+  <img src="img/preview-user-20261016.png" alt="타이틀 · 한글 시작 안내" width="640">
 </p>
 
-**한글 메뉴 · 작업 당시 캡처** — hangul_atlas_001_title DuckStation 캡처. 대형 로고는 원문입니다. 작업 당시 화면이며 최종 배포본의 화면 검증을 의미하지 않습니다.
+**타이틀 · 한글 시작 안내** — 사용자 제공 라쿠가키 쇼타임 전체 타이틀 화면. 대형 로고는 원문이며 양옆 시작 안내는 한글입니다.
 <!-- game-preview:end -->
 
 ## 다운로드 및 적용 방법

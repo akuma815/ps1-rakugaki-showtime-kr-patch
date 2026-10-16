@@ -1,14 +1,17 @@
 {
-  "src": "assets/screenshots/ps1-rakugaki-showtime-kr-patch.webp",
-  "caption": "한글 메뉴 · 작업 당시 캡처",
+  "src": "assets/screenshots/ps1-rakugaki-showtime-kr-patch-user-20261016.png",
+  "caption": "타이틀 · 한글 시작 안내",
   "kind": "runtime",
-  "width": 1000,
-  "height": 1000,
-  "source": "Games/Rakugaki Showtime/work/runtime/hangul_atlas_001_title/title_013.png",
-  "sourceSHA256": "486593937f921e5425db4fc509885c76a7d920c77163290f92b86b109c381fe0",
-  "assetSHA256": "0a9966d842494216be874b20bd030a8e51cf2666eff04ff3a17badf31a733a9a",
-  "pixelSHA256": "30a663165b67dce2e8122950f8d646e99bc49e8aca32f117643289835268cd37",
-  "sourceNote": "hangul_atlas_001_title DuckStation 캡처. 대형 로고는 원문입니다.",
-  "readmeAsset": "img/preview.webp",
-  "displayNote": "hangul_atlas_001_title DuckStation 캡처. 대형 로고는 원문입니다. 작업 당시 화면이며 최종 배포본의 화면 검증을 의미하지 않습니다."
+  "width": 2048,
+  "height": 1121,
+  "source": "Games/Rakugaki Showtime/qa/user_capture_20261016/title.png",
+  "sourceSHA256": "b1ef1b2f8daba9deaa4014bb3c4417ec04c03e00fc9980104e8d8a7c2974daa4",
+  "assetSHA256": "b1ef1b2f8daba9deaa4014bb3c4417ec04c03e00fc9980104e8d8a7c2974daa4",
+  "pixelSHA256": "ccb0697e984c85aabd43bfbce6c4010bd33e5830e885a8b154e44e9b40139171",
+  "sourceNote": "사용자 제공 라쿠가키 쇼타임 전체 타이틀 화면. 대형 로고는 원문이며 양옆 시작 안내는 한글입니다.",
+  "providedBy": "user",
+  "attachmentDate": "2026-10-16",
+  "preservation": "Chat attachment bytes copied unchanged; no crop, retouch or rescale performed locally.",
+  "readmeAsset": "img/preview-user-20261016.png",
+  "displayNote": "사용자 제공 라쿠가키 쇼타임 전체 타이틀 화면. 대형 로고는 원문이며 양옆 시작 안내는 한글입니다."
 }
