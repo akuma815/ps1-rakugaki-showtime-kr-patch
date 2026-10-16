@@ -4,9 +4,11 @@
 
 > **영상 7개 자막 통합 배포본 · 2026-08-11**
 
-<!-- game-preview:start -->
 개발용: [영상 통합 배포판 재빌드 안내](docs/REBUILD_2026-10-16.md). 보유한 원본·동일 글꼴·xdelta3로 치트판과 일반판을 재현한다.
 
+2026-10-16 로컬 게임 폴더는 검증 후 삭제했다. [보존 자료·복원 인계](docs/HANDOFF_2026-10-16.md)를 참고한다.
+
+<!-- game-preview:start -->
 <p align="center">
   <img src="img/preview-user-20261016.png" alt="타이틀 · 한글 시작 안내" width="640">
 </p>

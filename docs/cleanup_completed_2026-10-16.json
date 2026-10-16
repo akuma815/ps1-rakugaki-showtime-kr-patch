@@ -1,0 +1,48 @@
+{
+  "deletion": {
+    "status": "PASS",
+    "completed_at": "2026-10-16T20:30:17.6103093+09:00",
+    "removed_path": "Games/Rakugaki Showtime",
+    "files": 67456,
+    "bytes": 15553401850,
+    "game_folder_absent": true,
+    "original_disc_inside_target_removed": true,
+    "other_game_folders_unchanged": true,
+    "shivers_folder_preserved": true,
+    "reparse_points": 0,
+    "installed_H_CHD_sha256": "7a8a399c2bcf6d7a4a2e47e36de48434a00b10022e44ee9e2e129e65bdd4bd50",
+    "installed_H_CHD_unchanged": true,
+    "H_emulator_and_saves_not_modified": true,
+    "private_archive_name": "Rakugaki_Showtime_authoring_records_20261016.zip",
+    "private_archive_sha256": "ed8e4445a6e749db233c943fba7ac009ac150ddd299fabef4825f7be7a9f3ca0",
+    "source_commit": "f07b8ad66a2f2f31954de7accc78decfab8aa3d7"
+  },
+  "backup": {
+    "status": "PASS",
+    "archive": "Rakugaki_Showtime_authoring_records_20261016.zip",
+    "archive_bytes": 5430066782,
+    "archive_sha256": "ed8e4445a6e749db233c943fba7ac009ac150ddd299fabef4825f7be7a9f3ca0",
+    "preserved_records": 61867,
+    "unique_blobs": 39661,
+    "excluded_records": 5593,
+    "all_record_sizes_and_hashes_verified": true,
+    "zip_crc_verified": true,
+    "full_original_disc_included": false,
+    "game_files": 67456,
+    "game_bytes": 15553401850
+  },
+  "actual_restore_test": {
+    "status": "PASS",
+    "records_verified": 61867,
+    "unique_blobs_verified": 39661,
+    "restored": true,
+    "every_restored_file_sha256_verified": true
+  },
+  "temporary_cleanup": {
+    "status": "PASS",
+    "targets": 6,
+    "files": 62561,
+    "bytes": 16072308784,
+    "preserved": "Canonical Git source, private authoring archive, audit reports and retained build logs"
+  }
+}

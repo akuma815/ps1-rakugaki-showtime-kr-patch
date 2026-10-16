@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "source_commit": "f07b8ad66a2f2f31954de7accc78decfab8aa3d7",
+  "fresh_github_clone": true,
+  "input_manifest_records_verified": 129,
+  "source_tree_clean_after_build": true,
+  "provided_external_inputs": [
+    "Owned original BIN/CUE",
+    "Four exact fonts",
+    "xdelta3"
+  ],
+  "source_build": {
+    "status": "PASS",
+    "evidence_class": "Source base builds plus frozen encoded-video delta restoration, full output hashes and write-plan checks; no new runtime review",
+    "environment": {
+      "python": "3.12.10"
+    },
+    "movie_count": 7,
+    "original_xa_preserved": true,
+    "all_video_edc_ecc_verified": true,
+    "final_write_plans_verified": true,
+    "intermediate_movies_reencoded": false,
+    "unit_tests_exit_code": 0,
+    "new_runtime_test": false,
+    "outputs": {
+      "cheat": {
+        "bin": "final\\Rakugaki Showtime (Japan) [HANGUL-ATLAS-ALL-MOVIES-CHEAT-001].bin",
+        "bytes": 591880800,
+        "sha256": "95566062e4e3045f5c428ff9108e1b6f51338fe4daaaa7cfc2583ffc99eab7fa",
+        "cue_sha256": "1e42208a1e9a93edcfc4877ac61b8b201b520eb042a126f66f41bfee4368c627",
+        "base_sectors": 91,
+        "movie_sectors": 81280
+      },
+      "no_cheat": {
+        "bin": "final\\Rakugaki Showtime (Japan) [HANGUL-ATLAS-ALL-MOVIES-NO-CHEAT-001].bin",
+        "bytes": 591880800,
+        "sha256": "7f9fa82274ed4985963b84ff9e5137e91fae354c7cacaf6fffa13101e0511fd7",
+        "cue_sha256": "94c48afbab59182da9a817ec691930a55a218c66ee6d3acf99b42bbaff259dfe",
+        "base_sectors": 90,
+        "movie_sectors": 81280
+      }
+    }
+  },
+  "unit_test_log": "...................................\n----------------------------------------------------------------------\nRan 35 tests in 0.062s\n\nOK\n",
+  "public_release": {
+    "tag": "movies-20260811",
+    "asset": "Rakugaki_Showtime_KR_Patch_Movies_20260811.zip",
+    "sha256": "c93469b8d729634449b3b4be94b923177c9c0aebb7827942939442b31cba3052",
+    "github_asset_digest_matches_local_zip": true,
+    "crc_verified": true,
+    "applied_outputs": {
+      "cheat": {
+        "sha256": "95566062e4e3045f5c428ff9108e1b6f51338fe4daaaa7cfc2583ffc99eab7fa",
+        "bytes": 591880800
+      },
+      "no_cheat": {
+        "sha256": "7f9fa82274ed4985963b84ff9e5137e91fae354c7cacaf6fffa13101e0511fd7",
+        "bytes": 591880800
+      }
+    }
+  },
+  "new_runtime_test": false
+}

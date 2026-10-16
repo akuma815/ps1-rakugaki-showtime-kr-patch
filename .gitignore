@@ -32,3 +32,10 @@ __pycache__/
 *.utoc
 *.uasset
 *.uexp
+
+# External tools/fonts and private rebuild media
+*.exe
+*.dll
+*.avi
+*.mkv
+/assets/fonts/
