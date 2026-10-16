@@ -4,6 +4,14 @@
 
 > **영상 7개 자막 통합 배포본 · 2026-08-11**
 
+<!-- game-preview:start -->
+<p align="center">
+  <img src="img/preview.webp" alt="라쿠가키 쇼타임 — 한글 메뉴 · 작업 당시 캡처" width="640">
+</p>
+
+**한글 메뉴 · 작업 당시 캡처** — hangul_atlas_001_title DuckStation 캡처. 대형 로고는 원문입니다. 작업 당시 화면이며 최종 배포본의 화면 검증을 의미하지 않습니다.
+<!-- game-preview:end -->
+
 ## 다운로드 및 적용 방법
 
 1. 아래 체크섬 또는 상세 안내와 일치하는 원본을 준비합니다.

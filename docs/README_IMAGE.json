@@ -1,0 +1,14 @@
+{
+  "src": "assets/screenshots/ps1-rakugaki-showtime-kr-patch.webp",
+  "caption": "한글 메뉴 · 작업 당시 캡처",
+  "kind": "runtime",
+  "width": 1000,
+  "height": 1000,
+  "source": "Games/Rakugaki Showtime/work/runtime/hangul_atlas_001_title/title_013.png",
+  "sourceSHA256": "486593937f921e5425db4fc509885c76a7d920c77163290f92b86b109c381fe0",
+  "assetSHA256": "0a9966d842494216be874b20bd030a8e51cf2666eff04ff3a17badf31a733a9a",
+  "pixelSHA256": "30a663165b67dce2e8122950f8d646e99bc49e8aca32f117643289835268cd37",
+  "sourceNote": "hangul_atlas_001_title DuckStation 캡처. 대형 로고는 원문입니다.",
+  "readmeAsset": "img/preview.webp",
+  "displayNote": "hangul_atlas_001_title DuckStation 캡처. 대형 로고는 원문입니다. 작업 당시 화면이며 최종 배포본의 화면 검증을 의미하지 않습니다."
+}
